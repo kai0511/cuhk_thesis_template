@@ -1,0 +1,17 @@
+\contentsline {chapter}{Abstract}{i}{Doc-Start}
+\contentsline {chapter}{Acknowledgement}{ii}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Background Study}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Drug Repurposing}{3}{chapter.3}
+\contentsline {chapter}{\numberline {4}Drug Target Discovery}{4}{chapter.4}
+\contentsline {chapter}{\numberline {5}Evaluating ITE of Genetic RFs on Survival}{5}{chapter.5}
+\contentsline {section}{\numberline {5.1}Motivation}{5}{section.5.1}
+\contentsline {section}{\numberline {5.2}Background}{7}{section.5.2}
+\contentsline {section}{\numberline {5.3}Overview of Related Work}{9}{section.5.3}
+\contentsline {section}{\numberline {5.4}ITE Framework}{9}{section.5.4}
+\contentsline {section}{\numberline {5.5}Experiment Results}{9}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusion}{9}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusion}{10}{chapter.6}
+\contentsline {chapter}{\numberline {A}Proof of Propositions}{11}{appendix.A}
+\contentsline {chapter}{\numberline {B}Publication List}{12}{appendix.B}
+\contentsline {chapter}{Bibliography}{13}{appendix.B}

@@ -1,0 +1,96 @@
+\documentclass[12pt,twoside]{report}
+
+\usepackage{setspace}
+\usepackage{graphics}
+\usepackage{thesis}
+\usepackage{latexsym}
+\usepackage[dvips]{epsfig}
+\usepackage[mono=false]{libertine}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+%\usepackage{color}
+\usepackage[inner=4cm,outer=2.5cm]{geometry}
+% \topmargin	0.0cm
+% \textheight    21cm
+
+%=======================================================
+\begin{document}
+
+%cover page information
+\thesistitle{Research on Machine Learning for Biomedical Research}
+\authorname{ZHAO, Kai}
+\degree{Doctor of Philosophy}
+\programme{School of Biomedical Sciences}
+\supervisor{Prof. So Hon-cheong}
+\submitdate{July 2020}
+\committee{
+    \begin{tabular}{ c l}
+	Professor & Cheng Sze Lok Alfred (Chair)\\
+	Professor & So Hon-cheong (Thesis Supervisor)\\
+	Professor & Chen Yangchao (Committee Member)\\
+    Professor & Sham Pak Chung, HKU (External Examiner)
+    \end{tabular}
+}
+\coverpage
+
+%This is the cover page.
+
+\pagenumbering{roman}
+
+%=======================================================
+
+%abstract
+\abstractpage
+
+%=======================================================
+
+%acknowledgement
+\acknowledgementpage
+
+%=======================================================
+
+%dedication
+\dedicationpage
+
+%=======================================================
+
+%preamble sections
+\tableofcontents
+\listoffigures
+\listoftables
+
+%=======================================================
+
+%initialization
+\newpage
+\pagenumbering{arabic}
+
+\pagestyle{headings}
+
+\doublespacing
+
+%=======================================================
+
+%insert the chapters
+\input{./chapters/introduction.tex}
+\input{./chapters/background.tex}
+\input{./chapters/drug-repurposing.tex}
+\input{./chapters/drug-target.tex}
+\input{./chapters/ite.tex}
+\input{./chapters/conclusion.tex}
+
+%=======================================================
+%appendix
+\appendix
+\input{chapters/proof.tex}
+\input{chapters/publications.tex}
+
+%=======================================================
+
+%bibliography
+\newpage
+\setstretch{1}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{ieee}
+\bibliography{database}
+
+\end{document}

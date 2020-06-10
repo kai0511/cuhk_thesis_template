@@ -1,0 +1,33 @@
+\chapter{Evaluating ITE of Genetic RFs on Survival}
+\label{chap:ite}
+
+\section{Motivation}
+\label{sec:ite_mot}
+  Traditional biomedical or clinical studies in the area of estimating treatment effect mainly focus on the average effect of risk factors (RFs) or treatment (tx) in population level. However, in the clinical environment we can easily find that the same risk factor may affect patients differently. Thus, patients pay more attention to how a risk factor will affect them in an individual level rather than in a population level, given their clinical backgrounds and genetic characteristics. The main objective of this study is to resolve this concern by estimating the ITEs for each patients, with consideration of their unique genetic and clinical information. Here we consider the two term "risk factor" and "treatment" conceptually equivalent, since a risk factor can be treated as a "treatment" with side effects. This approach allow us to offer tailored health management to individual patients. This enables us to deliver more cost-effective prevention or treatment strategies to bring the most benefits to them. This idea is also in accordant with the aim of "personalized medicine", which has been advocated in recent years.
+
+  In spite of an increasing number of studies in this area, current studies in ITE are rather limited. Some critical limitations include lack of well-established validation method for treatment effect estimations and for key features contributed to ITE estimation and failure of handling censored data. Even though genetic factors may determine heterogenous response to tx/RFs, especially to cancer treatments, current studies on ITE have not included genomic features. Here we propose methodologies to overcome the above limitations and apply the ITE framework to genomic data. In our approach genomic features will be consider as risk factors or co-variates that explain to heterogeneity of treatment effect.
+
+\section{Background}
+\label{sec:ite_bg}
+  It has been long recognized that the same risk factor (RF) or treatment (tx) can impact differently on different individuals. For example, while being overweight or obese is a risk factor for cardiometabolic (CM) diseases, not all overweight subjects will develop such complications2. The type and severity of CM complications can also vary among subjects2. While stressful life events are an RF for depression, only a subset of people will be affected11. The same is applicable to other RFs or treatments (an RF can be considered as a ‘treatment’ with adverse effect; the two entities are conceptually equivalent). Such heterogeneity of responses to RFs/tx may be attributed to different genetic and environmental backgrounds of subjects. In addition to clinical factors, one may consider genetic variants or mutations as RFs. Notably, the same variant/mutation can have varying effects on different subjects3 4,5 (see ‘objectives’ section). 
+
+  The past decade has witnessed remarkable developments in omics technology and massive growth in biomedical data. However, epidemiology research and genetic studies in cancer and other complex diseases are still largely limited to one clinical/genetic RF at a time, ignoring interactions with the individual’s genetic/clinical characteristics. For the patient, the most pertinent question is: how would a risk factor or treatment affect people with a similar (genetic and clinical) background like me? Nevertheless, current studies have largely focused on the average effect of RFs in the population instead of individualized effects. 
+
+  Here we aim to develop and apply an analytic framework for unraveling the individualized effects of RFs (or tx), such that we can predict their impact for each person, given his/her unique genetic/clinical background.  We also develop methods to reveal the key features contributing to such tx effect heterogeneity. We will apply the method to large-scale genome-wide association studies (GWAS) to uncover and predict individualized effects of RFs (e.g. obesity, hyperlipidemia or expression changes of risk genes) on disease risks/outcomes. The framework will also be applied to cancer data to discover the individualized effects of genetic changes (e.g. mutations, CNVs etc.) and other RFs on survival.
+
+\section{Overview of Related Work}
+\label{sec:ite_overview}
+
+
+\section{ITE Framework}
+\label{sec:ite_model}
+
+\section{Experiment Results}
+\label{sec:ite_res}
+
+\section{Conclusion}
+\label{sec:ite_conclusion}
+
+Bibliography data is put in database.bib.
+
+\chapterend
