@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex thesis"] 1592390873 "thesis.aux" "thesis.bbl" "thesis" 1592391760
+["bibtex thesis"] 1592390873 "thesis.aux" "thesis.bbl" "thesis" 1592391793
   "./ieee.bst" 1004086452 19763 0521aa91ca74abdfaa15caa0dde71240 ""
   "database.bib" 1592378817 12774 e7cce0a6c310ea49fd72cbfce33554e5 ""
   "thesis.aux" 1592391752 8204 2ebdc615c42b319f9942b3eafbffdf45 ""
   (generated)
-  "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1592391751 "/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.tex" "/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf" "thesis" 1592391760
+  "thesis.bbl"
+["pdflatex"] 1592391751 "/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.tex" "/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf" "thesis" 1592391793
   "./chapters/background.tex" 1591756679 73 70b5b3fb17698a6c29f44d40a1583f90 ""
   "./chapters/conclusion.tex" 1591756856 44 01b1f7ac98d1114befe086f9b70454fa ""
   "./chapters/drug-repurposing.tex" 1591756619 64 2af931df335f230f93a5b854246df444 ""
@@ -164,12 +164,12 @@
   "thesis.tex" 1592305115 2883 87df1f0fdacd234030478650094f19eb ""
   "thesis.toc" 1592391752 1829 efa6e18ef9a967465e8a94fcbf28f414 ""
   (generated)
-  "thesis.out"
-  "thesis.toc"
-  "thesis.lot"
-  "/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf"
-  "/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.log"
-  "thesis.log"
-  "thesis.aux"
   "thesis.lof"
+  "thesis.out"
+  "thesis.aux"
+  "thesis.log"
+  "/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.log"
+  "/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf"
+  "thesis.lot"
+  "thesis.toc"
   "thesis.pdf"
