@@ -1,3 +1,206 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{aggarwal2018influence}
+C.~Aggarwal, C.~W. Davis, R.~Mick, J.~C. Thompson, S.~Ahmed, S.~Jeffries,
+  S.~Bagley, P.~Gabriel, T.~L. Evans, J.~M. Bauml, et~al.
+\newblock Influence of tp53 mutation on survival in patients with advanced
+  egfr-mutant non--small-cell lung cancer.
+\newblock {\em JCO precision oncology}, 2018.
+
+\bibitem{assmann2000subgroup}
+S.~F. Assmann, S.~J. Pocock, L.~E. Enos, and L.~E. Kasten.
+\newblock Subgroup analysis and other (mis) uses of baseline data in clinical
+  trials.
+\newblock {\em The Lancet}, 355(9209):1064--1069, 2000.
+
+\bibitem{athey2016recursive}
+S.~Athey and G.~Imbens.
+\newblock Recursive partitioning for heterogeneous causal effects.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  113(27):7353--7360, 2016.
+
+\bibitem{athey2019generalized}
+S.~Athey, J.~Tibshirani, S.~Wager, et~al.
+\newblock Generalized random forests.
+\newblock {\em The Annals of Statistics}, 47(2):1148--1178, 2019.
+
+\bibitem{benjamini2008screening}
+Y.~Benjamini and R.~Heller.
+\newblock Screening for partial conjunction hypotheses.
+\newblock {\em Biometrics}, 64(4):1215--1222, 2008.
+
+\bibitem{breiman2001random}
+L.~Breiman.
+\newblock Random forests.
+\newblock {\em Machine learning}, 45(1):5--32, 2001.
+
+\bibitem{chernozhukov2018generic}
+V.~Chernozhukov, M.~Demirer, E.~Duflo, and I.~Fernandez-Val.
+\newblock Generic machine learning inference on heterogenous treatment effects
+  in randomized experiments.
+\newblock Technical report, National Bureau of Economic Research, 2018.
+
+\bibitem{chipman2010bart}
+H.~A. Chipman, E.~I. George, R.~E. McCulloch, et~al.
+\newblock Bart: Bayesian additive regression trees.
+\newblock {\em The Annals of Applied Statistics}, 4(1):266--298, 2010.
+
+\bibitem{cook2004subgroup}
+D.~I. Cook, V.~J. Gebski, and A.~C. Keech.
+\newblock Subgroup analysis in clinical trials.
+\newblock {\em Medical Journal of Australia}, 180(6):289, 2004.
+
+\bibitem{dasgupta2014risk}
+A.~Dasgupta, S.~Szymczak, J.~H. Moore, J.~E. Bailey-Wilson, and J.~D. Malley.
+\newblock Risk estimation using probability machines.
+\newblock {\em BioData mining}, 7(1):2, 2014.
+
+\bibitem{datta2007predicting}
+S.~Datta, J.~Le-Rademacher, and S.~Datta.
+\newblock Predicting patient survival from microarray data by accelerated
+  failure time modeling using partial least squares and lasso.
+\newblock {\em Biometrics}, 63(1):259--271, 2007.
+
+\bibitem{fisher2013cancer}
+R.~Fisher, L.~Pusztai, and C.~Swanton.
+\newblock Cancer heterogeneity: implications for targeted therapeutics.
+\newblock {\em British journal of cancer}, 108(3):479--485, 2013.
+
+\bibitem{foster2011subgroup}
+J.~C. Foster, J.~M. Taylor, and S.~J. Ruberg.
+\newblock Subgroup identification from randomized clinical trial data.
+\newblock {\em Statistics in medicine}, 30(24):2867--2880, 2011.
+
+\bibitem{gail1985testing}
+M.~Gail and R.~Simon.
+\newblock Testing for qualitative interactions between treatment effects and
+  patient subsets.
+\newblock {\em Biometrics}, pages 361--372, 1985.
+
+\bibitem{green2012modeling}
+D.~P. Green and H.~L. Kern.
+\newblock Modeling heterogeneous treatment effects in survey experiments with
+  bayesian additive regression trees.
+\newblock {\em Public opinion quarterly}, 76(3):491--511, 2012.
+
+\bibitem{hill2013assessing}
+J.~Hill and Y.-S. Su.
+\newblock Assessing lack of common support in causal inference using bayesian
+  nonparametrics: Implications for evaluating the effect of breastfeeding on
+  children's cognitive outcomes.
+\newblock {\em The Annals of Applied Statistics}, pages 1386--1420, 2013.
+
+\bibitem{hill2011bayesian}
+J.~L. Hill.
+\newblock Bayesian nonparametric modeling for causal inference.
+\newblock {\em Journal of Computational and Graphical Statistics},
+  20(1):217--240, 2011.
+
+\bibitem{imai2013estimating}
+K.~Imai, M.~Ratkovic, et~al.
+\newblock Estimating treatment effect heterogeneity in randomized program
+  evaluation.
+\newblock {\em The Annals of Applied Statistics}, 7(1):443--470, 2013.
+
+\bibitem{johansson2016learning}
+F.~Johansson, U.~Shalit, and D.~Sontag.
+\newblock Learning representations for counterfactual inference.
+\newblock In {\em International conference on machine learning}, pages
+  3020--3029, 2016.
+
+\bibitem{kunzel2019metalearners}
+S.~R. K{\"u}nzel, J.~S. Sekhon, P.~J. Bickel, and B.~Yu.
+\newblock Metalearners for estimating heterogeneous treatment effects using
+  machine learning.
+\newblock {\em Proceedings of the national academy of sciences},
+  116(10):4156--4165, 2019.
+
+\bibitem{lu2018estimating}
+M.~Lu, S.~Sadiq, D.~J. Feaster, and H.~Ishwaran.
+\newblock Estimating individual treatment effect in observational data using
+  random forest methods.
+\newblock {\em Journal of Computational and Graphical Statistics},
+  27(1):209--219, 2018.
+
+\bibitem{neeland2018cardiovascular}
+I.~J. Neeland, P.~Poirier, and J.-P. Despr{\'e}s.
+\newblock Cardiovascular and metabolic heterogeneity of obesity: clinical
+  challenges and implications for management.
+\newblock {\em Circulation}, 137(13):1391--1406, 2018.
+
+\bibitem{nie2017quasi}
+X.~Nie and S.~Wager.
+\newblock Quasi-oracle estimation of heterogeneous treatment effects.
+\newblock {\em arXiv preprint arXiv:1712.04912}, 2017.
+
+\bibitem{o2018cystic}
+W.~K. O'Neal and M.~R. Knowles.
+\newblock Cystic fibrosis disease modifiers: complex genetics defines the
+  phenotypic diversity in a monogenic disease.
+\newblock {\em Annual review of genomics and human genetics}, 19:201--222,
+  2018.
+
+\bibitem{powers2017some}
+S.~Powers, J.~Qian, K.~Jung, A.~Schuler, N.~H. Shah, T.~Hastie, and
+  R.~Tibshirani.
+\newblock Some methods for heterogeneous treatment effect estimation in
+  high-dimensions.
+\newblock {\em arXiv preprint arXiv:1707.00102}, 2017.
+
+\bibitem{rubin2005causal}
+D.~B. Rubin.
+\newblock Causal inference using potential outcomes: Design, modeling,
+  decisions.
+\newblock {\em Journal of the American Statistical Association},
+  100(469):322--331, 2005.
+
+\bibitem{simes1986improved}
+R.~J. Simes.
+\newblock An improved bonferroni procedure for multiple tests of significance.
+\newblock {\em Biometrika}, 73(3):751--754, 1986.
+
+\bibitem{su2011interaction}
+X.~Su, K.~Meneses, P.~McNees, and W.~O. Johnson.
+\newblock Interaction trees: exploring the differential effects of an
+  intervention programme for breast cancer survivors.
+\newblock {\em Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)}, 60(3):457--474, 2011.
+
+\bibitem{su2009subgroup}
+X.~Su, C.-L. Tsai, H.~Wang, D.~M. Nickerson, and B.~Li.
+\newblock Subgroup analysis via recursive partitioning.
+\newblock {\em Journal of Machine Learning Research}, 10(Feb):141--158, 2009.
+
+\bibitem{tian2014simple}
+L.~Tian, A.~A. Alizadeh, A.~J. Gentles, and R.~Tibshirani.
+\newblock A simple method for estimating interactions between a treatment and a
+  large number of covariates.
+\newblock {\em Journal of the American Statistical Association},
+  109(508):1517--1532, 2014.
+
+\bibitem{tibshirani2018package}
+J.~Tibshirani, S.~Athey, S.~Wager, R.~Friedberg, L.~Miner, M.~Wright, M.~J.
+  Tibshirani, L.~Rcpp, R.~I. DiceKriging, and G.~SystemRequirements.
+\newblock Package ‘grf’.
+\newblock 2018.
+
+\bibitem{vanderlaan2017mutations}
+P.~A. VanderLaan, D.~Rangachari, S.~M. Mockus, V.~Spotlow, H.~V. Reddi,
+  J.~Malcolm, M.~S. Huberman, L.~J. Joseph, S.~S. Kobayashi, and D.~B. Costa.
+\newblock Mutations in tp53, pik3ca, pten and other genes in egfr mutated lung
+  cancers: Correlation with clinical outcomes.
+\newblock {\em Lung Cancer}, 106:17--21, 2017.
+
+\bibitem{wager2018estimation}
+S.~Wager and S.~Athey.
+\newblock Estimation and inference of heterogeneous treatment effects using
+  random forests.
+\newblock {\em Journal of the American Statistical Association},
+  113(523):1228--1242, 2018.
+
+\bibitem{yang2015effects}
+L.~Yang, Y.~Zhao, Y.~Wang, L.~Liu, X.~Zhang, B.~Li, and R.~Cui.
+\newblock The effects of psychological stress on depression.
+\newblock {\em Current neuropharmacology}, 13(4):494--504, 2015.
 
 \end{thebibliography}

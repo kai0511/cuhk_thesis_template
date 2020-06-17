@@ -2,47 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: ieee.bst
-I found no \citation commands---while reading file thesis.aux
 Database file #1: database.bib
-You've used 0 entries,
+Warning--empty journal in tibshirani2018package
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            499 strings with 3756 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            720 strings with 10636 characters,
+and the built_in function-call counts, 13071 in all, are:
+= -- 1287
+> -- 738
+< -- 3
++ -- 293
+- -- 256
+* -- 1064
+:= -- 2216
+add.period$ -- 102
+call.type$ -- 34
+change.case$ -- 227
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 35
+duplicate$ -- 401
+empty$ -- 898
+format.name$ -- 256
+if$ -- 2618
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 34
+missing$ -- 33
+newline$ -- 173
+num.names$ -- 68
+pop$ -- 178
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 192
 quote$ -- 0
-skip$ -- 1
+skip$ -- 290
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 936
+swap$ -- 64
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+type$ -- 136
+warning$ -- 1
+while$ -- 127
+width$ -- 36
+write$ -- 371
+(There was 1 warning)
