@@ -1,19 +1,22 @@
-\documentclass[12pt,a4paper,twoside]{report}
+\documentclass[11pt,a4paper,twoside]{report}
 
 \usepackage{setspace}
 % avoid too much space automatically padded between paragraphs to fill a page:
 \raggedbottom
 \usepackage{graphics}
 \usepackage{thesis}
-\usepackage{graphicx}
-% \usepackage{latexsym}
+\usepackage{rotating}
 
-% packages for math symbols 
-\usepackage{mathptmx}
-\usepackage{amsmath}
+% packages for including image
+\usepackage{graphicx}
+
+% set margin
+\usepackage[inner=4cm,outer=2.5cm]{geometry}
+
+% packages for math equations 
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{mathptmx,mathtools}
 \usepackage{bm}
-\usepackage{amsfonts}
-\usepackage{mathtools}
 
 % packages for table layout
 \usepackage{booktabs}
@@ -23,19 +26,16 @@
 % packages for algorithm layout
 \usepackage{algorithm}
 \usepackage{algorithmic}
-% \floatname{algorithm}{Procedure}
 
 \usepackage[dvips]{epsfig}
+
+% set font style
 \usepackage[mono=false]{libertine}
 
 % style for links
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
-%\usepackage{color}
-\usepackage[inner=4cm,outer=2.5cm]{geometry}
-% \topmargin	0.0cm
-% \textheight    21cm
-\input{symbols}
 
+\input{symbols}
 
 %=======================================================
 \begin{document}
@@ -90,9 +90,8 @@
 \pagenumbering{arabic}
 \pagestyle{headings}
 
-% \doublespacing
-% 1.5 line spacing for normal texts:
-\setstretch{1.25}
+% 1.5 line spacing for normal texts, required by GS of CUHK
+\setstretch{1.5}
 
 % =======================================================
 

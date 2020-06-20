@@ -3,46 +3,48 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: ieee.bst
 Database file #1: database.bib
+Warning--there's a number but no volume in hobara2010molecular
+Warning--there's a number but no volume in schwarz2008valproate
 Warning--empty journal in tibshirani2018package
-You've used 34 entries,
+You've used 135 entries,
             2118 wiz_defined-function locations,
-            720 strings with 10636 characters,
-and the built_in function-call counts, 13071 in all, are:
-= -- 1287
-> -- 738
-< -- 3
-+ -- 293
-- -- 256
-* -- 1064
-:= -- 2216
-add.period$ -- 102
-call.type$ -- 34
-change.case$ -- 227
+            1277 strings with 34798 characters,
+and the built_in function-call counts, 54861 in all, are:
+= -- 5234
+> -- 3535
+< -- 8
++ -- 1409
+- -- 1256
+* -- 4742
+:= -- 9424
+add.period$ -- 406
+call.type$ -- 135
+change.case$ -- 1020
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 401
-empty$ -- 898
-format.name$ -- 256
-if$ -- 2618
+cite$ -- 138
+duplicate$ -- 1542
+empty$ -- 3548
+format.name$ -- 1256
+if$ -- 10810
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 33
-newline$ -- 173
-num.names$ -- 68
-pop$ -- 178
+int.to.str$ -- 135
+missing$ -- 132
+newline$ -- 676
+num.names$ -- 270
+pop$ -- 811
 preamble$ -- 1
-purify$ -- 192
+purify$ -- 884
 quote$ -- 0
-skip$ -- 290
+skip$ -- 1069
 stack$ -- 0
-substring$ -- 936
-swap$ -- 64
-text.length$ -- 3
+substring$ -- 3554
+swap$ -- 202
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 136
-warning$ -- 1
-while$ -- 127
-width$ -- 36
-write$ -- 371
-(There was 1 warning)
+type$ -- 540
+warning$ -- 3
+while$ -- 498
+width$ -- 138
+write$ -- 1477
+(There were 3 warnings)

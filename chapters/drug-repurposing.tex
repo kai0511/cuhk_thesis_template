@@ -1,4 +1,353 @@
 \chapter{Drug Repurposing}
 \label{chap:Repurposing}
 
+\section{Background}
+  \subsection{Motivation}
+    Development of new medications is a very lengthy and costly process. While investment in research and development has been increasing, there is a lack of proportional rise in the number of drugs approved in the past two decades, especially for drugs with novel mechanisms of actions \cite{pammolli2011productivity}. There is an urgent need for innovative approaches to improve the productivity of drug development. This is particularly true for some areas like psychiatry, for which there has been lack of therapeutic advances for some time \cite{krystal2014psychiatric,hyman2013psychiatric}.
+    
+    Finding new indications for existing drugs, an approach known as drug repositioning or repurposing, can serve as a useful strategy to shorten the development cycle \cite{dudley2011exploiting}. Repurposed drugs can be brought to the market in a much shorter time-frame and at lower costs. With the exponential growth of “omics” and other biomedical data in recent years, computational drug repositioning provides a fast, cost-effective and systematic way to identify promising repositioning opportunities \cite{dudley2011exploiting}.  
+
+    In this study we describe a general drug repositioning approach by predicting drug indications based on their expression profiles, with a focus on applications in psychiatry. We treat drug repositioning as a supervised learning problem and apply different state-of-the-art machine learning methods for prediction. Drugs that are not originally indicated for the disease but have high predicted probabilities serve as good candidates for repositioning. There are several advantages of this approach. Firstly, the presented approach is a general and broad framework that leverages machine learning (ML) methodologies, a field with very rapid advances in the last decade. This provides great flexibility and opportunities for further improvement in the future as virtually any supervised learning methods can be applied. Newly developed prediction algorithms can also be readily incorporated to improve the detection of useful drug candidates. In addition, the method described here is widely applicable to any chemical or drugs with expression profiles recorded, even if the drug targets or mechanisms of actions are unknown. For example, herbal medicine products may contain a mixture of ingredients with uncertain drug targets; even for many known medications (e.g. lithium \cite{malhi2013potential}), their mechanisms of actions and exact targets are not completely known. If transcriptomic profiling has been performed, they can still be analyzed for therapeutic or repositioning potential under the current approach.
+
+  \subsection{Related Works}
+    There has been increasing interest in computational drug repositioning recently, in view of the rising cost of new drug development. Hodos et al. \cite{hodos2016silico} provided a comprehensive and updated review on this topic. Similarity-based methods (e.g. ref. \cite{gottlieb2011predict,oh2014network,liu2015similarity,luo2016drug,napolitano2013drug,li2012new}) represent one common approach, but as noted by Hodos et al., the dependence on data in the “nearby pharmacological space” might limit the ability to find medications with novel mechanisms of actions. Another related methodology is the network-based approach \cite{lotfi2018review}, which typically requires data on the relationship between drugs, genes and diseases as well as connections within each category (e.g. drug-drug similarities). It can integrate different sources of information but may still be constrained by the focus on a nearby pharmacological space and the choice of tuning parameters in network construction or inference is often ad hoc \cite{hodos2016silico}. The present work is different in that we apply a broad framework for repositioning and we do not focus on one but many different kinds of learning methods. There is comparatively less reliance on known drug mechanisms or the “nearby pharmacological space” as we let the different algorithms “learn” the relationship between drugs, genes and disease in their own ways. We note that kernel-based ML methods such as support vector machine (SVM) are also based on some sort of similarity measures. A related work \cite{napolitano2013drug} have also examined SVM as a promising ML approach for drug repositioning and identified several interesting candidates. However, here our focus is different in that we considered a variety of other approaches and SVM is one of the methods which falls under the broader framework of ML for repositioning. We also employed more in-depth validation strategies, such as assessing enrichment for drugs considered in clinical trials and correlations with the level of literature support. As for other advantages of ML approaches, for high-throughput omics data, often only a subset of genes or input features are relevant, and many ML methods are able to “learn” which features to consider for repositioning. As we shall discuss later, ML approaches may also provide a new avenue to explore the mechanisms of different drug classes, by studying the variable importance of gene features.
+
+    We are particularly interested in drug repositioning for psychiatric disorders in view of the lack of novel treatments in the area. Although computational drug repositioning has attracted increased attention recently, relatively few studies focus on psychiatric disorders (except e.g. \cite{xu2015phenopredict,de2016gene,powell2017transcriptomic,so2017analysis}), compared to other areas like oncology. Psychiatric disorders are leading causes of disability worldwide \cite{vigo2016estimating}, however there have been limited advances in the development of new pharmacological agents in the last two decades or so \cite{hyman2013psychiatric}. Development of new therapies is also limited by the difficulty of animal models to fully mimic human psychiatric conditions \cite{nestler2010animal}. Investment by drug companies has in general been declining \cite{hyman2013psychiatric}, and new approaches for drug discoveries are very much needed in this field. We will explore repositioning opportunities for schizophrenia along with depression and anxiety disorders. Here depression and anxiety disorders are analyzed together as they are highly clinically comorbid \cite{lamb2006connectivity,kessler2015anxious}, show significant genetic correlations \cite{otowa2016meta}, and share similar pharmacological treatments \cite{ballenger2000anxiety}. 
+    
+  \subsection{Significances}
+    Contributions of this study are summarized below. Firstly, we presented a general workflow and approach to drug repositioning of a disease based on ML methods, leveraging drug expression profiles as predictors. While previous work \cite{aliper2016deep} has also proposed the use of ML on drug transcriptome profiles for classifying drugs into groups (e.g. anti-cancer drugs, cardiovascular drugs, drugs acting on the central nervous system etc.), we focused on drug repositioning for particular diseases instead of predicting the big therapeutic groups, as disorders in the same group can have diverse treatments. Secondly, we have performed a comparison of the predictive performances of five state-of-the-art and perhaps most commonly employed ML algorithms, including deep neural networks, support vector machines, elastic net, random forest and gradient boosted trees. Thirdly, we identified new repositioning opportunities for schizophrenia and depression/anxiety disorders and validated the relevance of the repositioned drugs by showing their enrichment among drugs considered for clinical trials, as well as support by previous literature. As another means of validation, we also showed that the predicted probabilities of treatment potential are significantly and positively correlated with the level of literature support (using the number of research articles support as proxy). Finally, we explored which genes and pathways contributed the most to our predictions, hence shedding light on the molecular mechanisms underlying the actions of antipsychotics and antidepressants. 
+
+\section{Datasets and Methods}
+  \subsection{Datasets}
+    We present a general drug repositioning approach adopting a supervised learning approach. We construct prediction models in which the outcome is defined as whether the drug is a known treatment for the disease, and the predictors are expression profiles of each drug. Drugs that are not originally known to treat the disease but have high predicted probabilities are regarded as good candidates for repositioning.
+
+    \subsubsection{Drug expression data}
+      The expression data is downloaded from Connectivity Map (CMap), which captures transcriptomic changes when three cell lines (HL60, PC3, MCF7) were treated with a drug or chemical \cite{lamb2006connectivity}. We downloaded raw expression data from Cmap, and performed normalization with the MAS5 algorithm \cite{pepper2007utility}. Expression levels of genes represented on more than one probe sets were averaged. We employed the limma package \cite{ritchie2015limma} to perform analyses on differential expression between treated cell lines and controls. Analyses were performed on each combination of drug and cell line, with a total of 3478 instances. Note the expression of each drug was measured on three different cell lines. Expression measurements were available for 12436 genes. Thus, the scale of our dataset is 3478×12436. Statistical analyses were performed in R3.2.1 with the help of the R package "longevityTools".
+
+    \subsubsection{Defining drug indications}
+      Drug indications were extracted from two known resources, namely the Anatomical Therapeutic Chemical (ATC) classification system and the MEDication Indication Resource high precision subset (MEDI-HPS)\cite{kuhn2016sider}. We focus on schizophrenia as well as depression and anxiety disorders in this study. From the ATC classification system, two groups of drugs were extracted, consisting antipsychotics and antidepressants. On the other hand, the MEDI-HPS dataset integrates four public medication resources, including RxNorm, Side Effect Resource 2 (SIDER2) \cite{kuhn2016sider}, Wikipedia and MedlinePlus. We used the MEDI high-precision subset (MEDI-HPS) which only include drug indications found in RxNorm or in at least 2 out of 3 other sources \cite{wei2013development}. This subset achieves a precision of up to 92\% according to Wei et al. \cite{wei2013development}. To our knowledge, antidepressants from ATC and depression / anxiety from MEDI-HPS roughly fall into the same category, and this is also the same for antipsychosis from ATC and schizophrenia from MEDI-HPS. 
+
+  \subsection{Methods}
+    We employed different state-of-the-art machine learning approaches including deep neural networks (DNN) \cite{goodfellow2016deep}, support vector machine (SVM) \cite{cortes1995support}, random forest (RF) \cite{breiman2001random}, gradient boosted machine with trees (GBM) \cite{friedman2001greedy} and logistic regression with elastic net regularization (EN) \cite{zou2005regularization} to predict indications with binary classifiers. Our data is imbalanced as only a minority of the drugs are indicated for schizophrenia or depression/anxiety disorders. We performed both unweighted and weighted analyses in this study; in the weighted analysis, class weights are adjusted such that the minority group (drugs indicated for the disorder) will receive higher weight to achieve a balance between positive and negative instances. 
+
+    In our unweighted model, DNN was implemented in the python package keras. We employed a fully connected feedforward neural network. Hyperparameters were chosen by the "fmin" optimization algorithm from "hyperopt", which employs a sequential model-based optimization approach \cite{bergstra2013hyperopt}. The tree-structured Parzen estimator (TPE) was used. The more sophisticated hyper-parameter search strategies provided by sequential model-based methods may produce better results than simpler approaches (e.g. grid search) when the number of hyper-parameters is large, such as in deep learning settings \cite{bergstra2013hyperopt}. Fifty evaluations were run for each search of optimal hyper-parameters. Dropout and mixed $L1/L2$ penalties were employed to reduce over-fitting. The neural networks consisted of two or three layers, with number of nodes selected uniformly from the range [64, 1024]. Dropout percentage was selected uniformly from [0.25, 0.75], and $L1/L2$ penalty uniformly from [1E-5, 1E-3]. Optimizer was chosen from "adadelta" \cite{zeiler2012adadelta}, "adam" \cite{kingma2014adam} and "rmsprop" \cite{hinton2012neural}, and the activation function chosen from "relu", "softplus" or "tanh". One hundred epochs were run for each model and we extracted the model weights corresponding to the best epoch. 
+    
+    We also attempted "hyperopt" for the weighted analysis, however the predictive performance was unexpectedly poor due to unclear reasons yet to be revealed. We therefore turned to hyperparameter selection with grid search, with some adjustments in the parameter ranges. A two-layer neural network was constructed with dropout and mixed $L1/L2$ to avoid over-fitting. The number of neurons in the first hidden layer was selected from \{1000, 1500, 2000\}, the number in the second layer from \{500, 1000, 1500\}, dropout rate from \{0.4, 0.5, 0.6, 0.7, 0.8\}, $L1/L2$ penalty from intervals [-13, -3] and [-9, -8] in log space and the number of epochs from [10, 20, 30, 50]. In order to speed up hyperparameter selection, we first chose the number of epochs, the best optimizer and activation function (following the same parameter range as described above) with other parameters fixed, and then used the best parameters chosen in the first step to find the optimal complexity of our neural networks by selecting the number of neurons in each layer, dropout and mixed $L1/L2$ penalties.
+
+    SVM, RF and GBM models were implemented in "scikit-learn" (sklearn) in python. Hyper-parameter selection was performed by the built-in function GridSearchCV in sklearn. For SVM, we chose radial basis function as the kernel. The two hyper-parameters $C$ and $\gamma$ were selected from [-5, 2] and [-6, 2] in $\log$10-space respectively. 
+    
+    For RF, the number of bagged trees was set to 1000, the maximum number of features used for splitting was selected from \{800, 1000, 1500, 2000, 3000, 5000 \} and min\_samples\_leaf (the minimum number of samples required at a leaf node) was selected from \{1, 3, 5, 10, 30, 50, 80 \}. For GBM, the number of boosting iterations was selected from a sequence of 100 to 1001 with step size 50, learning rate from \{0.005, 0.01, 0.015, 0.02, 0.03, 0.05 \}, subsampling proportion from \{0.8, 1 \}, maximum depth of each estimator from \{2, 3, 5, 10\} and maximum number of features from \{10, 30, 50, 100, 500, 1000 \}. Finally, the EN model was implemented by the R package "glmnet" \cite{friedman2010regularization}. The elastic-net penalty parameter $\alpha$ was chosen from seq(0, 1, by=0.1), with other settings following the default.
+
+    \subsubsection{Nested Cross-validation}
+      We adopted nested three-fold cross validation (CV) to choose hyper-parameters and evaluate model performances. It has been observed that optimistic bias will result if one uses simple CV to compute an error estimate for a prediction algorithm that itself is tuned using CV \cite{varma2006bias}. Nested CV avoids this problem and is able to give an almost unbiased estimate of prediction accuracy \cite{varma2006bias}. The inner loop CVs were used to choose the parameters that optimized predictive performance. In each outer loop CV we made predictions on the corresponding test set using the best model trained from the inner CV loops. To achieve maximum consistency in our comparisons, we compared different methods on the same test set in each loop. Note that the test sets were not involved in model training or parameter tuning.
+
+    \subsubsection{Predictive performance measures}
+      The performances of the machine learning methods were evaluated in the test sets using three metrics, including log loss, area under the receiver operating characteristic curve (ROC-AUC) and area under the precision recall curve (PR-AUC). Log loss compares the predicted probabilities against the true labels. The receiver operating characteristic curve, which plots the sensitivity (i.e. recall) against (1- specificity), is a very widely used approach to evaluate predictive performances in biomedical applications. The precision-recall curve on the hand plots the precision (i.e. positive predictive value) against the sensitivity (recall). Since precision depends on the overall proportion of positive labels, the PR-AUC is also dependent on such proportions. Davies et al. \cite{davis2006relationship}  that the PR curve may give more informative comparisons when working with imbalanced data.
+
+    \subsubsection{Identifying important genes and pathways}
+      We also performed analyses to reveal the genes which contribute the most to the prediction model. For elastic net, we extracted the genes with non-zero coefficient in at least one cross-validation fold, and the resulting genes were subject to an over-representation analysis (ORA) (using hypergeometric tests) to reveal the pathways involved. For RF and GBM, feature importance was computed using built-in functions in sklearn based on Gini importance (i.e. the average decrease in node impurity). We then performed a gene-set enrichment analysis (GSEA \cite{subramanian2005gene}) based on the genes together with their respective importance scores (the highest score across three folds was taken). For SVM and DNN, there is a lack of widely adopted importance measures, so we focused on the rest of ML methods in this part. Pathway analyses were conducted by the web-based program WebGestalt \cite{wang2017webgestalt}. Four pathway databases were considered in our analyses, including KEGG, PANTHER, Reactome and Wikipathways.
+    
+    \subsubsection{External validation by testing for enrichment of psychiatric drugs considered for clinical trials}
+      We then performed additional analyses to assess if the drugs with high predicted probabilities from our machine learning models are indeed good candidates for repositioning. Briefly, we tested whether the drugs with no known indication for the disease but high predicted probabilities are more likely to be included in clinical trials. 
+
+      In the first step, we filtered off drugs that are known to be indicated for the disease as derived from ATC and MEDI-HPS. This is because we are mainly interested in repositioning other drugs of unknown therapeutic potential, and that the labels of drug indication (from ATC or MEDI-HPS) have already been utilized in the ML prediction steps. Including known indications will lead to over-optimistic estimates of significance of enrichment. Next, we extracted a list of drugs that were included in clinical trials for schizophrenia as well as depression and anxiety disorders. The list was derived from clincialTrial.gov and we downloaded a pre-compiled version from.
+
+      We then tested for enrichment of those drugs listed in clinicalTrial.gov among the top repositioning results. We performed an enrichment analysis of “drug-sets”, similar to a gene-set analysis approach widely used in bioinformatics \cite{de2016gene}. We performed one-tailed t-tests to assess if the predicted probabilities (derived from machine learning models) are significantly higher for psychiatric drugs considered in clinical trials.
+
+    \subsubsection{Searching for literature support}
+      We manually search for literature support for the top 15 repositioning hits for each method in PubMed and Google scholar. The search strategy is given in Supplementary text. A limitation of manual search is that it is extremely time-consuming to perform such a search for all drugs. It should be noted that publication bias is likely to be present (as negative studies are less likely to be reported), although it is difficult to exactly quantify the extent of bias. As we shall discuss later, we did find literature support for a number of top repositioning candidates, but it is still possible that similar evidence may be found for drugs ranked in the middle or lower. Also, one may wish to assess whether drugs with less (or no) support by prior studies would indeed have lower predicted probabilities (similar to having ‘negative controls’ in an experiment). 
+
+      To ensure an unbiased and more comprehensive comparison, we conducted an analysis with "automated" literature mining on all drugs in PubMed. We extracted the number of research articles supporting each drug’s association with the corresponding psychiatric disorder (schizophrenia or depression/anxiety). We then examined the correlation between the number of research articles support and the predicted probabilities of treatment potential from ML models. Similar approaches for validating repositioning candidates based on literature mining have also been used in other studies \cite{huang2014drugcomboranker}. As the number of articles is typically skewed and not normally distributed, we employed Spearman and Kendall correlation measures. We also compared the predicted probabilities of drugs with no article support versus those with at least one article support. We hypothesized that drugs without any literature support would have lower predicted probabilities from ML models, and vice versa. We used the Wilcoxon rank-sum test for such comparison. All tests were carried out in R 3.2.3 and the tests were one-tailed. Similar to the enrichment test discussed above, drugs that are known to be indicated for the disorder (from ATC or MEDI-HPS) were excluded from this analysis. This is because the indication label of these drugs have been used in the ML model, which may lead to over-optimistic results, and that we wish to focus on repositioning potential of other drugs of unknown significance.
+
+\section{Experiment Results}
+  \subsection{Predictive performance comparison}
+    \subsubsection{Unweighted analysis }
+
+      \begin{table}[htbp]
+        \centering
+        \begin{threeparttable}
+        \caption{Average predictive performance of different ML models across four datasets in unweighted (top) and weighted analysis (bottom)}
+          \begin{tabular}{c|cccc}
+          \toprule
+          \textbf{Unweighted} & \multicolumn{4}{c}{Average Log Loss} \\
+          \textbf{ analysis} & MEDI-HPS DEP/ANX & ATC ATD  & MEDI-HPS SCZ  & ATC ATP  \\
+          \midrule
+          SVM   & \textbf{0.1188} & 0.0943 & \textbf{0.1018} & \textbf{0.0895} \\
+          EN    & 0.1249 & \textbf{0.0916} & 0.1097 & 0.0954 \\
+          DNN   & 0.124 & 0.0948 & 0.1111 & 0.0992 \\
+          GBM   & 0.1293 & 0.1018 & 0.1157 & 0.1039 \\
+          RF    & 0.1294 & 0.1002 & 0.1155 & 0.1013 \\
+                & \multicolumn{4}{c}{\textit{Average ROC-AUC}} \\
+          SVM   & \textbf{0.7141} & 0.7619 & \textbf{0.7705} & \textbf{0.7755} \\
+          EN    & 0.725 & \textbf{0.779} & 0.7515 & 0.7681 \\
+          DNN   & 0.6952 & 0.7456 & 0.7533 & 0.7604 \\
+          GBM   & 0.6536 & 0.6042 & 0.7172 & 0.7433 \\
+          RF    & 0.6315 & 0.639 & 0.7036 & 0.7501 \\
+                & \multicolumn{4}{c}{\textit{Average PR-AUC}} \\
+          SVM   & \textbf{0.2026} & \textbf{0.1485} & \textbf{0.2973} & \textbf{0.3379} \\
+          EN    & 0.1372 & 0.1008 & 0.1586 & 0.2087 \\
+          DNN   & 0.1447 & 0.0877 & 0.1577 & 0.2156 \\
+          GBM   & 0.091 & 0.0417 & 0.1426 & 0.1528 \\
+          RF    & 0.1193 & 0.0639 & 0.1677 & 0.1703 \\
+          \midrule
+          \textbf{weighted} & \multicolumn{4}{c}{Average Log Loss} \\
+          \textbf{ analysis} & MEDI-HPS DEP/ANX & ATC ATD  & MEDI-HPS SCZ  & ATC ATP  \\
+          \midrule
+          SVM   & \textbf{0.1189} & \textbf{0.0934} & \textbf{0.1022} & \textbf{0.0898} \\
+          EN    & 0.5803 & 0.5344 & 0.5028 & 0.5112 \\
+          DNN   & 0.1309 & 0.099 & 0.1308 & 0.1098 \\
+          GBM   & 0.1281 & 0.1032 & 0.1114 & 0.0981 \\
+          RF    & 0.1234 & 0.0943 & 0.106 & 0.0939 \\
+                & \multicolumn{4}{c}{\textit{Average ROC-AUC}} \\
+          SVM   & 0.7198 & 0.7718 & 0.7731 & 0.7765 \\
+          EN    & 0.661 & 0.7394 & 0.7494 & \textbf{0.7997} \\
+          DNN   & \textbf{0.7424} & \textbf{0.7979} & 0.741 & 0.7576 \\
+          GBM   & 0.7155 & 0.7578 & 0.7584 & 0.7794 \\
+          RF    & 0.689 & 0.7355 & \textbf{0.7843} & 0.7801 \\
+                & \multicolumn{4}{c}{\textit{Average PR-AUC}} \\
+          SVM   & \textbf{0.2017} & \textbf{0.151} & \textbf{0.298} & \textbf{0.3361} \\
+          EN    & 0.0751 & 0.0896 & 0.152 & 0.203 \\
+          DNN   & 0.1796 & 0.1107 & 0.2278 & 0.2641 \\
+          GBM   & 0.18  & 0.1168 & 0.2697 & 0.278 \\
+          RF    & 0.1771 & 0.1165 & 0.2721 & 0.2707 \\
+          \bottomrule
+          \end{tabular}%
+          \begin{tablenotes}
+            \small
+            \item 1. Values of evaluation metrics for algorithms with the best performance in each dataset (for each evaluation metrics) are marked in bold. 
+            \item 2. SVM: support vector machines; EN: logistic regression with elastic net regularization; DNN: deep neural networks; RF: random forest; GBM, gradient boosted machines. 
+            \item 3. MEDI-HPS: MEDication Indication - High Precision Subset; ATC: Anatomical Therapeutic Chemical classification. 
+          \end{tablenotes}
+        \end{threeparttable}  
+        \label{tab:repurposing_ml_result}%
+      \end{table}%
+
+      The average predictive performances (averaged over three folds) of different machine learning methods are listed in Table \ref{tab:repurposing_ml_result}. When considering log loss as the criteria of interest, SVM gave the best result overall, though EN showed the best performance in one of the four datasets. DNN and EN showed quite similar predictive performances. RF and GBM were slightly worse than other methods, but the difference was small. 
+      When ROC-AUC was considered as the performance metric, SVM and EN gave similar performances. SVM outperformed EN in the schizophrenia datasets, while EN showed better results in the other two datasets. The performance of DNN was worse than that of SVM and EN, although the differences were not large. The two tree-based methods performed worse especially in the depression/anxiety datasets.
+      We then considered PR-AUC, which is more sensitive to imbalanced data, as the measure of predictive performance. SVM was the best-performing method. EN and DNN followed with very similar performances. Consistent with other performance measures, GBM and RF did not perform as well in the depression/anxiety datasets, but the performance was more comparable for the schizophrenia datasets.
+
+    \subsubsection{Weighted analysis} 
+      Compared with unweighted analysis, we observed improvements in predictive performance for several methods including GBM, RF and deep learning. SVM and EN performed similarly in general. Considering ROC-AUC, deep learning performed the best for depression and anxiety disorders, while RF and EN showed highest ROC-AUC for schizophrenia. SVM achieved the best PR-AUC and log-loss compared to other ML approaches.
+
+      \begin{table}[htbp]
+        \centering
+        \caption{Enrichment for psychiatric drugs included in clinical trials among the repositioning hits}
+        \begin{threeparttable}
+          \begin{tabular}{cccc}
+          \toprule
+                & \multirow{2}[4]{*}{Dataset} & unweighted analysis & weighted analysis \\
+      \cmidrule{3-4}          &       & P-value & P-value \\
+          \midrule
+          \multirow{4}[1]{*}{SVM} & MEDI-HPS DEP/ANX & \textbf{0.0014} & \textbf{0.0011} \\
+                & ATC ATD & \textbf{0.018} & \textbf{0.0039} \\
+                & MEDI-HPS SCZ  & \textbf{0.0205} & \textbf{0.0264} \\
+                & ATC ATP & \textbf{0.0098} & \textbf{0.0084} \\
+          \midrule
+          \multirow{4}[0]{*}{EN} & MEDI-HPS DEP/ANX & \textbf{0.0022} & \textbf{0.0023} \\
+                & ATC ATD & \textbf{0.0032} & \textbf{0.0087} \\
+                & MEDI-HPS SCZ  & \textbf{0.0294} & \textbf{0.0315} \\
+                & ATC ATP & \textbf{0.0104} & \textbf{0.0033} \\
+          \midrule
+          \multirow{4}[0]{*}{DNN} & MEDI-HPS DEP/ANX & \textbf{0.0105} & \textbf{0.0009} \\
+                & ATC ATD & 0.1369 & \textbf{0.0017} \\
+                & MEDI-HPS SCZ  & 0.0908 & \textbf{0.019} \\
+                & ATC ATP & \textbf{0.0237} & \textbf{0.0021} \\
+          \midrule
+          \multirow{4}[0]{*}{GBM} & MEDI-HPS DEP/ANX & \textbf{0.0494} & \textbf{0.0003} \\
+                & ATC ATD & \textbf{0.0433} & \textbf{0.0002} \\
+                & MEDI-HPS SCZ  & 0.2283 & \textbf{0.0269} \\
+                & ATC ATP & 0.2482 & \textbf{0.0005} \\
+          \midrule
+          \multirow{4}[1]{*}{RF} & MEDI-HPS DEP/ANX & 0.0651 & \textbf{0.0005} \\
+                & ATC ATD & 0.2518 & \textbf{0.0007} \\
+                & MEDI-HPS SCZ  & 0.1299 & \textbf{0.0427} \\
+                & ATC ATP & 0.5232 & \textbf{0.0063} \\
+          \bottomrule
+          \end{tabular}%
+          \begin{tablenotes}
+            \item P-values $< 0.05$ and with FDR less than 0.05 are in bold.
+          \end{tablenotes}
+        \end{threeparttable}
+        \label{tab:repurposing_enrichment}%
+      \end{table}%
+
+  \subsection{Enrichment for psychiatric drugs considered clinical trials}
+    We further tested whether the top repositioning results are enriched for drugs included in clinical trials for psychiatric disorders. As shown in Table \ref{tab:repurposing_enrichment}, we observed significant enrichment of such drugs for both schizophrenia and depression/anxiety disorders across all methods in the weighted analysis. In addition, most results in the unweighted analysis were also significant. This external validation provides further support to the usefulness of our approach in identifying new repositioning opportunities.
+    
+    \begin{table}[htbp]
+      \centering
+      \caption{Correlations between predicted probability of treatment potential with number of research articles supporting association with schizophrenia or depression/anxiety}
+      \begin{threeparttable}
+        \begin{tabular}{ccccc}
+        \toprule
+              & MEDI-HPS  DEP/ANX & ATC ATD & MEDI-HPS SCZ & ATC ATP \\
+        \midrule
+              & \multicolumn{4}{c}{Spearman's rho} \\
+        SVM   & \textbf{0.078} & 0.049 & \textbf{0.098} & 0.088 \\
+        EN    & 0.031 & 0.043 & 0.091 & 0.073 \\
+        DNN   & 0.075 & \textbf{0.065} & 0.085 & \textbf{0.11} \\
+        GBM   & 0.065 & 0.05  & 0.082 & 0.102 \\
+        RF    & 0.066 & 0.051 & 0.052 & 0.055 \\
+        \midrule
+              & \multicolumn{4}{c}{Kendall's tau} \\
+        SVM   & \textbf{0.06} & 0.037 & \textbf{0.077} & 0.068 \\
+        EN    & 0.024 & 0.033 & 0.071 & 0.058 \\
+        DNN   & 0.058 & \textbf{0.05} & 0.067 & \textbf{0.086} \\
+        GBM   & 0.05  & 0.038 & 0.064 & 0.08 \\
+        RF    & 0.052 & 0.04  & 0.041 & 0.044 \\
+        \midrule
+              & \multicolumn{4}{c}{Spearman correlation p-value} \\
+        SVM   & \textbf{2.09E-05} & 4.91E-03 & \textbf{6.46E-09} & 1.47E-07 \\
+        EN    & 4.89E-02 & 4.91E-03 & 5.96E-08 & 9.16E-06 \\
+        DNN   & 3.45E-05 & \textbf{2.64E-04} & 3.37E-07 & \textbf{7.53E-11} \\
+        GBM   & 2.91E-04 & 3.87E-03 & 9.64E-07 & 1.52E-09 \\
+        RF    & 2.35E-04 & 3.51E-03 & 1.35E-03 & 6.86E-04 \\
+        \midrule
+              & \multicolumn{4}{c}{Kendall correlation p-value} \\
+        SVM   & \textbf{2.27E-05} & 5.46E-03 & \textbf{6.81E-09} & 1.81E-07 \\
+        EN    & 5.00E-02 & 1.10E-02 & 5.81E-08 & 9.05E-06 \\
+        DNN   & 3.56E-05 & \textbf{2.83E-04} & 3.33E-07 & \textbf{8.52E-11} \\
+        GBM   & 2.90E-04 & 4.22E-03 & 1.00E-06 & 1.62E-09 \\
+        RF    & 2.33E-04 & 3.63E-03 & 1.37E-03 & 6.93E-04 \\
+        \midrule
+              & \multicolumn{4}{c}{Wilcoxon rank-sum test p-value} \\
+        SVM   & \textbf{1.94E-04} & 2.10E-02 & \textbf{1.49E-07} & 3.27E-06 \\
+        EN    & 1.09E-01 & 2.50E-02 & 3.07E-07 & 3.40E-05 \\
+        DNN   & 3.85E-04 & \textbf{1.30E-03} & 8.63E-07 & \textbf{8.76E-10} \\
+        GBM   & 1.43E-03 & 2.11E-02 & 1.61E-05 & 1.91E-08 \\
+        RF    & 1.00E-03 & 1.08E-02 & 4.49E-03 & 2.98E-03 \\
+        \bottomrule
+        \end{tabular}%
+        \begin{tablenotes}
+          \item The highest correlation coefficient or lowest p-value in each analysis is marked in bold.
+        \end{tablenotes}
+      \end{threeparttable}
+      \label{tab:repurposing_correlation}%
+    \end{table}%
+
+  \subsection{Correlation of predicted probabilities with degree of literature support}
+    We also examined Spearman and Kendall correlations between predicted probabilities from ML models and the number of PubMed articles retrieved, which serves as a proxy for the level of literature support \ref{tab:repurposing_correlation}. We focused on results from the weighted analysis as they have better predictive performances in general. We found significant and positive correlations for all ML methods across all four analyses. DNN was the best performing method (in terms of the correlation metric and level of significance) in two out of four tasks (ATC antipsychotics and ATC antidepressants), and was relatively close to the best ones for the other two analyses. SVM performed the best in these analyses, but its deficit when compared to DNN was proportionately large for the two ATC tasks. The results of Wilcoxon rank-sum test were generally concordant with those from correlation tests.
+    
+  \subsection{Identifying contributing genes and pathways}
+
+    \begin{sidewaystable}
+      \centering
+      \caption{Selected enriched pathways based on variable importance of genes in ML models  with FDR $< 0.2$}
+      \begin{threeparttable}
+        \begin{tabular}{llcc}
+          \toprule
+          \multicolumn{1}{c}{\textbf{Method}} & \multicolumn{1}{c}{\textbf{Name}} & \textbf{\#Gene} & \textbf{FDR} \\
+          \midrule
+          \multicolumn{2}{l}{\textbf{ATC antidepressants and MEDI-HPS depression/anxiety (weighted analysis)}} &       &  \\
+          \midrule
+          eNet-ORA\_Reactome & Cholesterol biosynthesis & 7     & 1.78E-06 \\
+          eNet-ORA\_Wikipathway & Sterol Regulatory Element-Binding Proteins (SREBP) signalling & 8     & 1.73E-04 \\
+          eNet-ORA\_KEGG & Steroid biosynthesis - Homo sapiens (human) & 5     & 2.38E-04 \\
+          gbm\_KEGG & Fat digestion and absorption - Homo sapiens (human) & 34    & 8.95E-03 \\
+          gbm\_Panther & Insulin/IGF pathway-protein kinase B signaling cascade & 34    & 1.05E-02 \\
+          rf\_Wikipathway & Mismatch repair & 9     & 1.38E-01 \\
+          rf\_Wikipathway & ID signaling pathway & 16    & 1.58E-01 \\
+          rf\_Wikipathway & Statin Pathway & 25    & 1.61E-01 \\
+          rf\_Wikipathway & Photodynamic therapy-induced HIF-1 survival signaling & 37    & 1.63E-01 \\
+          eNet-ORA\_Panther & TGF-beta signaling pathway & 4     & 1.70E-01 \\
+          \multicolumn{2}{l}{\textbf{ATC antipsychotics and MEDI-HPS schizophrenia (weighted analysis)}} &       &  \\
+          rf\_Wikipathway & Sterol Regulatory Element-Binding Proteins (SREBP) signalling & 64    & 0.00E+00 \\
+          eNet-ORA\_Reactome & Cholesterol biosynthesis & 7     & 9.33E-05 \\
+          eNet-ORA\_KEGG & Steroid biosynthesis - Homo sapiens (human) & 4     & 2.01E-03 \\
+          rf\_Wikipathway & Statin Pathway & 25    & 2.51E-02 \\
+          eNet-ORA\_Wikipathway & Fatty Acid Beta Oxidation & 5     & 2.98E-02 \\
+          eNet-ORA\_Reactome & Asparagine N-linked glycosylation & 15    & 4.36E-02 \\
+          eNet-ORA\_KEGG & Metabolic pathways - Homo sapiens (human) & 37    & 4.87E-02 \\
+          eNet-ORA\_Reactome & Synthesis of UDP-N-acetyl-glucosamine & 3     & 8.11E-02 \\
+          gbm\_Panther & 5HT3 type receptor mediated signaling pathway & 14    & 8.58E-02 \\
+          eNet-ORA\_KEGG & Citrate cycle (TCA cycle) - Homo sapiens (human) & 3     & 8.96E-02 \\
+          gbm\_Reactome & G1/S-Specific Transcription & 18    & 1.32E-01 \\
+          eNet-ORA\_Reactome & \multicolumn{1}{p{26.085em}}{Antigen Presentation: Folding, assembly and peptide loading of \newline{}class I MHC} & 4     & 1.32E-01 \\
+          gbm\_Panther & Androgen/estrogene/progesterone biosynthesis & 9     & 1.40E-01 \\
+          rf\_Wikipathway & Photodynamic therapy-induced unfolded protein response & 23    & 1.42E-01 \\
+          eNet-ORA\_Reactome & COPII (Coat Protein 2) Mediated Vesicle Transport & 6     & 1.44E-01 \\
+          \bottomrule
+          \end{tabular}%
+        \begin{tablenotes}
+          \item We aggregated pathway analysis results from 4 databases (KEGG, Reactome, Panther and Wikipathways). Pathways that were highly similar were filtered. Only results from weighted analysis are included here.
+        \end{tablenotes}
+      \end{threeparttable}
+      \label{tab:addlabel}%
+    \end{sidewaystable}%
+
+    Supplementary Tables \footnote{Available at https://drive.google.com/open?id=1YDtk-uTVX5gsnZvWM7q3PRz3\_x8yWrpQ} 1-4 show the top genes as identified by variable importance measures (for RF and GBM) and regression coefficients (for EN). The enriched pathways are shown in Table IV and Supplementary tables 5-12. Since the number of genes involved is large, we only highlighted a few top enriched pathways here. Interestingly, steroid and cholesterol biosynthesis are among the most significantly enriched pathways for drugs against schizophrenia and depression/anxiety. Notably, abnormalities in the hypothalamic-pituitary-adrenal (HPA) axis have long been suggested as one of the key pathological mechanisms underlying depression \cite{varghese2001hypothalamic}. The steroid (cortisol) synthesis inhibitor metyrapone has been shown to be effective for depression in a double-blind randomized controlled trial (RCT) \cite{jahn2004metyrapone} and other studies \cite{maia2012phenylpiperazine}, although another trial failed to show any benefits \cite{mcallister2016antidepressant}. Antidepressants have also been shown to regulate glucocorticoid receptor functioning in vivo. On the other hand, neuroactive steroids may be implicated in the pathophysiology of schizophrenia \cite{shulman2005neuroactive}. Cholesterol biosynthesis, including regulation by sterol regulatory element-binding protein (SREBP), was frequently top-listed in our pathway analysis. Antipsychotics and some antidepressants are associated with metabolic syndrome and weight gain, and previous in vitro and in vivo studies have shown lipogenic effects of these drugs as controlled by SREBP transcription factors \cite{raeder2006srebp,ferno2011lipogenic}. Interestingly, some studies showed lower cholesterol may be associated with suicidality \cite{da2014potential}, depressive symptoms \cite{persons2016longitudinal,you2013relationship}, and poorer cognition in schizophrenia \cite{krakowski2011cholesterol}, but these findings are controversial. Whether pathways related to cholesterol synthesis may play a role in the therapeutic effects of psychotropic drugs remain a topic for further investigation. Some other pathways are also worth mentioning. For example, IGF signaling pathway was significantly enriched under antidepressants. IGF-I has been reported to improve depression and anxiety symptoms in clinical samples \cite{thompson1998effects}, and showed antidepressant-like effects in animal models \cite{burgdorf2016insulin,grunbaum2008relationship}. The 5-HT3 signaling pathway was also top-listed under antipsychotics. 5-HT3 has been proposed as a new drug target and improvements in negative and cognitive symptoms have been reported in clinical trials \cite{ellenbroek2015can}.
+
+  \subsection{Top repositioning hits and literature support from previous studies}
+    Table \ref{tab:repurposing_literature_candidates} show some of the selected top repositioning candidates with literature support, which will also be discussed below. More detailed tables showing the top 100 hits for each ML method in both unweighted and weighted analyses are presented in Supplementary Tables 13-16 \footnote{Available at https://drive.google.com/open?id=1YDtk-uTVX5gsnZvWM7q3PRz3\_x8yWrpQ}. Note that drugs that are known to be indicated for these disorders by ATC or MEDI-HPS were excluded from the lists. We noted overlap in top hits derived from different machine learning methods, but some repositioning candidates are unique to one or few ML approaches. This suggests that employing a diverse set of ML methods may be advantageous in “learning” different potential repositioning candidates. We will chiefly focus on the top 15 hits for each ML method in the exposition below.
+
+    \begin{sidewaystable}
+      \caption{Some literature-supported candidates selected from top hits derived from machine learning methods (known antipsychotics and antidepressants are not included in this list)}
+      \begin{threeparttable}
+      \centering
+      \begin{tabular}{lll}
+        \toprule
+        Drug  & Method & Relationship with disease \\
+        \midrule
+        \textbf{Depression/anxiety} &       &  \\
+        Cyproheptadine & \multicolumn{1}{p{5.5em}}{SVM, RF, \newline{}GBM, EN} & 5-HT2 receptor antagonist, improve depression in a small cross-over trial \\
+        Chlorcyclizine & \multicolumn{1}{p{5.5em}}{DNN, RF, \newline{}GBM, SVM} & \multicolumn{1}{p{32.915em}}{phenylpiperazine group to which many other antidepressants \newline{}and antipsychotics belong} \\
+        Pizotifen  & EN    & 5-HT2A/2C antagonist, positive result in an RCT \\
+        \multicolumn{1}{p{8.585em}}{TrichostatinA/\newline{}Vorinostat } & DNN, EN & HDAC inhibitors may have antidepressant effects as shown in animal models \\
+        Tetrandrine & \multicolumn{1}{p{5.5em}}{DNN, RF, \newline{}GBM} & \multicolumn{1}{p{32.915em}}{CCB; antidepressant-like effects in mice; may increase 5-HT, NE \newline{}and BDNF concentrations} \\
+        Apigenin & GBM   & Antidepressant and anxiolytic effects in animal models and in an RCT \\
+        Metformin & EN    & may reduce depression risk among DM subjects  \\
+        \textbf{Schizophrenia} &       &  \\
+        Valproate  & DNN, SVM & open RCTs reported symptom improvement when used as adjunctive treatment \\
+        Raloxifene & DNN, EN & improve SCZ symptoms in an RCT of post-menopausal women \\
+        \multicolumn{1}{p{8.585em}}{Nordihydroguaiaretic \newline{}acid } & \multicolumn{1}{p{5.5em}}{DNN, GBM, \newline{}SVM} & antioxidant; oxidative stress implicated in SCZ \\
+        Pioglitazone & DNN   & Another drug in the same class (pioglitazone) improved SCZ symptoms in RCT \\
+        Tretinoin & DNN   & Retinoid; dysfunction in retinoid signaling may be implicated in SCZ \\
+        Felodipine & GBM   & CCB; CCB added to antipsychotics may be beneficial \\
+        Aspirin                        & SVM   & NSAID; may improve SCZ symptoms as shown in RC \\
+        Genistein                                          & GBM   & Phytoestrogen; animal model shows possible anti-dopaminergic effects \\
+        \bottomrule
+        \end{tabular}%
+        \begin{tablenotes}
+          \item As a number of top results were known antipsychotics or antidepressants (please refer to the main text for details), these were not presented in the above table. RCT, randomized controlled trial; HDAC, Histone deacetylases; CCB, calcium channel blocker; 5-HT, serotonin; NE, norepinephrine; BDNF, brain-derived neurotrophic factor; NSAID, non-steroidal anti-inflammatory drugs.
+        \end{tablenotes}
+      \end{threeparttable}
+      \label{tab:repurposing_literature_candidates}%
+    \end{sidewaystable}%
+  
+    \subsubsection{Repositioning candidates for depression/anxiety disorders}
+      Regarding depression and anxiety disorders, many of the top results are antipsychotics, such as trifluoperazine, perphenazine, fluphenazine and thioridazine, among others. Antipsychotics have long been used for the treatment for depression \cite{wang2017webgestalt}. In earlier studies, phenothiazines (a class of antipsychotic to which many of our top hits belong) was observed to produce similar anti-depressive effects as tricyclic antidepressants \cite{robertson1982major}. Due to the risk of extra-pyramidal side-effects, typical antipsychotics are less commonly used these days and second-generation (atypical) antipsychotics are more often prescribed. Meta-analyses have shown that atypical antipsychotics are effective as adjunctive or primary treatment for depression \cite{robertson1982major,spielmans2016adjunctive}. Antipsychotics are also commonly prescribed for severe depressive episodes with psychotic symptoms. 
+
+      A few other drugs on the lists are also worth mentioning. Cyproheptadine (top-listed by SVM, RF, GBM and EN) is a 5-HT2 receptor antagonist and was shown to improve depression in a small cross-over trial \cite{green2012modeling}. It was also reported that the drug reduced the neuropsychiatric side-effects of the antiviral therapy efavirenz, including depressive and anxiety symptoms \cite{dabaghzadeh2013cyproheptadine}. Chlorcyclizine belongs to the phenylpiperazine class and numerous antidepressants and antipsychotics also belong to this class \cite{maia2012phenylpiperazine}. Pizotifen, listed by EN, is a 5-HT2A/2C antagonist which was shown to possess antidepressant effects in a double-blind RCT \cite{standal1977pizotifen}. DNN and EN have identified histone deacetylase (HDAC) inhibitors including trichostatin A and vorinostat as top repositioning hits for depression/anxiety and schizophrenia. HDAC have been implicated in the pathogenesis of psychiatric disorders including depression, as reviewed by Fuchikami et al. \cite{fuchikami2016potential}. HDAC inhibitors have been reported to produce antidepressant-like effects in animal models \cite{hobara2010molecular,covington2009antidepressant}, although no clinical trials on psychiatric disorders were available. Interestingly, in a recent study which employed gene-set analysis on de novo mutations to uncover repositioning opportunities, HDAC inhibitors were highlighted as candidates for schizophrenia and other neurodevelopmental disorders \cite{so2019implications}. 
+
+      Another candidate was tetrandrine, a calcium channel blocker top-listed by DNN, RF, GBM and SVM. Tetrandrine demonstrated antidepressant-like effects in mice \cite{gao2013tetrandrine} in forced swimming and tail suspension tests. The drug also increased the concentration of 5-hydroytrytamine (5-HT) and norepinephrine in mice treated with reserpine or chromic mild stress, and raised the levels of brain-derived neurotrophic factor (BDNF) in the latter case \cite{gao2013tetrandrine}.  
+  
+    \subsubsection{Repositioning candidates for schizophrenia}
+      With regards to repositioning results for schizophrenia, some of the hits are antidepressants, such as protriptyline, maprotiline and clomipramine, among others. Antidepressants are frequently prescribed in schizophrenia patients due to possibility of comorbid depression or obsessive-compulsive disorder \cite{mao2015augmentation}. In meta-analyses antidepressants were also found to improve negative symptoms of schizophrenia \cite{sigalas2012metyrapone,sepehry2007selective}. For the antidepressants on the list, maprotiline (listed by RF, GBM, EN, SVM) has been reported to improve negative symptoms in chronic schizophrenia patients \cite{yamagami1989effect} as an adjunctive treatment. Other drug clomipramine (listed by DNN, GBM, EN) has been shown to ameliorate not only obsessive-compulsive but also overall schizophrenic symptoms in patients with comorbid disorders \cite{berman1995treatment}. Interestingly, the mood stabilizer valproate was also listed among the top (by DNN and SVM). Valproate may improve clinical response when added to antipsychotics, although the evidence is mainly based on open RCTs \cite{schwarz2008valproate}. The EN algorithm also “re-discovered” spiperone, an antipsychotic not listed in ATC or MEDI-HPS, as one of the top repositioning hits. 
+
+      Several other drugs less well-known for psychiatric disorders are also worth mentioning. The selective estrogen receptor modulator raloxifene (listed by DNN and EN) was shown to improve schizophrenia symptom scores in double-blind RCTs of post-menopausal women \cite{usall2011raloxifene,usall2016raloxifene}. Another drug nordihydroguaiaretic acid (listed by DNN, GBM, SVM) has antioxidant properties \cite{lu2010molecular} and may be useful in combating oxidative stress in schizophrenia \cite{wu2013free}. Pioglitazone, top-ranked by DNN, belongs to the class of thiazolidinediones and has anti-diabetic and anti-inflammatory properties. Although this drug was withdrawn due to unexpected adverse effects on the liver, our finding suggested that other thiazolidinediones may be useful for schizophrenia. Indeed, another drug of the same class known as pioglitazone has been shown to improve negative symptoms in schizophrenia patients in a double-blind RCT \cite{iranpour2016effects}. Another RCT also showed improvements in depressive symptoms \cite{smith2013effects}. Tretinoin (listed by DNN) is a retinoid and retinoid dysfunction has been linked to schizophrenia \cite{goodman1998three,lerner2016targeting} Clinical trials with another retinoid (bexarotene) showed some benefits of the drug as an add-on agent in schizophrenia. Again retinoid signaling was implicated for schizophrenia in a recent study on drug repositioning leveraging de novo mutations \cite{so2019implications}. Felodipine (listed by GBM) is a calcium channel blocker and GWAS on schizophrenia and bipolar disorder have revealed many genes related to calcium channels \cite{heyes2015genetic,cipriani2016systematic}; a recent study also suggested concomitant use of CCB and antipsychotics may be more beneficial than antipsychotics alone \cite{van2018concomitant}.
+  
+    \subsubsection{Some hits from the unweighted analysis}
+      The top repositioning candidates from unweighted analysis for each ML method are listed in Supplementary Tables 13-16. There were a number of overlaps with the candidates from the weighted analysis. Here we highlight a few prioritized drugs (that have not been mentioned above) with literature support. Aspirin (acetylsalicylic acid) is a non-steroidal anti-inflammatory agent (listed by SVM), which has been shown to improve schizophrenia symptoms in a recent meta-analysis of RCTs \cite{sommer2014efficacy}. Genistein is a phytoestrogen and can bind to estrogen receptors \cite{wang1996molecular}. An animal study showed that genistein may possess anti-dopaminergic actions \cite{suresh2013antidopaminergic}; interestingly, clinical studies have shown potential therapeutic benefits of estrogens on schizophrenia \cite{sommer2014efficacy}.
+
+      The EN algorithm identified metformin as one of the top repositioning hits for depression/anxiety disorders. A study in Taiwan reported that the risk of depression in diabetic patients was reduced by ~60\% for those given metformin with sulfonylurea \cite{wahlqvist2012increased}. Another study reported improved depressive symptoms and cognitive functions for patients with comorbid diabetes and depression \cite{guo2014metformin}. Another drug apigenin, top-listed by GBM, was supported by a number of in vitro and animal studies for possible antidepressant-like and anxiolytic effects \cite{pathak2013natural}. A clinical trial of oral chamomile (which was standardized to contain 1.2\% of apigenin) showed benefits for anxiety and depression \cite{amsterdam2009randomized,amsterdam2012chamomile}.
+  
+\section{Discussion}
+  In this study, we have presented a repositioning approach by predicting drug indications based on expression profiles. We employed and compared five state-of-the-art ML methods to perform predictions. We also observed that the top repositioning hits are enriched for psychiatric drugs considered for clinical trials and that many hits are backed up by evidence form animal or clinical studies, supporting the validity of our approach.
+
+  Concerning the performance of different machine learning classifiers, we have employed five methods in total, and all but one (EN) are non-linear classifiers. SVM is a kernel-based learning approach that is widely used in bioinformatics. On the other hand, deep learning methods (such as DNN) that are based on the principles of representation learning \cite{bengio2013representation} have witnessed rapid advances in the last decade, especially in the field of computer vision. While potentially powerful, current successful applications typically require very large datasets for training, and we suspect that the relatively modest sample size (N = 3478) of our dataset may have limited DNN to achieve the optimal predictive ability. We have used at most two hidden layers in view of the moderate sample size, and the complexity of the network may be increased with larger samples, although larger samples would lead to greater computational costs. This study shows that deep learning can achieve reasonable performance in drug repurposing, and indeed DNN achieved the best ROC-AUC for depression/anxiety disorders in the weighted analysis. Given the rapid growth in the area, deep learning approaches might be worthy of further investigations. While logistic regression with EN is a linear classifier, it performed well overall though lagging behind SVM. The performances of the two tree-based methods (RF and GBM) were largely comparable with other methods in the weighted analysis, although they were less satisfactory without weighting. Notwithstanding the differences in predictive performances, different algorithms are based on diverse model assumptions and principles, and as shown above, methods with slightly lower predictive accuracy may still reveal useful repositioning candidates that are of different mechanisms of actions. 
+
+  To the best of our knowledge, this is the first study to employ a comprehensive array of machine learning methods on drug expression profiles for drug repositioning of any particular disease; it is also the first application in psychopharmacology. This is also the first work to suggest an ML approach to explore the molecular mechanisms underlying drug actions. In a related work, Aliper et al. made use of the drug transcriptome to predict large drug classes e.g. drugs for neurological diseases, drugs for cardiovascular diseases, anti-cancer agents etc \cite{aliper2016deep}. Here our focus is different and clinically more relevant in that we directly identify repositioning opportunities for a particular disorder. It should be noted that drugs for the same body system can have diverse (or sometimes even opposite) effects. For example, antipsychotics like haloperidol are used to treat schizophrenia but they also cause Parkinsonism \cite{markey1984intraneuronal}. Statins reduces low-density lipoprotein levels and coronary heart disease risk \cite{chou2016statins}, but can cause weight gain and increased diabetic risk \cite{swerdlow2015hmg}. In addition, we concentrated on the study of psychiatric disorders, which was not explicitly considered in Aliper et al. \cite{aliper2016deep} or other previous works. Interestingly, DNN was reported to be the best performing method in their study. However their study \cite{aliper2016deep} and the present work are not directly comparable as the outcomes studied are different and the evaluation metrics also differ. F1 score was used in Aliper et al. \cite{aliper2016deep} (although the choice of a cut-off probability for classification was not explicitly stated) while we used ROC-AUC, PR-AUC and log loss as performance indicators.
+
+  Here we aim to provide a proof-of-concept example showing that the application of machine learning methodologies on drug expression profiles may help to identify candidates for repositioning, particularly for psychiatric disorders. The approach is intuitive and also highly flexible. Nevertheless, there is still room for improvement. Firstly, we only consider drug indications and the drug-induced transcriptomic changes in our prediction model. This makes the method very flexible and widely applicable to any compounds or drugs for which an expression profile is available. The use of drug transcriptome evades the need of specifying targets and knowing the mechanisms of actions, and the approach may even be applicable to a mixture of chemical ingredients as may be the case for herbal medicines. However, it is possible that our methods may be further improved by incorporating other information such as drug targets and chemical structure, if such information is available. For example, dopaminergic and monoaminergic pathways have known importance in SCZ and depression treatment respectively, and incorporating such information into our ML framework may further improve prediction accuracy. 
+
+  As for the prediction algorithm, in our dataset the number of positive labels is small. We tackled this problem by adjusting the weighting of positive and negative instances and indeed found improvements for several ML approaches. Other methodologies to account for imbalanced data are also possible \cite{he2009learning}, and this may be a topic for further explorations. We covered five commonly used algorithms here but this coverage is obviously not complete; further studies may benefit from the use of more advanced or recently developed learning methods. We also notice that there is an ongoing effort to expand the coverage of CMap \cite{subramanian2017next}, and that the study with updated full data and documentations have just been released. We are planning to further explore the current framework in the expanded dataset. 
+
+  It is reassuring to observe that many repositioning hits are supported by previous studies, the predicted probabilities from our model significantly correlate with the degree of literature support, and that the results are enriched for psychiatric drugs considered in clinical trials. However, we stress that further well-designed pre-clinical and clinical studies are necessary before the any results can be brought into clinical practice. The analytic validation we employed in this study aims to provide evidence for the overall validity of the presented repositioning approach. Validation of individual candidates via detailed animal and clinical studies are essential before a drug can be brought into practice; however it should also be noted that detailed experimental/clinical validation of one or two candidates is less suited to provide evidence on whether the approach as a whole works or not, since most drugs cannot be covered and chance findings are possible. 
+
+  We have also made use of ML methods to explore potentially important genes and pathways that may contribute to treatment effects. Nevertheless, the results again require further experimental validations. Computational approaches for repositioning and explorations of drug mechanisms, such as ML-based methods, provide a cost-effective and systematic way to assess and prioritize drug candidates. While we believe the current approach can improve the prioritization of drug candidates, not all top-ranked drugs will be effective and we do not expect to uncover all potential new treatments. However, given the rising cost in developing a new drug (up to ~USD 2.6 billion \cite{katalinic2013ketamine}), if a method can reduce the failure rate by even a tiny margin, it will already result in large savings in absolute terms. Further work might involve combining the current approach with other computational and experimental methods to further improve the accuracy of repositioning. As an example, ketamine is one of the most promising new therapies for depression, but the current method did not reveal any similar drugs (ketamine is not listed in CMap). However, another computational repositioning method which compared drug and disease transcriptomes suggested several NMDA antagonists for depression \cite{katalinic2013ketamine}, highlighting the potential of integrating different methods in future studies.
+  
+\section{Conclusion}
+  In this work we have presented and applied a machine learning to drug repositioning for schizophrenia and depression/anxiety disorders. We found the candidates were enriched for psychiatric drugs considered in clinical trials, and that numerous top hits were supported by previous studies; the degree of literature support also showed a significant correlation with predicted treatment probabilities from ML models. 
+
+  It is widely acknowledged that drug development in psychiatry has become stagnant for some years, and that traditional approaches to drug discovery has not been as successful as anticipated. On the other hand, the past few years have seen an extremely rapid development in ML methods and applications; in this regard, we hope that this study will open a new avenue for drug repositioning/discovery, and stimulate further research to bridge the gap between ML and biomedical applications especially drug development. The list of repositioning candidates might also serve as a useful resource for researchers and clinicians working on schizophrenia as well as depression and anxiety disorders, which are illnesses very much in need of new therapies.
 \chapterend

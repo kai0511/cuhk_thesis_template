@@ -1,5 +1,44 @@
-\chapter{Evaluating ITE of Genetic RFs on Survival}
-\label{chap:ite}
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{setspace}
+% avoid too much space automatically padded between paragraphs to fill a page:
+\raggedbottom
+\usepackage{graphics}
+\usepackage{graphicx}
+% \usepackage{latexsym}
+
+% packages for math symbols 
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+
+% packages for table layout
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{threeparttable}
+
+% packages for algorithm layout
+\usepackage{algorithm}
+\usepackage{algorithmic}
+% \floatname{algorithm}{Procedure}
+
+\usepackage[dvips]{epsfig}
+\usepackage[mono=false]{libertine}
+
+% style for links
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+%\usepackage{color}
+\usepackage[inner=4cm,outer=2.5cm]{geometry}
+
+\input{symbols}
+\usepackage[style=chem-angew]{biblatex}
+\addbibresource{reference.bib}
+
+\begin{document}
+\title{Evaluating ITE of Genetic RFs on Survival}
+\maketitle
 
 \section{Motivation}
 \label{sec:ite_mot}
@@ -154,7 +193,7 @@
   
   In that case we may still gain insights into TE heterogeneity at an association level, and covariates responsible for heterogeneity may still deserve further studies, and in practice a continuous variable $\bW$ is also allowed \cite{athey2019generalized}. When $\bW$ is continuous, an average partial effect is estimated $Cov [\bY,\bW \given \bX = \bfx] / Var[\bW \given \bX = \bfx]$, which may be considered as the increase in $Y$ given a unit increase in $W$, conditional on the covariates. 
   
-  Our experiment studies rely on the framework of GRF, as it is a state-of-the-art approach which directly optimizes an objective function for ITE estimation, rather than fit conditional means for treatment and control observations. However, most of the methodologies and extensions presented in this study is data-driven such that it can be widely applied to any other ITE estimation models.
+  Our experiment studies rely on the framework of GRF, as it is a state-of-the-art approach which directly optimizes an objective function for ITE estimation, rather than fit conditional means for treatment and control observations. However, most of the methodologies and extensions presented in this study is data-driven such that it can be widely applied to any other ITE estimation models. 
 
   \subsection{Novel Tests for the presence of heterogeneity}
   \label{sec:ite_novel_tests}
@@ -322,5 +361,7 @@
 \section{Conclusion}
 \label{sec:ite_conclusion}
 
-Bibliography data is put in database.bib.
-\chapterend
+\newpage
+\printbibliography
+
+\end{document}

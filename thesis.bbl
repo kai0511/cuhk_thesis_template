@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{aggarwal2018influence}
 C.~Aggarwal, C.~W. Davis, R.~Mick, J.~C. Thompson, S.~Ahmed, S.~Jeffries,
@@ -6,6 +6,26 @@ C.~Aggarwal, C.~W. Davis, R.~Mick, J.~C. Thompson, S.~Ahmed, S.~Jeffries,
 \newblock Influence of tp53 mutation on survival in patients with advanced
   egfr-mutant non--small-cell lung cancer.
 \newblock {\em JCO precision oncology}, 2018.
+
+\bibitem{aliper2016deep}
+A.~Aliper, S.~Plis, A.~Artemov, A.~Ulloa, P.~Mamoshina, and A.~Zhavoronkov.
+\newblock Deep learning applications for predicting pharmacological properties
+  of drugs and drug repurposing using transcriptomic data.
+\newblock {\em Molecular pharmaceutics}, 13(7):2524--2530, 2016.
+
+\bibitem{amsterdam2009randomized}
+J.~D. Amsterdam, Y.~Li, I.~Soeller, K.~Rockwell, J.~J. Mao, and J.~Shults.
+\newblock A randomized, double-blind, placebo-controlled trial of oral
+  matricaria recutita (chamomile) extract therapy of generalized anxiety
+  disorder.
+\newblock {\em Journal of clinical psychopharmacology}, 29(4):378, 2009.
+
+\bibitem{amsterdam2012chamomile}
+J.~D. Amsterdam, J.~Shults, I.~Soeller, J.~J. Mao, K.~Rockwell, and A.~B.
+  Newberg.
+\newblock Chamomile (matricaria recutita) may have antidepressant activity in
+  anxious depressed humans-an exploratory study.
+\newblock {\em Alternative therapies in health and medicine}, 18(5):44, 2012.
 
 \bibitem{assmann2000subgroup}
 S.~F. Assmann, S.~J. Pocock, L.~E. Enos, and L.~E. Kasten.
@@ -24,15 +44,50 @@ S.~Athey, J.~Tibshirani, S.~Wager, et~al.
 \newblock Generalized random forests.
 \newblock {\em The Annals of Statistics}, 47(2):1148--1178, 2019.
 
+\bibitem{ballenger2000anxiety}
+J.~C. Ballenger.
+\newblock Anxiety and depression: optimizing treatments.
+\newblock {\em Primary care companion to the Journal of clinical psychiatry},
+  2(3):71, 2000.
+
+\bibitem{bengio2013representation}
+Y.~Bengio, A.~Courville, and P.~Vincent.
+\newblock Representation learning: A review and new perspectives.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  35(8):1798--1828, 2013.
+
 \bibitem{benjamini2008screening}
 Y.~Benjamini and R.~Heller.
 \newblock Screening for partial conjunction hypotheses.
 \newblock {\em Biometrics}, 64(4):1215--1222, 2008.
 
+\bibitem{bergstra2013hyperopt}
+J.~Bergstra, D.~Yamins, and D.~D. Cox.
+\newblock Hyperopt: A python library for optimizing the hyperparameters of
+  machine learning algorithms.
+\newblock In {\em Proceedings of the 12th Python in science conference}, pages
+  13--20. Citeseer, 2013.
+
+\bibitem{berman1995treatment}
+I.~Berman, B.~L. Sapers, H.~H. Chang, M.~F. Losonczy, J.~Schmildler, and A.~I.
+  Green.
+\newblock Treatment of obsessive-compulsive symptoms in schizophrenic patients
+  with clomipramine.
+\newblock {\em Journal of clinical psychopharmacology}, 15(3):206--210, 1995.
+
 \bibitem{breiman2001random}
 L.~Breiman.
 \newblock Random forests.
 \newblock {\em Machine learning}, 45(1):5--32, 2001.
+
+\bibitem{burgdorf2016insulin}
+J.~Burgdorf, X.-l. Zhang, E.~M. Colechio, N.~Ghoreishi-Haack, A.~Gross, R.~A.
+  Kroes, P.~K. Stanton, and J.~R. Moskal.
+\newblock Insulin-like growth factor i produces an antidepressant-like effect
+  and elicits n-methyl-d-aspartate receptor independent long-term potentiation
+  of synaptic transmission in medial prefrontal cortex and hippocampus.
+\newblock {\em International Journal of Neuropsychopharmacology}, 19(2):pyv101,
+  2016.
 
 \bibitem{chernozhukov2018generic}
 V.~Chernozhukov, M.~Demirer, E.~Duflo, and I.~Fernandez-Val.
@@ -45,10 +100,48 @@ H.~A. Chipman, E.~I. George, R.~E. McCulloch, et~al.
 \newblock Bart: Bayesian additive regression trees.
 \newblock {\em The Annals of Applied Statistics}, 4(1):266--298, 2010.
 
+\bibitem{chou2016statins}
+R.~Chou, T.~Dana, I.~Blazina, M.~Daeges, and T.~L. Jeanne.
+\newblock Statins for prevention of cardiovascular disease in adults: evidence
+  report and systematic review for the us preventive services task force.
+\newblock {\em Jama}, 316(19):2008--2024, 2016.
+
+\bibitem{cipriani2016systematic}
+A.~Cipriani, K.~Saunders, M.-J. Attenburrow, J.~Stefaniak, P.~Panchal,
+  S.~Stockton, T.~A. Lane, E.~M. Tunbridge, J.~R. Geddes, and P.~J. Harrison.
+\newblock A systematic review of calcium channel antagonists in bipolar
+  disorder and some considerations for their future development.
+\newblock {\em Molecular psychiatry}, 21(10):1324--1332, 2016.
+
 \bibitem{cook2004subgroup}
 D.~I. Cook, V.~J. Gebski, and A.~C. Keech.
 \newblock Subgroup analysis in clinical trials.
 \newblock {\em Medical Journal of Australia}, 180(6):289, 2004.
+
+\bibitem{cortes1995support}
+C.~Cortes and V.~Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine learning}, 20(3):273--297, 1995.
+
+\bibitem{covington2009antidepressant}
+H.~E. Covington, I.~Maze, Q.~C. LaPlant, V.~F. Vialou, Y.~N. Ohnishi,
+  O.~Berton, D.~M. Fass, W.~Renthal, A.~J. Rush, E.~Y. Wu, et~al.
+\newblock Antidepressant actions of histone deacetylase inhibitors.
+\newblock {\em Journal of Neuroscience}, 29(37):11451--11460, 2009.
+
+\bibitem{da2014potential}
+M.~da~Gra{\c{c}}a~Cantarelli, A.~C. Tramontina, M.~C. Leite, and C.-A.
+  Goncalves.
+\newblock Potential neurochemical links between cholesterol and suicidal
+  behavior.
+\newblock {\em Psychiatry research}, 220(3):745--751, 2014.
+
+\bibitem{dabaghzadeh2013cyproheptadine}
+F.~Dabaghzadeh, P.~Ghaeli, H.~Khalili, A.~Alimadadi, S.~Jafari, S.~Akhondzadeh,
+  and Z.~Khazaeipour.
+\newblock Cyproheptadine for prevention of neuropsychiatric adverse effects of
+  efavirenz: a randomized clinical trial.
+\newblock {\em AIDS patient care and STDs}, 27(3):146--154, 2013.
 
 \bibitem{dasgupta2014risk}
 A.~Dasgupta, S.~Szymczak, J.~H. Moore, J.~E. Bailey-Wilson, and J.~D. Malley.
@@ -61,6 +154,36 @@ S.~Datta, J.~Le-Rademacher, and S.~Datta.
   failure time modeling using partial least squares and lasso.
 \newblock {\em Biometrics}, 63(1):259--271, 2007.
 
+\bibitem{davis2006relationship}
+J.~Davis and M.~Goadrich.
+\newblock The relationship between precision-recall and roc curves.
+\newblock In {\em Proceedings of the 23rd international conference on Machine
+  learning}, pages 233--240, 2006.
+
+\bibitem{de2016gene}
+S.~de~Jong, L.~R. Vidler, Y.~Mokrab, D.~A. Collier, and G.~Breen.
+\newblock Gene-set analysis based on the pharmacological profiles of drugs to
+  identify repurposing opportunities in schizophrenia.
+\newblock {\em Journal of psychopharmacology}, 30(8):826--830, 2016.
+
+\bibitem{dudley2011exploiting}
+J.~T. Dudley, T.~Deshpande, and A.~J. Butte.
+\newblock Exploiting drug--disease relationships for computational drug
+  repositioning.
+\newblock {\em Briefings in bioinformatics}, 12(4):303--311, 2011.
+
+\bibitem{ellenbroek2015can}
+B.~A. Ellenbroek and E.~P. Prinssen.
+\newblock Can 5-ht3 antagonists contribute toward the treatment of
+  schizophrenia?
+\newblock {\em Behavioural pharmacology}, 26(1 and 2-Special Issue):33--44,
+  2015.
+
+\bibitem{ferno2011lipogenic}
+J.~Ferno, S.~Skrede, A.~O. Vik-Mo, G.~Jassim, S.~Le~Hellard, and V.~M. Steen.
+\newblock Lipogenic effects of psychotropic drugs: focus on the srebp system.
+\newblock {\em Front Biosci (Landmark Ed)}, 16(1):49--60, 2011.
+
 \bibitem{fisher2013cancer}
 R.~Fisher, L.~Pusztai, and C.~Swanton.
 \newblock Cancer heterogeneity: implications for targeted therapeutics.
@@ -71,17 +194,84 @@ J.~C. Foster, J.~M. Taylor, and S.~J. Ruberg.
 \newblock Subgroup identification from randomized clinical trial data.
 \newblock {\em Statistics in medicine}, 30(24):2867--2880, 2011.
 
+\bibitem{friedman2010regularization}
+J.~Friedman, T.~Hastie, and R.~Tibshirani.
+\newblock Regularization paths for generalized linear models via coordinate
+  descent.
+\newblock {\em Journal of statistical software}, 33(1):1, 2010.
+
+\bibitem{friedman2001greedy}
+J.~H. Friedman.
+\newblock Greedy function approximation: a gradient boosting machine.
+\newblock {\em Annals of statistics}, pages 1189--1232, 2001.
+
+\bibitem{fuchikami2016potential}
+M.~Fuchikami, S.~Yamamoto, S.~Morinobu, S.~Okada, Y.~Yamawaki, and S.~Yamawaki.
+\newblock The potential use of histone deacetylase inhibitors in the treatment
+  of depression.
+\newblock {\em Progress in Neuro-Psychopharmacology and Biological Psychiatry},
+  64:320--324, 2016.
+
 \bibitem{gail1985testing}
 M.~Gail and R.~Simon.
 \newblock Testing for qualitative interactions between treatment effects and
   patient subsets.
 \newblock {\em Biometrics}, pages 361--372, 1985.
 
+\bibitem{gao2013tetrandrine}
+S.~Gao, Y.-L. Cui, C.-Q. Yu, Q.-S. Wang, and Y.~Zhang.
+\newblock Tetrandrine exerts antidepressant-like effects in animal models: role
+  of brain-derived neurotrophic factor.
+\newblock {\em Behavioural brain research}, 238:79--85, 2013.
+
+\bibitem{goodfellow2016deep}
+I.~Goodfellow, Y.~Bengio, A.~Courville, and Y.~Bengio.
+\newblock Deep learning. vol. 1, 2016.
+
+\bibitem{goodman1998three}
+A.~B. Goodman.
+\newblock Three independent lines of evidence suggest retinoids as causal to
+  schizophrenia.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  95(13):7240--7244, 1998.
+
+\bibitem{gottlieb2011predict}
+A.~Gottlieb, G.~Y. Stein, E.~Ruppin, and R.~Sharan.
+\newblock Predict: a method for inferring novel drug indications with
+  application to personalized medicine.
+\newblock {\em Molecular systems biology}, 7(1), 2011.
+
 \bibitem{green2012modeling}
 D.~P. Green and H.~L. Kern.
 \newblock Modeling heterogeneous treatment effects in survey experiments with
   bayesian additive regression trees.
 \newblock {\em Public opinion quarterly}, 76(3):491--511, 2012.
+
+\bibitem{grunbaum2008relationship}
+N.~Grunbaum-Novak, M.~Taler, I.~Gil-Ad, A.~Weizman, H.~Cohen, and R.~Weizman.
+\newblock Relationship between antidepressants and igf-1 system in the brain:
+  possible role in cognition.
+\newblock {\em European Neuropsychopharmacology}, 18(6):431--438, 2008.
+
+\bibitem{guo2014metformin}
+M.~Guo, J.~Mi, Q.-M. Jiang, J.-M. Xu, Y.-Y. Tang, G.~Tian, and B.~Wang.
+\newblock Metformin may produce antidepressant effects through improvement of
+  cognitive function among depressed patients with diabetes mellitus.
+\newblock {\em Clinical and experimental pharmacology and physiology},
+  41(9):650--656, 2014.
+
+\bibitem{he2009learning}
+H.~He and E.~A. Garcia.
+\newblock Learning from imbalanced data.
+\newblock {\em IEEE Transactions on knowledge and data engineering},
+  21(9):1263--1284, 2009.
+
+\bibitem{heyes2015genetic}
+S.~Heyes, W.~S. Pratt, E.~Rees, S.~Dahimene, L.~Ferron, M.~J. Owen, and A.~C.
+  Dolphin.
+\newblock Genetic disruption of voltage-gated calcium channels in psychiatric
+  and neurological disorders.
+\newblock {\em Progress in neurobiology}, 134:36--54, 2015.
 
 \bibitem{hill2013assessing}
 J.~Hill and Y.-S. Su.
@@ -96,17 +286,98 @@ J.~L. Hill.
 \newblock {\em Journal of Computational and Graphical Statistics},
   20(1):217--240, 2011.
 
+\bibitem{hinton2012neural}
+G.~Hinton, N.~Srivastava, and K.~Swersky.
+\newblock Neural networks for machine learning lecture 6a overview of
+  mini-batch gradient descent.
+\newblock {\em Cited on}, 14(8), 2012.
+
+\bibitem{hobara2010molecular}
+T.~Hobara, S.~Uchida, K.~Otsuki, H.~Yamagata, and Y.~Watanabe.
+\newblock Molecular mechanisms of the antidepressant actions by histone
+  deacetylase inhibitors.
+\newblock {\em Neuroscience Research}, (68):e316, 2010.
+
+\bibitem{hodos2016silico}
+R.~A. Hodos, B.~A. Kidd, K.~Shameer, B.~P. Readhead, and J.~T. Dudley.
+\newblock In silico methods for drug repurposing and pharmacology.
+\newblock {\em Wiley Interdisciplinary Reviews: Systems Biology and Medicine},
+  8(3):186--210, 2016.
+
+\bibitem{huang2014drugcomboranker}
+L.~Huang, F.~Li, J.~Sheng, X.~Xia, J.~Ma, M.~Zhan, and S.~T. Wong.
+\newblock Drugcomboranker: drug combination discovery based on target network
+  analysis.
+\newblock {\em Bioinformatics}, 30(12):i228--i236, 2014.
+
+\bibitem{hyman2013psychiatric}
+S.~E. Hyman.
+\newblock Psychiatric drug development: diagnosing a crisis.
+\newblock In {\em Cerebrum: the Dana forum on brain science}, volume 2013. Dana
+  Foundation, 2013.
+
 \bibitem{imai2013estimating}
 K.~Imai, M.~Ratkovic, et~al.
 \newblock Estimating treatment effect heterogeneity in randomized program
   evaluation.
 \newblock {\em The Annals of Applied Statistics}, 7(1):443--470, 2013.
 
+\bibitem{iranpour2016effects}
+N.~Iranpour, A.~Zandifar, M.~Farokhnia, A.~Goguol, H.~Yekehtaz, M.-R.
+  Khodaie-Ardakani, B.~Salehi, S.~Esalatmanesh, A.~Zeionoddini,
+  P.~Mohammadinejad, et~al.
+\newblock The effects of pioglitazone adjuvant therapy on negative symptoms of
+  patients with chronic schizophrenia: a double-blind and placebo-controlled
+  trial.
+\newblock {\em Human Psychopharmacology: Clinical and Experimental},
+  31(2):103--112, 2016.
+
+\bibitem{jahn2004metyrapone}
+H.~Jahn, M.~Schick, F.~Kiefer, M.~Kellner, A.~Yassouridis, and K.~Wiedemann.
+\newblock Metyrapone as additive treatment in major depression: a double-blind
+  and placebo-controlled trial.
+\newblock {\em Archives of general psychiatry}, 61(12):1235--1244, 2004.
+
 \bibitem{johansson2016learning}
 F.~Johansson, U.~Shalit, and D.~Sontag.
 \newblock Learning representations for counterfactual inference.
 \newblock In {\em International conference on machine learning}, pages
   3020--3029, 2016.
+
+\bibitem{katalinic2013ketamine}
+N.~Katalinic, R.~Lai, A.~Somogyi, P.~B. Mitchell, P.~Glue, and C.~K. Loo.
+\newblock Ketamine as a new treatment for depression: a review of its efficacy
+  and adverse effects.
+\newblock {\em Australian \& New Zealand Journal of Psychiatry},
+  47(8):710--727, 2013.
+
+\bibitem{kessler2015anxious}
+R.~C. Kessler, N.~A. Sampson, P.~Berglund, M.~Gruber, A.~Al-Hamzawi,
+  L.~Andrade, B.~Bunting, K.~Demyttenaere, S.~Florescu, G.~De~Girolamo, et~al.
+\newblock Anxious and non-anxious major depressive disorder in the world health
+  organization world mental health surveys.
+\newblock {\em Epidemiology and psychiatric sciences}, 24(3):210--226, 2015.
+
+\bibitem{kingma2014adam}
+D.~P. Kingma and J.~Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem{krakowski2011cholesterol}
+M.~Krakowski and P.~Czobor.
+\newblock Cholesterol and cognition in schizophrenia: a double-blind study of
+  patients randomized to clozapine, olanzapine and haloperidol.
+\newblock {\em Schizophrenia research}, 130(1-3):27--33, 2011.
+
+\bibitem{krystal2014psychiatric}
+J.~H. Krystal and M.~W. State.
+\newblock Psychiatric disorders: diagnosis to therapy.
+\newblock {\em Cell}, 157(1):201--214, 2014.
+
+\bibitem{kuhn2016sider}
+M.~Kuhn, I.~Letunic, L.~J. Jensen, and P.~Bork.
+\newblock The sider database of drugs and side effects.
+\newblock {\em Nucleic acids research}, 44(D1):D1075--D1079, 2016.
 
 \bibitem{kunzel2019metalearners}
 S.~R. K{\"u}nzel, J.~S. Sekhon, P.~J. Bickel, and B.~Yu.
@@ -115,6 +386,45 @@ S.~R. K{\"u}nzel, J.~S. Sekhon, P.~J. Bickel, and B.~Yu.
 \newblock {\em Proceedings of the national academy of sciences},
   116(10):4156--4165, 2019.
 
+\bibitem{lamb2006connectivity}
+J.~Lamb, E.~D. Crawford, D.~Peck, J.~W. Modell, I.~C. Blat, M.~J. Wrobel,
+  J.~Lerner, J.-P. Brunet, A.~Subramanian, K.~N. Ross, et~al.
+\newblock The connectivity map: using gene-expression signatures to connect
+  small molecules, genes, and disease.
+\newblock {\em science}, 313(5795):1929--1935, 2006.
+
+\bibitem{lerner2016targeting}
+V.~Lerner, P.~J. McCaffery, and M.~S. Ritsner.
+\newblock Targeting retinoid receptors to treat schizophrenia: rationale and
+  progress to date.
+\newblock {\em CNS drugs}, 30(4):269--280, 2016.
+
+\bibitem{li2012new}
+J.~Li and Z.~Lu.
+\newblock A new method for computational drug repositioning using drug pairwise
+  similarity.
+\newblock In {\em 2012 IEEE International Conference on Bioinformatics and
+  Biomedicine}, pages 1--4. IEEE, 2012.
+
+\bibitem{liu2015similarity}
+Z.~Liu, F.~Guo, J.~Gu, Y.~Wang, Y.~Li, D.~Wang, L.~Lu, D.~Li, and F.~He.
+\newblock Similarity-based prediction for anatomical therapeutic chemical
+  classification of drugs by integrating multiple data sources.
+\newblock {\em Bioinformatics}, 31(11):1788--1795, 2015.
+
+\bibitem{lotfi2018review}
+M.~Lotfi~Shahreza, N.~Ghadiri, S.~R. Mousavi, J.~Varshosaz, and J.~R. Green.
+\newblock A review of network-based approaches to drug repositioning.
+\newblock {\em Briefings in bioinformatics}, 19(5):878--892, 2018.
+
+\bibitem{lu2010molecular}
+J.-M. L{\"u}, J.~Nurko, S.~M. Weakley, J.~Jiang, P.~Kougias, P.~H. Lin, Q.~Yao,
+  and C.~Chen.
+\newblock Molecular mechanisms and clinical applications of
+  nordihydroguaiaretic acid (ndga) and its derivatives: an update.
+\newblock {\em Medical science monitor: international medical journal of
+  experimental and clinical research}, 16(5):RA93, 2010.
+
 \bibitem{lu2018estimating}
 M.~Lu, S.~Sadiq, D.~J. Feaster, and H.~Ishwaran.
 \newblock Estimating individual treatment effect in observational data using
@@ -122,16 +432,70 @@ M.~Lu, S.~Sadiq, D.~J. Feaster, and H.~Ishwaran.
 \newblock {\em Journal of Computational and Graphical Statistics},
   27(1):209--219, 2018.
 
+\bibitem{luo2016drug}
+H.~Luo, J.~Wang, M.~Li, J.~Luo, X.~Peng, F.-X. Wu, and Y.~Pan.
+\newblock Drug repositioning based on comprehensive similarity measures and
+  bi-random walk algorithm.
+\newblock {\em Bioinformatics}, 32(17):2664--2671, 2016.
+
+\bibitem{maia2012phenylpiperazine}
+R.~d.~C. Maia, R.~Tesch, and C.~A.~M. Fraga.
+\newblock Phenylpiperazine derivatives: a patent review (2006--present).
+\newblock {\em Expert opinion on therapeutic patents}, 22(10):1169--1178, 2012.
+
+\bibitem{malhi2013potential}
+G.~S. Malhi, M.~Tanious, P.~Das, C.~M. Coulston, and M.~Berk.
+\newblock Potential mechanisms of action of lithium in bipolar disorder.
+\newblock {\em CNS drugs}, 27(2):135--153, 2013.
+
+\bibitem{mao2015augmentation}
+Y.-M. Mao and M.-D. Zhang.
+\newblock Augmentation with antidepressants in schizophrenia treatment: benefit
+  or risk.
+\newblock {\em Neuropsychiatric disease and treatment}, 11:701, 2015.
+
+\bibitem{markey1984intraneuronal}
+S.~Markey, J.~Johannessen, C.~Chiueh, R.~Burns, and M.~Herkenham.
+\newblock Intraneuronal generation of a pyridinium metabolite may cause
+  drug-induced parkinsonism.
+\newblock {\em Nature}, 311(5985):464--467, 1984.
+
+\bibitem{mcallister2016antidepressant}
+R.~H. McAllister-Williams, I.~M. Anderson, A.~Finkelmeyer, P.~Gallagher, H.~C.
+  Grunze, P.~M. Haddad, T.~Hughes, A.~J. Lloyd, C.~Mamasoula, E.~McColl, et~al.
+\newblock Antidepressant augmentation with metyrapone for treatment-resistant
+  depression (the add study): a double-blind, randomised, placebo-controlled
+  trial.
+\newblock {\em The Lancet Psychiatry}, 3(2):117--127, 2016.
+
+\bibitem{napolitano2013drug}
+F.~Napolitano, Y.~Zhao, V.~M. Moreira, R.~Tagliaferri, J.~Kere, M.~D’Amato,
+  and D.~Greco.
+\newblock Drug repositioning: a machine-learning approach through data
+  integration.
+\newblock {\em Journal of cheminformatics}, 5(1):30, 2013.
+
 \bibitem{neeland2018cardiovascular}
 I.~J. Neeland, P.~Poirier, and J.-P. Despr{\'e}s.
 \newblock Cardiovascular and metabolic heterogeneity of obesity: clinical
   challenges and implications for management.
 \newblock {\em Circulation}, 137(13):1391--1406, 2018.
 
+\bibitem{nestler2010animal}
+E.~J. Nestler and S.~E. Hyman.
+\newblock Animal models of neuropsychiatric disorders.
+\newblock {\em Nature neuroscience}, 13(10):1161, 2010.
+
 \bibitem{nie2017quasi}
 X.~Nie and S.~Wager.
 \newblock Quasi-oracle estimation of heterogeneous treatment effects.
 \newblock {\em arXiv preprint arXiv:1712.04912}, 2017.
+
+\bibitem{oh2014network}
+M.~Oh, J.~Ahn, and Y.~Yoon.
+\newblock A network-based classification model for deriving novel drug-disease
+  associations and assessing their molecular actions.
+\newblock {\em PloS one}, 9(10), 2014.
 
 \bibitem{o2018cystic}
 W.~K. O'Neal and M.~R. Knowles.
@@ -140,12 +504,69 @@ W.~K. O'Neal and M.~R. Knowles.
 \newblock {\em Annual review of genomics and human genetics}, 19:201--222,
   2018.
 
+\bibitem{otowa2016meta}
+T.~Otowa, K.~Hek, M.~Lee, E.~M. Byrne, S.~S. Mirza, M.~G. Nivard, T.~Bigdeli,
+  S.~H. Aggen, D.~Adkins, A.~Wolen, et~al.
+\newblock Meta-analysis of genome-wide association studies of anxiety
+  disorders.
+\newblock {\em Molecular psychiatry}, 21(10):1391--1399, 2016.
+
+\bibitem{pammolli2011productivity}
+F.~Pammolli, L.~Magazzini, and M.~Riccaboni.
+\newblock The productivity crisis in pharmaceutical r\&d.
+\newblock {\em Nature reviews Drug discovery}, 10(6):428--438, 2011.
+
+\bibitem{pathak2013natural}
+L.~Pathak, Y.~Agrawal, and A.~Dhir.
+\newblock Natural polyphenols in the management of major depression.
+\newblock {\em Expert opinion on investigational drugs}, 22(7):863--880, 2013.
+
+\bibitem{pepper2007utility}
+S.~D. Pepper, E.~K. Saunders, L.~E. Edwards, C.~L. Wilson, and C.~J. Miller.
+\newblock The utility of mas5 expression summary and detection call algorithms.
+\newblock {\em BMC bioinformatics}, 8(1):273, 2007.
+
+\bibitem{persons2016longitudinal}
+J.~E. Persons, J.~G. Robinson, W.~H. Coryell, M.~E. Payne, and J.~G.
+  Fiedorowicz.
+\newblock Longitudinal study of low serum ldl and depressive symptom onset in
+  postmenopause.
+\newblock {\em The Journal of clinical psychiatry}, 77(2):212, 2016.
+
+\bibitem{phoebe2008identifying}
+Y.-P. Phoebe~Chen and F.~Chen.
+\newblock Identifying targets for drug discovery using bioinformatics.
+\newblock {\em Expert Opinion on Therapeutic Targets}, 12(4):383--389, 2008.
+
+\bibitem{powell2017transcriptomic}
+T.~R. Powell, T.~Murphy, S.~H. Lee, J.~Price, S.~Thuret, and G.~Breen.
+\newblock Transcriptomic profiling of human hippocampal progenitor cells
+  treated with antidepressants and its application in drug repositioning.
+\newblock {\em Journal of Psychopharmacology}, 31(3):338--345, 2017.
+
 \bibitem{powers2017some}
 S.~Powers, J.~Qian, K.~Jung, A.~Schuler, N.~H. Shah, T.~Hastie, and
   R.~Tibshirani.
 \newblock Some methods for heterogeneous treatment effect estimation in
   high-dimensions.
 \newblock {\em arXiv preprint arXiv:1707.00102}, 2017.
+
+\bibitem{raeder2006srebp}
+M.~B. Raeder, J.~Fern{\o}, A.~O. Vik-Mo, and V.~M. Steen.
+\newblock Srebp activation by antipsychotic-and antidepressant-drugs in
+  cultured human liver cells: relevance for metabolic side-effects?
+\newblock {\em Molecular and cellular biochemistry}, 289(1-2):167--173, 2006.
+
+\bibitem{ritchie2015limma}
+M.~E. Ritchie, B.~Phipson, D.~Wu, Y.~Hu, C.~W. Law, W.~Shi, and G.~K. Smyth.
+\newblock limma powers differential expression analyses for rna-sequencing and
+  microarray studies.
+\newblock {\em Nucleic acids research}, 43(7):e47--e47, 2015.
+
+\bibitem{robertson1982major}
+M.~M. Robertson and M.~Trimble.
+\newblock Major tranquillisers used as antidepressants: a review.
+\newblock {\em Journal of affective disorders}, 4(3):173--193, 1982.
 
 \bibitem{rubin2005causal}
 D.~B. Rubin.
@@ -154,10 +575,79 @@ D.~B. Rubin.
 \newblock {\em Journal of the American Statistical Association},
   100(469):322--331, 2005.
 
+\bibitem{schwarz2008valproate}
+C.~Schwarz, A.~Volz, C.~Li, and S.~Leucht.
+\newblock Valproate for schizophrenia.
+\newblock {\em Cochrane Database of Systematic Reviews}, (3), 2008.
+
+\bibitem{sepehry2007selective}
+A.~A. Sepehry, S.~Potvin, R.~{\'E}lie, and E.~Stip.
+\newblock Selective serotonin reuptake inhibitor (ssri) add-on therapy for the
+  negative symptoms of schizophrenia: a meta-analysis., 2007.
+
+\bibitem{shih2018drug}
+H.-P. Shih, X.~Zhang, and A.~M. Aronov.
+\newblock Drug discovery effectiveness from the standpoint of therapeutic
+  mechanisms and indications.
+\newblock {\em Nature Reviews Drug Discovery}, 17(1):19, 2018.
+
+\bibitem{shulman2005neuroactive}
+Y.~Shulman and P.~G. Tibbo.
+\newblock Neuroactive steroids in schizophrenia.
+\newblock {\em The Canadian Journal of Psychiatry}, 50(11):695--702, 2005.
+
+\bibitem{sigalas2012metyrapone}
+P.~D. Sigalas, H.~Garg, S.~Watson, R.~H. McAllister-Williams, and I.~N.
+  Ferrier.
+\newblock Metyrapone in treatment-resistant depression.
+\newblock {\em Therapeutic advances in psychopharmacology}, 2(4):139--149,
+  2012.
+
 \bibitem{simes1986improved}
 R.~J. Simes.
 \newblock An improved bonferroni procedure for multiple tests of significance.
 \newblock {\em Biometrika}, 73(3):751--754, 1986.
+
+\bibitem{smith2013effects}
+R.~C. Smith, H.~Jin, C.~Li, N.~Bark, A.~Shekhar, S.~Dwivedi, C.~Mortiere,
+  J.~Lohr, Q.~Hu, and J.~M. Davis.
+\newblock Effects of pioglitazone on metabolic abnormalities, psychopathology,
+  and cognitive function in schizophrenic patients treated with antipsychotic
+  medication: a randomized double-blind study.
+\newblock {\em Schizophrenia research}, 143(1):18--24, 2013.
+
+\bibitem{so2017analysis}
+H.-C. So, C.~K.-L. Chau, W.-T. Chiu, K.-S. Ho, C.-P. Lo, S.~H.-Y. Yim, and
+  P.-C. Sham.
+\newblock Analysis of genome-wide association data highlights candidates for
+  drug repositioning in psychiatry.
+\newblock {\em Nature neuroscience}, 20(10):1342, 2017.
+
+\bibitem{so2019implications}
+H.-C. So and Y.-H. Wong.
+\newblock Implications of de novo mutations in guiding drug discovery: A study
+  of four neuropsychiatric disorders.
+\newblock {\em Journal of psychiatric research}, 110:83--92, 2019.
+
+\bibitem{sommer2014efficacy}
+I.~E. Sommer, R.~van Westrhenen, M.~J. Begemann, L.~D. de~Witte, S.~Leucht, and
+  R.~S. Kahn.
+\newblock Efficacy of anti-inflammatory agents to improve symptoms in patients
+  with schizophrenia: an update.
+\newblock {\em Schizophrenia bulletin}, 40(1):181--191, 2014.
+
+\bibitem{spielmans2016adjunctive}
+G.~I. Spielmans, M.~I. Berman, E.~Linardatos, N.~Z. Rosenlicht, A.~Perry, and
+  A.~C. Tsai.
+\newblock Adjunctive atypical antipsychotic treatment for major depressive
+  disorder: a meta-analysis of depression, quality of life, and safety
+  outcomes.
+\newblock {\em Focus}, 14(2):244--265, 2016.
+
+\bibitem{standal1977pizotifen}
+J.~E. Standal.
+\newblock Pizotifen as an antidepressant.
+\newblock {\em Acta Psychiatrica Scandinavica}, 56(4):276--279, 1977.
 
 \bibitem{su2011interaction}
 X.~Su, K.~Meneses, P.~McNees, and W.~O. Johnson.
@@ -170,6 +660,42 @@ X.~Su, K.~Meneses, P.~McNees, and W.~O. Johnson.
 X.~Su, C.-L. Tsai, H.~Wang, D.~M. Nickerson, and B.~Li.
 \newblock Subgroup analysis via recursive partitioning.
 \newblock {\em Journal of Machine Learning Research}, 10(Feb):141--158, 2009.
+
+\bibitem{subramanian2017next}
+A.~Subramanian, R.~Narayan, S.~M. Corsello, D.~D. Peck, T.~E. Natoli, X.~Lu,
+  J.~Gould, J.~F. Davis, A.~A. Tubelli, J.~K. Asiedu, et~al.
+\newblock A next generation connectivity map: L1000 platform and the first
+  1,000,000 profiles.
+\newblock {\em Cell}, 171(6):1437--1452, 2017.
+
+\bibitem{subramanian2005gene}
+A.~Subramanian, P.~Tamayo, V.~K. Mootha, S.~Mukherjee, B.~L. Ebert, M.~A.
+  Gillette, A.~Paulovich, S.~L. Pomeroy, T.~R. Golub, E.~S. Lander, et~al.
+\newblock Gene set enrichment analysis: a knowledge-based approach for
+  interpreting genome-wide expression profiles.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  102(43):15545--15550, 2005.
+
+\bibitem{suresh2013antidopaminergic}
+P.~Suresh and A.~B. Raju.
+\newblock Antidopaminergic effects of leucine and genistein on shizophrenic rat
+  models.
+\newblock {\em Neurosciences}, 18(3):235--241, 2013.
+
+\bibitem{swerdlow2015hmg}
+D.~I. Swerdlow, D.~Preiss, K.~B. Kuchenbaecker, M.~V. Holmes, J.~E. Engmann,
+  T.~Shah, R.~Sofat, S.~Stender, P.~C. Johnson, R.~A. Scott, et~al.
+\newblock Hmg-coenzyme a reductase inhibition, type 2 diabetes, and bodyweight:
+  evidence from genetic analysis and randomised trials.
+\newblock {\em The Lancet}, 385(9965):351--361, 2015.
+
+\bibitem{thompson1998effects}
+J.~Thompson, G.~Butterfield, U.~Gylfadottir, J.~Yesavage, R.~Marcus, R.~Hintz,
+  A.~Pearman, and A.~Hoffman.
+\newblock Effects of human growth hormone, insulin-like growth factor i, and
+  diet and exercise on body composition of obese postmenopausal women.
+\newblock {\em The Journal of Clinical Endocrinology \& Metabolism},
+  83(5):1477--1484, 1998.
 
 \bibitem{tian2014simple}
 L.~Tian, A.~A. Alizadeh, A.~J. Gentles, and R.~Tibshirani.
@@ -184,12 +710,58 @@ J.~Tibshirani, S.~Athey, S.~Wager, R.~Friedberg, L.~Miner, M.~Wright, M.~J.
 \newblock Package ‘grf’.
 \newblock 2018.
 
+\bibitem{usall2011raloxifene}
+J.~Usall, E.~Huerta-Ramos, R.~Iniesta, J.~Cobo, S.~Araya, M.~Roca,
+  A.~Serrano-Blanco, F.~Teba, and S.~Ochoa.
+\newblock Raloxifene as an adjunctive treatment for postmenopausal women with
+  schizophrenia: a double-blind, randomized, placebo-controlled trial.
+\newblock {\em Journal of Clinical Psychiatry}, 72(11):1552, 2011.
+
+\bibitem{usall2016raloxifene}
+J.~Usall, E.~Huerta-Ramos, J.~Labad, J.~Cobo, C.~N{\'u}{\~n}ez, M.~Creus, G.~G.
+  Par{\'e}s, D.~Cuadras, J.~Franco, E.~Miquel, et~al.
+\newblock Raloxifene as an adjunctive treatment for postmenopausal women with
+  schizophrenia: a 24-week double-blind, randomized, parallel,
+  placebo-controlled trial.
+\newblock {\em Schizophrenia bulletin}, 42(2):309--317, 2016.
+
+\bibitem{van2018concomitant}
+P.~D. Van and K.~L. Thomas.
+\newblock Concomitant calcium channel blocker and antipsychotic therapy in
+  patients with schizophrenia: Efficacy analysis of the catie-sz phase 1 data.
+\newblock {\em Annals of clinical psychiatry: official journal of the American
+  Academy of Clinical Psychiatrists}, 30(1):6--16, 2018.
+
+\bibitem{van1998socio}
+R.~Van~den Oever, B.~Hepp, B.~Debbaut, and I.~Simon.
+\newblock Socio-economic impact of chronic venous insufficiency: an
+  underestimated public health problem.
+\newblock {\em International angiology}, 17(3):161, 1998.
+
 \bibitem{vanderlaan2017mutations}
 P.~A. VanderLaan, D.~Rangachari, S.~M. Mockus, V.~Spotlow, H.~V. Reddi,
   J.~Malcolm, M.~S. Huberman, L.~J. Joseph, S.~S. Kobayashi, and D.~B. Costa.
 \newblock Mutations in tp53, pik3ca, pten and other genes in egfr mutated lung
   cancers: Correlation with clinical outcomes.
 \newblock {\em Lung Cancer}, 106:17--21, 2017.
+
+\bibitem{varghese2001hypothalamic}
+F.~P. Varghese and E.~S. Brown.
+\newblock The hypothalamic-pituitary-adrenal axis in major depressive disorder:
+  a brief primer for primary care physicians.
+\newblock {\em Primary care companion to the Journal of clinical psychiatry},
+  3(4):151, 2001.
+
+\bibitem{varma2006bias}
+S.~Varma and R.~Simon.
+\newblock Bias in error estimation when using cross-validation for model
+  selection.
+\newblock {\em BMC bioinformatics}, 7(1):91, 2006.
+
+\bibitem{vigo2016estimating}
+D.~Vigo, G.~Thornicroft, and R.~Atun.
+\newblock Estimating the true global burden of mental illness.
+\newblock {\em The Lancet Psychiatry}, 3(2):171--178, 2016.
 
 \bibitem{wager2018estimation}
 S.~Wager and S.~Athey.
@@ -198,9 +770,71 @@ S.~Wager and S.~Athey.
 \newblock {\em Journal of the American Statistical Association},
   113(523):1228--1242, 2018.
 
+\bibitem{wahlqvist2012increased}
+M.~L. Wahlqvist, M.-S. Lee, S.-Y. Chuang, C.-C. Hsu, H.-N. Tsai, S.-H. Yu, and
+  H.-Y. Chang.
+\newblock Increased risk of affective disorders in type 2 diabetes is minimized
+  by sulfonylurea and metformin combination: a population-based cohort study.
+\newblock {\em BMC medicine}, 10(1):150, 2012.
+
+\bibitem{wang2017webgestalt}
+J.~Wang, S.~Vasaikar, Z.~Shi, M.~Greer, and B.~Zhang.
+\newblock Webgestalt 2017: a more comprehensive, powerful, flexible and
+  interactive gene set enrichment analysis toolkit.
+\newblock {\em Nucleic acids research}, 45(W1):W130--W137, 2017.
+
+\bibitem{wang1996molecular}
+T.~T. Wang, N.~Sathyamoorthy, and J.~M. Phang.
+\newblock Molecular effects of genistein on estrogen receptor mediated
+  pathways.
+\newblock {\em Carcinogenesis}, 17(2):271--275, 1996.
+
+\bibitem{wei2013development}
+W.-Q. Wei, R.~M. Cronin, H.~Xu, T.~A. Lasko, L.~Bastarache, and J.~C. Denny.
+\newblock Development and evaluation of an ensemble resource linking
+  medications to their indications.
+\newblock {\em Journal of the American Medical Informatics Association},
+  20(5):954--961, 2013.
+
+\bibitem{wu2013free}
+J.~Q. Wu, T.~R. Kosten, and X.~Y. Zhang.
+\newblock Free radicals, antioxidant defense systems, and schizophrenia.
+\newblock {\em Progress in Neuro-Psychopharmacology and Biological Psychiatry},
+  46:200--206, 2013.
+
+\bibitem{xu2015phenopredict}
+R.~Xu and Q.~Wang.
+\newblock Phenopredict: a disease phenome-wide drug repositioning approach
+  towards schizophrenia drug discovery.
+\newblock {\em Journal of biomedical informatics}, 56:348--355, 2015.
+
+\bibitem{yamagami1989effect}
+S.~Yamagami and K.~Soejima.
+\newblock Effect of maprotiline combined with conventional neuroleptics against
+  negative symptoms of chronic schizophrenia.
+\newblock {\em Drugs under experimental and clinical research}, 15(4):171--176,
+  1989.
+
 \bibitem{yang2015effects}
 L.~Yang, Y.~Zhao, Y.~Wang, L.~Liu, X.~Zhang, B.~Li, and R.~Cui.
 \newblock The effects of psychological stress on depression.
 \newblock {\em Current neuropharmacology}, 13(4):494--504, 2015.
+
+\bibitem{you2013relationship}
+H.~You, W.~Lu, S.~Zhao, Z.~Hu, and J.~Zhang.
+\newblock The relationship between statins and depression: a review of the
+  literature.
+\newblock {\em Expert opinion on pharmacotherapy}, 14(11):1467--1476, 2013.
+
+\bibitem{zeiler2012adadelta}
+M.~D. Zeiler.
+\newblock Adadelta: an adaptive learning rate method.
+\newblock {\em arXiv preprint arXiv:1212.5701}, 2012.
+
+\bibitem{zou2005regularization}
+H.~Zou and T.~Hastie.
+\newblock Regularization and variable selection via the elastic net.
+\newblock {\em Journal of the royal statistical society: series B (statistical
+  methodology)}, 67(2):301--320, 2005.
 
 \end{thebibliography}
