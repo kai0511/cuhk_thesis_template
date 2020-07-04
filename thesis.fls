@@ -332,6 +332,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/libertine/LinLibertineT
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/drug-target.tex
 INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/drug-target.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-ot1.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1--base.tfm
 INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/ite.tex
 INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/ite.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
@@ -373,9 +376,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-ot1.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1--base.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm

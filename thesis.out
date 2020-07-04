@@ -20,21 +20,32 @@
 \BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 20
 \BOOKMARK [1][-]{section.3.5}{Conclusion}{chapter.3}% 21
 \BOOKMARK [0][-]{chapter.4}{Drug Target Discovery}{}% 22
-\BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 23
-\BOOKMARK [0][-]{chapter.5}{Evaluating ITE of Genetic RFs on Survival}{}% 24
-\BOOKMARK [1][-]{section.5.1}{Motivation}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.2}{Background}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.3}{Overview of Related Work}{chapter.5}% 27
-\BOOKMARK [2][-]{subsection.5.3.1}{Background Methods}{section.5.3}% 28
-\BOOKMARK [2][-]{subsection.5.3.2}{Causal Forests}{section.5.3}% 29
-\BOOKMARK [1][-]{section.5.4}{ITE Framework}{chapter.5}% 30
-\BOOKMARK [2][-]{subsection.5.4.1}{Novel Tests for the presence of heterogeneity}{section.5.4}% 31
-\BOOKMARK [2][-]{subsection.5.4.2}{Modeling Survival Outcomes}{section.5.4}% 32
-\BOOKMARK [1][-]{section.5.5}{Experiment Results}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.5.1}{Simulations Studies}{section.5.5}% 34
-\BOOKMARK [2][-]{subsection.5.5.2}{Applications on Real Data}{section.5.5}% 35
-\BOOKMARK [1][-]{section.5.6}{Conclusion}{chapter.5}% 36
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 37
-\BOOKMARK [0][-]{appendix.A}{Proof of Propositions}{}% 38
-\BOOKMARK [0][-]{appendix.B}{Publication List}{}% 39
-\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 40
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.1.1}{Motivation}{section.4.1}% 24
+\BOOKMARK [2][-]{subsection.4.1.2}{Related Works}{section.4.1}% 25
+\BOOKMARK [1][-]{section.4.2}{Datasets and Methods}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.2.1}{Datasets}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.2}{Methods}{section.4.2}% 28
+\BOOKMARK [1][-]{section.4.3}{Experiment Results}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.3.1}{Model Performance}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.2}{External Validation}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.3}{Literature Support}{section.4.3}% 32
+\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Evaluating ITE of Genetic RFs on Survival}{}% 35
+\BOOKMARK [1][-]{section.5.1}{Motivation}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.2}{Background}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.3}{Overview of Related Work}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.3.1}{Background Methods}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.2}{Causal Forests}{section.5.3}% 40
+\BOOKMARK [1][-]{section.5.4}{ITE Framework}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.4.1}{Novel Tests for the presence of heterogeneity}{section.5.4}% 42
+\BOOKMARK [2][-]{subsection.5.4.2}{Modeling Survival Outcomes}{section.5.4}% 43
+\BOOKMARK [1][-]{section.5.5}{Experiment Results}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.5.1}{Simulations Studies}{section.5.5}% 45
+\BOOKMARK [2][-]{subsection.5.5.2}{Applications on Real Data}{section.5.5}% 46
+\BOOKMARK [1][-]{section.5.6}{Conclusion}{chapter.5}% 47
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 48
+\BOOKMARK [0][-]{appendix.A}{Proof of Propositions}{}% 49
+\BOOKMARK [0][-]{appendix.B}{Publication List}{}% 50
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 51

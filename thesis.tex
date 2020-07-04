@@ -4,7 +4,7 @@
 % avoid too much space automatically padded between paragraphs to fill a page:
 \raggedbottom
 \usepackage{graphics}
-\usepackage{thesis}
+\usepackage{thesis} 
 \usepackage{rotating}
 
 % packages for including image
@@ -37,11 +37,11 @@
 
 \input{symbols}
 
-%=======================================================
+% =======================================================
 \begin{document}
 
-%cover page information
-\thesistitle{Research on Machine Learning for Biomedical Research}
+% cover page information
+\thesistitle{Research on Machine Learning for Drug Discovery and Precison Medicine}
 \authorname{ZHAO, Kai}
 \degree{Doctor of Philosophy}
 \programme{School of Biomedical Sciences}
@@ -57,18 +57,17 @@
 }
 \coverpage
 
-%This is the cover page.
-
+% cover page.
 \pagenumbering{roman}
 
-%=======================================================
+% =======================================================
 
-%abstract
+% abstract
 \abstractpage
 
 %=======================================================
 
-%acknowledgement
+% acknowledgement
 \acknowledgementpage
 
 %=======================================================
@@ -78,19 +77,19 @@
 
 %=======================================================
 
-%preamble sections
+% preamble sections
 \tableofcontents
 \listoffigures
 \listoftables
 \input{symbols-and-acronyms.tex}
 %=======================================================
 
-%initialization
+% initialization
 \newpage
 \pagenumbering{arabic}
 \pagestyle{headings}
 
-% 1.5 line spacing for normal texts, required by GS of CUHK
+% 1.5 or 2 line spacing for normal texts, required by GS of CUHK
 \setstretch{1.5}
 
 % =======================================================
