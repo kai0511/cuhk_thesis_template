@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  4 JUL 2020 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  5 JUL 2020 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -821,29 +821,29 @@ Chapter 4.
 
 ] [31] [32] [33] [34] [35] [36] [37]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 61.
+(Font)              scaled to size 12.0pt on input line 57.
  [38] [39] [40] [41]
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 120--141
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 116--137
  [] 
  []
 
 
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 147--166
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 143--162
  [] 
  []
 
 
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 172--191
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 168--187
  [] 
  []
 
 
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 197--216
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 193--212
  [] 
  []
 
 
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 223--242
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 219--238
  [] 
  []
 
@@ -913,12 +913,12 @@ Here is how much of TeX's memory you used:
  13682 multiletter control sequences out of 15000+600000
  92742 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,23n,37p,3174b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,23n,37p,3173b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (105 pages, 598272 bytes).
+Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (105 pages, 598285 bytes).
 PDF statistics:
- 1535 PDF objects out of 1728 (max. 8388607)
- 1399 compressed objects within 14 object streams
+ 1534 PDF objects out of 1728 (max. 8388607)
+ 1398 compressed objects within 14 object streams
  443 named destinations out of 1000 (max. 500000)
  409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
