@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {4.3.3}Literature Support}{44}{subsection.4.3.3}
 \contentsline {section}{\numberline {4.4}Discussion}{48}{section.4.4}
 \contentsline {section}{\numberline {4.5}Conclusion}{50}{section.4.5}
-\contentsline {chapter}{\numberline {5}Evaluating ITE of Genetic RFs on Survival}{52}{chapter.5}
+\contentsline {chapter}{\numberline {5}Evaluating Individualized Treatment Effects (ITE) of Genetic Risk Factors on Patient Outcomes}{52}{chapter.5}
 \contentsline {section}{\numberline {5.1}Motivation}{52}{section.5.1}
 \contentsline {section}{\numberline {5.2}Background}{53}{section.5.2}
 \contentsline {section}{\numberline {5.3}Overview of Related Work}{54}{section.5.3}
