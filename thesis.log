@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  13 JUL 2020 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  13 JUL 2020 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,127 +819,92 @@ Overfull \hbox (2.40869pt too wide) in paragraph at lines 302--302
 Chapter 4.
 [30
 
-] [31] [32] [33] [34] [35] [36] [37]
+]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 57.
- [38] [39] [40] [41]
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 116--137
+(Font)              scaled to size 12.0pt on input line 9.
+ [31] [32] [33] [34] [35] [36] [37] [38] [39]
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 104--125
  [] 
  []
 
 
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 143--162
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 131--150
  [] 
  []
 
 
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 168--187
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 156--175
  [] 
  []
 
 
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 193--212
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 181--200
  [] 
  []
 
 
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 219--238
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 207--226
  [] 
  []
 
-[42] [43] [44] [45] [46] [47] [48] [49] [50]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/ite.tex [51]
+
+Overfull \hbox (12.61807pt too wide) in paragraph at lines 230--231
+\OT1/LinuxLibertineT-TLF/m/n/12 thresh-olds with FDR<0.05, in-di-cat-ing the pro-posed method in-deed 're-discovered' known
+ []
+
+[40] [41] [42] [43] [44] [45] [46] [47] [48]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/ite.tex [49]
 Chapter 5.
-[52
+[50
 
-] [53]
-Overfull \hbox (162.29936pt too wide) has occurred while \output is active
-\OT1/LinuxLibertineT-TLF/m/n/10.95 54 \OT1/LinuxLibertineT-TLF/m/it/10.95 CHAPTER 5.  EVALUATING INDIVIDUALIZED TREATMENT EFFECTS (ITE) OF GENETIC RISK FACTORS ON PATIENT OUTCOMES
- []
-
-[54] [55]
+] [51] [52] [53]
 Overfull \hbox (6.70284pt too wide) in paragraph at lines 54--55
 \OT1/LinuxLibertineT-TLF/m/n/12 se-lect im-por-tant fea-tures, well cap-ture high in-ter-ac-tions present, and have good asymp-
  []
 
-
-Overfull \hbox (162.29936pt too wide) has occurred while \output is active
-\OT1/LinuxLibertineT-TLF/m/n/10.95 56 \OT1/LinuxLibertineT-TLF/m/it/10.95 CHAPTER 5.  EVALUATING INDIVIDUALIZED TREATMENT EFFECTS (ITE) OF GENETIC RISK FACTORS ON PATIENT OUTCOMES
- []
-
-[56] [57]
-Overfull \hbox (162.29936pt too wide) has occurred while \output is active
-\OT1/LinuxLibertineT-TLF/m/n/10.95 58 \OT1/LinuxLibertineT-TLF/m/it/10.95 CHAPTER 5.  EVALUATING INDIVIDUALIZED TREATMENT EFFECTS (ITE) OF GENETIC RISK FACTORS ON PATIENT OUTCOMES
- []
-
-[58]
+[54] [55] [56]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 132.
- [59]
+ [57]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (162.29936pt too wide) has occurred while \output is active
-\OT1/LinuxLibertineT-TLF/m/n/10.95 60 \OT1/LinuxLibertineT-TLF/m/it/10.95 CHAPTER 5.  EVALUATING INDIVIDUALIZED TREATMENT EFFECTS (ITE) OF GENETIC RISK FACTORS ON PATIENT OUTCOMES
- []
-
-[60] [61]
-Overfull \hbox (162.29936pt too wide) has occurred while \output is active
-\OT1/LinuxLibertineT-TLF/m/n/10.95 62 \OT1/LinuxLibertineT-TLF/m/it/10.95 CHAPTER 5.  EVALUATING INDIVIDUALIZED TREATMENT EFFECTS (ITE) OF GENETIC RISK FACTORS ON PATIENT OUTCOMES
- []
-
-[62] [63]
-Overfull \hbox (162.29936pt too wide) has occurred while \output is active
-\OT1/LinuxLibertineT-TLF/m/n/10.95 64 \OT1/LinuxLibertineT-TLF/m/it/10.95 CHAPTER 5.  EVALUATING INDIVIDUALIZED TREATMENT EFFECTS (ITE) OF GENETIC RISK FACTORS ON PATIENT OUTCOMES
- []
-
-[64] [65]
-Overfull \hbox (162.29936pt too wide) has occurred while \output is active
-\OT1/LinuxLibertineT-TLF/m/n/10.95 66 \OT1/LinuxLibertineT-TLF/m/it/10.95 CHAPTER 5.  EVALUATING INDIVIDUALIZED TREATMENT EFFECTS (ITE) OF GENETIC RISK FACTORS ON PATIENT OUTCOMES
- []
-
-[66] [67]
-Overfull \hbox (162.29936pt too wide) has occurred while \output is active
-\OT1/LinuxLibertineT-TLF/m/n/10.95 68 \OT1/LinuxLibertineT-TLF/m/it/10.95 CHAPTER 5.  EVALUATING INDIVIDUALIZED TREATMENT EFFECTS (ITE) OF GENETIC RISK FACTORS ON PATIENT OUTCOMES
- []
-
-[68]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/conclusion.tex [69]
+) [58] [59] [60] [61] [62] [63] [64] [65] [66]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/conclusion.tex [67]
 Chapter 6.
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/proof.tex [70
+) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/proof.tex [68
 
 ]
 Appendix A.
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/publications.tex [71
+) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/publications.tex [69
 
 ]
 Appendix B.
-) [72
+) [70
 
-] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.bbl [73
+] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.bbl [71
 
-] [74] [75] [76] [77]
-Underfull \hbox (badness 1231) in paragraph at lines 411--416
+] [72] [73] [74] [75]
+Underfull \hbox (badness 1231) in paragraph at lines 406--411
 []\OT1/LinuxLibertineT-TLF/m/n/12 E. Grassi, M. Mor-tilla, L. Ama-ducci, S. Pal-lanti, A. Paz-za-gli, F. Galassi,
  []
 
-[78] [79] [80] [81] [82]
-Underfull \hbox (badness 1931) in paragraph at lines 769--773
+[76] [77] [78] [79] [80]
+Underfull \hbox (badness 1931) in paragraph at lines 729--733
 \OT1/LinuxLibertineT-TLF/m/n/12 in pa-tients with chronic in-flam-ma-tion of con-nec-tive tis-sue.  \OT1/LinuxLibertineT-TLF/m/it/12 PloS one\OT1/LinuxLibertineT-TLF/m/n/12 ,
  []
 
-[83]
-Underfull \hbox (badness 3118) in paragraph at lines 836--840
+[81]
+Underfull \hbox (badness 3118) in paragraph at lines 796--800
 []\OT1/LinuxLibertineT-TLF/m/n/12 Y.-M. Mao and M.-D. Zhang.  Aug-men-ta-tion with an-tide-pres-sants in
  []
 
-[84] [85] [86] [87] [88] [89] [90] [91] [92])
+[82] [83] [84] [85] [86] [87] [88] [89])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
- [93]
+ [90]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
  (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 270FC75B84EC05CF5DFE500370303D5B;3471.
+(rerunfilecheck)             Checksum: 83229ED439F71C5195C370545094EAB9;3461.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -947,18 +912,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 10542 strings out of 492649
- 164238 string characters out of 6129623
- 263076 words of memory out of 5000000
- 13682 multiletter control sequences out of 15000+600000
+ 10519 strings out of 492649
+ 163759 string characters out of 6129623
+ 262607 words of memory out of 5000000
+ 13672 multiletter control sequences out of 15000+600000
  92742 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,23n,37p,3173b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,23n,37p,2899b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (105 pages, 599220 bytes).
+Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (102 pages, 591365 bytes).
 PDF statistics:
- 1535 PDF objects out of 1728 (max. 8388607)
- 1399 compressed objects within 14 object streams
- 443 named destinations out of 1000 (max. 500000)
+ 1498 PDF objects out of 1728 (max. 8388607)
+ 1365 compressed objects within 14 object streams
+ 430 named destinations out of 1000 (max. 500000)
  409 words of extra memory for PDF output out of 10000 (max. 10000000)
 

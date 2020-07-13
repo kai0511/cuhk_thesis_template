@@ -35,32 +35,32 @@
 \contentsline {section}{\numberline {4.1}Introduction}{30}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Motivation}{30}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Related Works}{32}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Datasets and Methods}{35}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Datasets}{35}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Methods}{37}{subsection.4.2.2}
-\contentsline {subsubsection}{Model Specifications}{37}{section*.18}
-\contentsline {subsubsection}{Performance Evaluation}{39}{section*.19}
-\contentsline {subsubsection}{External Validation}{39}{section*.20}
-\contentsline {section}{\numberline {4.3}Experiment Results}{40}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Model Performance}{40}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}External Validation}{42}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Literature Support}{44}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Discussion}{48}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{50}{section.4.5}
-\contentsline {chapter}{\numberline {5}Evaluating Individualized Treatment Effects (ITE) of Genetic Risk Factors on Patient Outcomes}{52}{chapter.5}
-\contentsline {section}{\numberline {5.1}Motivation}{52}{section.5.1}
-\contentsline {section}{\numberline {5.2}Background}{53}{section.5.2}
-\contentsline {section}{\numberline {5.3}Overview of Related Work}{54}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Background Methods}{54}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Causal Forests}{57}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}ITE Framework}{60}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Novel Tests for the presence of heterogeneity}{61}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Modeling Survival Outcomes}{64}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Experiment Results}{64}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Simulations Studies}{64}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Applications on Real Data}{69}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Conclusion}{69}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusion}{70}{chapter.6}
-\contentsline {chapter}{\numberline {A}Proof of Propositions}{71}{appendix.A}
-\contentsline {chapter}{\numberline {B}Publication List}{72}{appendix.B}
-\contentsline {chapter}{Bibliography}{73}{appendix.B}
+\contentsline {section}{\numberline {4.2}Datasets and Methods}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Datasets}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Methods}{35}{subsection.4.2.2}
+\contentsline {subsubsection}{Model Specifications}{36}{section*.18}
+\contentsline {subsubsection}{Predictive Performance Evaluation}{37}{section*.19}
+\contentsline {subsubsection}{External Validation of drug targets}{38}{section*.20}
+\contentsline {section}{\numberline {4.3}Results}{38}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Model Performance}{38}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}External Validation}{40}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Literature Support (comment: only grammar corrections)}{42}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Discussion}{46}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion}{48}{section.4.5}
+\contentsline {chapter}{\numberline {5}Evaluating ITE of Genetic Risk Factors on Patient Outcomes}{50}{chapter.5}
+\contentsline {section}{\numberline {5.1}Motivation}{50}{section.5.1}
+\contentsline {section}{\numberline {5.2}Background}{51}{section.5.2}
+\contentsline {section}{\numberline {5.3}Overview of Related Work}{52}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Background Methods}{52}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Causal Forests}{55}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}ITE Framework}{58}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Novel Tests for the presence of heterogeneity}{59}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Modeling Survival Outcomes}{62}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Experiment Results}{62}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Simulations Studies}{62}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Applications on Real Data}{67}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Conclusion}{67}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusion}{68}{chapter.6}
+\contentsline {chapter}{\numberline {A}Proof of Propositions}{69}{appendix.A}
+\contentsline {chapter}{\numberline {B}Publication List}{70}{appendix.B}
+\contentsline {chapter}{Bibliography}{71}{appendix.B}

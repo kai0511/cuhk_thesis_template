@@ -1,4 +1,4 @@
-\chapter{Evaluating Individualized Treatment Effects (ITE) of Genetic Risk Factors on Patient Outcomes}
+\chapter{Evaluating ITE of Genetic Risk Factors on Patient Outcomes}
 \label{chap:ite}
 
 \section{Motivation}
@@ -25,7 +25,7 @@
       \bY = f (\bX, \bW) + \mathbf{\epsilon},
     \end{equation}
     Where $\mathbf{\epsilon}$ follows $N(\mathbf{0}, \bSigma)$. $\bSigma$ is the covariance matrix.
-
+ 
     \textbf{Assumption} assume $\bX, \bW, \bY$ fulfill unconfoundedness assumption (randomization conditional on the covariates), 
     \begin{equation}
       \label{eqn:uncfd}
@@ -311,7 +311,7 @@
     \label{Tab:ite_sim_res}%
     \end{table}%
 
-    To explore the reliability of our developed statistical tests and compare them with the \textR{test\_calibration} (TC) from GRF, we repeated application of our ITE framework with different random seed to the above simulation scenarios 500 times and examined the fitting of our approach with the statistical tests and test\_calibration for each run. We calculated the proportion of repeats with p-values $\leq 0.05$ for every statistical test. Because of no heterogeneity in scenarios 1 and 9, the proportion of tests returning significant findings (\textit{p} <0.05)  in scenarios 1 and 9 represents the type I error rates. The same proportion represent the power of statistical methods for other simulation scenarios. Simulation results are shown in table \ref{Tab:ite_sim_res}.
+    To explore the reliability of our developed statistical tests and compare them with the \textR{test\_calibration} (TC) from GRF, we repeated application of our ITE framework with different random seed to the above simulation scenarios 500 times and examined the fitting of our approach with the statistical tests and test\_calibration for each run. We calculated the proportion of repeats with p-values $\leq 0.05$ for every statistical test. Because of no heterogeneity in scenarios 1 and 9, the proportion of tests returning significant findings ($p <0.05$) in scenarios 1 and 9 represents the type I error rates. The same proportion represent the power of statistical methods for other simulation scenarios. Simulation results are shown in table \ref{Tab:ite_sim_res}.
 
     The statistical tests $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ and TC showed good validity in our simulations. They all had strong power in capturing the presence of heterogeneity, and notably our methods with $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ completely dominated TC provided in package GRF across all simulation scenarios except 1 and 9. In scenarios 1 and 9 they all showed relatively low type I error rate, with roughly 0.05 for statistical tests using $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ and 0.002 for TC. Type I error rates for our methods were also within an acceptable range, and TC had lower type I error rate than our methods. However, our methods with $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ were more powerful in detecting the presence of heterogeneity.
 
@@ -320,6 +320,4 @@
   \subsection{Applications on Real Data}
 \section{Conclusion}
 \label{sec:ite_conclusion}
-
-Bibliography data is put in database.bib.
 \chapterend

@@ -107,11 +107,6 @@ J.~C. Ballenger.
 \newblock {\em Primary care companion to the Journal of clinical psychiatry},
   2(3):71, 2000.
 
-\bibitem{barros2006estrogen}
-R.~P. Barros, U.~F. Machado, and J.-{\AA}. Gustafsson.
-\newblock Estrogen receptors: new players in diabetes mellitus.
-\newblock {\em Trends in molecular medicine}, 12(9):425--431, 2006.
-
 \bibitem{basler2018co}
 M.~Basler, M.~M. Lindstrom, J.~J. LaStant, J.~M. Bradshaw, T.~D. Owens,
   C.~Schmidt, E.~Maurits, C.~Tsu, H.~S. Overkleeft, C.~J. Kirk, et~al.
@@ -459,13 +454,6 @@ H.~He and E.~A. Garcia.
 \newblock {\em IEEE Transactions on knowledge and data engineering},
   21(9):1263--1284, 2009.
 
-\bibitem{heidenreich2011forecasting}
-P.~A. Heidenreich, J.~G. Trogdon, O.~A. Khavjou, J.~Butler, K.~Dracup, M.~D.
-  Ezekowitz, E.~A. Finkelstein, Y.~Hong, S.~C. Johnston, A.~Khera, et~al.
-\newblock Forecasting the future of cardiovascular disease in the united
-  states: a policy statement from the american heart association.
-\newblock {\em Circulation}, 123(8):933--944, 2011.
-
 \bibitem{hemrick2002comparison}
 S.~K. Hemrick-Luecke and D.~C. Evans.
 \newblock Comparison of the potency of mdl 100,907 and sb 242084 in blocking
@@ -589,14 +577,6 @@ F.~Johansson, U.~Shalit, and D.~Sontag.
 \newblock In {\em International conference on machine learning}, pages
   3020--3029, 2016.
 
-\bibitem{jones2000aromatase}
-M.~E. Jones, A.~W. Thorburn, K.~L. Britt, K.~N. Hewitt, N.~G. Wreford,
-  J.~Proietto, O.~K. Oz, B.~J. Leury, K.~M. Robertson, S.~Yao, et~al.
-\newblock Aromatase-deficient (arko) mice have a phenotype of increased
-  adiposity.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  97(23):12735--12740, 2000.
-
 \bibitem{kandoi2015prediction}
 G.~Kandoi, M.~L. Acencio, and N.~Lemke.
 \newblock Prediction of druggable proteins using machine learning and systems
@@ -670,17 +650,6 @@ S.~R. K{\"u}nzel, J.~S. Sekhon, P.~J. Bickel, and B.~Yu.
 \newblock {\em Proceedings of the national academy of sciences},
   116(10):4156--4165, 2019.
 
-\bibitem{kvien2004epidemiology}
-T.~K. Kvien.
-\newblock Epidemiology and burden of illness of rheumatoid arthritis.
-\newblock {\em Pharmacoeconomics}, 22(1):1--12, 2004.
-
-\bibitem{lam1989capsaicin}
-F.~Lam and W.~Ferrell.
-\newblock Capsaicin suppresses substance p-induced joint inflammation in the
-  rat.
-\newblock {\em Neuroscience letters}, 105(1-2):155--158, 1989.
-
 \bibitem{lam1990mediators}
 F.~Lam and W.~Ferrell.
 \newblock Mediators of substance p-induced inflammation in the rat knee joint.
@@ -710,15 +679,6 @@ E.~B. Landman, R.~L. Miclea, C.~A. van Blitterswijk, and M.~Karperien.
 \newblock Small molecule inhibitors of wnt/$\beta$-catenin signaling block
   il-1$\beta$-and tnf$\alpha$-induced cartilage degradation.
 \newblock {\em Arthritis research \& therapy}, 15(4):R93, 2013.
-
-\bibitem{laslett2012worldwide}
-L.~J. Laslett, P.~Alagona, B.~A. Clark, J.~P. Drozda, F.~Saldivar, S.~R.
-  Wilson, C.~Poe, and M.~Hart.
-\newblock The worldwide environment of cardiovascular disease: prevalence,
-  diagnosis, therapy, and policy issues: a report from the american college of
-  cardiology.
-\newblock {\em Journal of the American College of Cardiology}, 60(25
-  Supplement):S1--S49, 2012.
 
 \bibitem{lee2013pathway}
 Y.~H. Lee, J.-H. Kim, and G.~G. Song.
@@ -878,14 +838,6 @@ K.~Miyamoto, B.~Ohkawara, M.~Ito, A.~Masuda, A.~Hirakawa, T.~Sakai, H.~Hiraiwa,
 \newblock Fluoxetine ameliorates cartilage degradation in osteoarthritis by
   inhibiting wnt/$\beta$-catenin signaling.
 \newblock {\em PLoS One}, 12(9):e0184388, 2017.
-
-\bibitem{mozaffarian2015executive}
-D.~Mozaffarian, E.~J. Benjamin, A.~S. Go, D.~K. Arnett, M.~J. Blaha,
-  M.~Cushman, S.~De~Ferranti, J.-P. Despr{\'e}s, H.~J. Fullerton, V.~J. Howard,
-  et~al.
-\newblock Executive summary: heart disease and stroke statistics—2015 update:
-  a report from the american heart association.
-\newblock {\em Circulation}, 131(4):434--441, 2015.
 
 \bibitem{muglia2002dopamine}
 P.~Muglia, A.~Petronis, E.~Mundo, S.~Lander, T.~Cate, and J.~Kennedy.
@@ -1176,13 +1128,6 @@ D.~I. Swerdlow, D.~Preiss, K.~B. Kuchenbaecker, M.~V. Holmes, J.~E. Engmann,
   evidence from genetic analysis and randomised trials.
 \newblock {\em The Lancet}, 385(9965):351--361, 2015.
 
-\bibitem{takeda2003progressive}
-K.~Takeda, K.~Toda, T.~Saibara, M.~Nakagawa, K.~Saika, T.~Onishi, T.~Sugiura,
-  and Y.~Shizuta.
-\newblock Progressive development of insulin resistance phenotype in male mice
-  with complete aromatase (cyp19) deficiency.
-\newblock {\em Journal of Endocrinology}, 176(2):237--246, 2003.
-
 \bibitem{tein2008short}
 I.~Tein, O.~Elpeleg, B.~Ben-Zeev, S.~H. Korman, A.~Lossos, D.~Lev,
   T.~Lerman-Sagie, E.~Leshinsky-Silver, J.~Vockley, G.~T. Berry, et~al.
@@ -1325,20 +1270,6 @@ W.-Q. Wei, J.~D. Mosley, L.~Bastarache, and J.~C. Denny.
   resource (medi) using a large practice-based dataset.
 \newblock In {\em AMIA Annual Symposium Proceedings}, volume 2013, page 1448.
   American Medical Informatics Association, 2013.
-
-\bibitem{weigt2015effects}
-C.~Weigt, T.~Hertrampf, U.~Flenker, F.~H{\"u}lsemann, P.~Kurnaz, K.~H.
-  Fritzemeier, and P.~Diel.
-\newblock Effects of estradiol, estrogen receptor subtype-selective agonists
-  and genistein on glucose metabolism in leptin resistant female zucker
-  diabetic fatty (zdf) rats.
-\newblock {\em The Journal of steroid biochemistry and molecular biology},
-  154:12--22, 2015.
-
-\bibitem{wilson2011drug}
-D.~Wilson.
-\newblock Drug firms face billions in losses in’11 as patents end.
-\newblock {\em The New York Times}, 7, 2011.
 
 \bibitem{wu2013free}
 J.~Q. Wu, T.~R. Kosten, and X.~Y. Zhang.

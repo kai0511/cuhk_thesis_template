@@ -2,51 +2,50 @@ This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: ieee.bst
-Reallocated field_info (elt_size=4) to 10221 items from 5000.
 Database file #1: database.bib
 Warning--can't use both volume and number fields in costa2010machine
 Warning--there's a number but no volume in hobara2010molecular
 Warning--there's a number but no volume in schwarz2008valproate
 Warning--empty journal in tibshirani2018package
-You've used 227 entries,
+You've used 217 entries,
             2118 wiz_defined-function locations,
-            1771 strings with 58069 characters,
-and the built_in function-call counts, 95337 in all, are:
-= -- 9013
-> -- 6425
+            1720 strings with 55443 characters,
+and the built_in function-call counts, 90803 in all, are:
+= -- 8592
+> -- 6082
 < -- 14
-+ -- 2565
-- -- 2304
-* -- 8391
-:= -- 16433
-add.period$ -- 684
-call.type$ -- 227
-change.case$ -- 1801
++ -- 2428
+- -- 2178
+* -- 7973
+:= -- 15636
+add.period$ -- 654
+call.type$ -- 217
+change.case$ -- 1711
 chr.to.int$ -- 0
-cite$ -- 231
-duplicate$ -- 2588
-empty$ -- 5989
-format.name$ -- 2304
-if$ -- 18686
+cite$ -- 221
+duplicate$ -- 2479
+empty$ -- 5732
+format.name$ -- 2178
+if$ -- 17819
 int.to.chr$ -- 0
-int.to.str$ -- 227
-missing$ -- 222
-newline$ -- 1134
-num.names$ -- 454
-pop$ -- 1443
+int.to.str$ -- 217
+missing$ -- 212
+newline$ -- 1084
+num.names$ -- 434
+pop$ -- 1373
 preamble$ -- 1
-purify$ -- 1573
+purify$ -- 1493
 quote$ -- 0
-skip$ -- 1789
+skip$ -- 1714
 stack$ -- 0
-substring$ -- 6022
-swap$ -- 332
+substring$ -- 5752
+swap$ -- 322
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 908
+type$ -- 868
 warning$ -- 4
-while$ -- 841
-width$ -- 230
-write$ -- 2488
+while$ -- 803
+width$ -- 220
+write$ -- 2378
 (There were 4 warnings)
