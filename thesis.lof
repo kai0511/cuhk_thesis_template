@@ -1,5 +1,6 @@
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A single decision tree in which drug-induced gene expression data are used to predict treatment effects}}{11}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A hypothetical classification task using linear SVM. Two observations fall into the wrong sides after the introduction of slack variables}}{15}{figure.1.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

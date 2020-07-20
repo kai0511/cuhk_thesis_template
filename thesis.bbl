@@ -7,6 +7,14 @@ J.~M. Aerts, R.~Ottenhoff, A.~S. Powlson, A.~Grefhorst, M.~Van~Eijk, P.~F.
   insulin sensitivity.
 \newblock {\em Diabetes}, 56(5):1341--1349, 2007.
 
+\bibitem{agarwal2010psmb8}
+A.~K. Agarwal, C.~Xing, G.~N. DeMartino, D.~Mizrachi, M.~D. Hernandez, A.~B.
+  Sousa, L.~M. De~Villarreal, H.~G. Dos~Santos, and A.~Garg.
+\newblock Psmb8 encoding the $\beta$5i proteasome subunit is mutated in joint
+  contractures, muscle atrophy, microcytic anemia, and panniculitis-induced
+  lipodystrophy syndrome.
+\newblock {\em The American Journal of Human Genetics}, 87(6):866--872, 2010.
+
 \bibitem{aggarwal2018influence}
 C.~Aggarwal, C.~W. Davis, R.~Mick, J.~C. Thompson, S.~Ahmed, S.~Jeffries,
   S.~Bagley, P.~Gabriel, T.~L. Evans, J.~M. Bauml, et~al.
@@ -58,12 +66,6 @@ J.~D. Amsterdam, J.~Shults, I.~Soeller, J.~J. Mao, K.~Rockwell, and A.~B.
   anxious depressed humans-an exploratory study.
 \newblock {\em Alternative therapies in health and medicine}, 18(5):44, 2012.
 
-\bibitem{asghari1998differential}
-V.~Asghari, J.~F. Wang, J.~S. Reiach, and L.~T. Young.
-\newblock Differential effects of mood stabilizers on fos/jun proteins and ap-1
-  dna binding activity in human neuroblastoma sh-sy5y cells.
-\newblock {\em Molecular Brain Research}, 58(1-2):95--102, 1998.
-
 \bibitem{assmann2000subgroup}
 S.~F. Assmann, S.~J. Pocock, L.~E. Enos, and L.~E. Kasten.
 \newblock Subgroup analysis and other (mis) uses of baseline data in clinical
@@ -107,12 +109,24 @@ J.~C. Ballenger.
 \newblock {\em Primary care companion to the Journal of clinical psychiatry},
   2(3):71, 2000.
 
+\bibitem{baskin2016renaissance}
+I.~I. Baskin, D.~Winkler, and I.~V. Tetko.
+\newblock A renaissance of neural networks in drug discovery.
+\newblock {\em Expert opinion on drug discovery}, 11(8):785--795, 2016.
+
 \bibitem{basler2018co}
 M.~Basler, M.~M. Lindstrom, J.~J. LaStant, J.~M. Bradshaw, T.~D. Owens,
   C.~Schmidt, E.~Maurits, C.~Tsu, H.~S. Overkleeft, C.~J. Kirk, et~al.
 \newblock Co-inhibition of immunoproteasome subunits lmp2 and lmp7 is required
   to block autoimmunity.
 \newblock {\em EMBO reports}, 19(12):e46512, 2018.
+
+\bibitem{basu2018iterative}
+S.~Basu, K.~Kumbier, J.~B. Brown, and B.~Yu.
+\newblock Iterative random forests to discover predictive and stable high-order
+  interactions.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  115(8):1943--1948, 2018.
 
 \bibitem{bengio2013representation}
 Y.~Bengio, A.~Courville, and P.~Vincent.
@@ -146,6 +160,11 @@ I.~Berman, B.~L. Sapers, H.~H. Chang, M.~F. Losonczy, J.~Schmildler, and A.~I.
   with clomipramine.
 \newblock {\em Journal of clinical psychopharmacology}, 15(3):206--210, 1995.
 
+\bibitem{bishop2006pattern}
+C.~M. Bishop.
+\newblock {\em Pattern recognition and machine learning}.
+\newblock springer, 2006.
+
 \bibitem{bouzakri2007map4k4}
 K.~Bouzakri and J.~R. Zierath.
 \newblock Map4k4 gene silencing in human skeletal muscle prevents tumor
@@ -156,6 +175,18 @@ K.~Bouzakri and J.~R. Zierath.
 L.~Breiman.
 \newblock Random forests.
 \newblock {\em Machine learning}, 45(1):5--32, 2001.
+
+\bibitem{breiman1984classification}
+L.~Breiman, J.~Friedman, C.~J. Stone, and R.~A. Olshen.
+\newblock {\em Classification and regression trees}.
+\newblock CRC press, 1984.
+
+\bibitem{buitinck2013api}
+L.~Buitinck, G.~Louppe, M.~Blondel, F.~Pedregosa, A.~Mueller, O.~Grisel,
+  V.~Niculae, P.~Prettenhofer, A.~Gramfort, J.~Grobler, et~al.
+\newblock Api design for machine learning software: experiences from the
+  scikit-learn project.
+\newblock {\em arXiv preprint arXiv:1309.0238}, 2013.
 
 \bibitem{burgdorf2016insulin}
 J.~Burgdorf, X.-l. Zhang, E.~M. Colechio, N.~Ghoreishi-Haack, A.~Gross, R.~A.
@@ -178,6 +209,11 @@ N.~V. Chawla, K.~W. Bowyer, L.~O. Hall, and W.~P. Kegelmeyer.
 \newblock Smote: synthetic minority over-sampling technique.
 \newblock {\em Journal of artificial intelligence research}, 16:321--357, 2002.
 
+\bibitem{chen2018rise}
+H.~Chen, O.~Engkvist, Y.~Wang, M.~Olivecrona, and T.~Blaschke.
+\newblock The rise of deep learning in drug discovery.
+\newblock {\em Drug discovery today}, 23(6):1241--1250, 2018.
+
 \bibitem{chen2004case}
 W.~Chen, S.~Duan, J.~Zhou, Y.~Sun, Y.~Zheng, N.~Gu, G.~Feng, and L.~He.
 \newblock A case--control study provides evidence of association for a
@@ -191,6 +227,13 @@ V.~Chernozhukov, M.~Demirer, E.~Duflo, and I.~Fernandez-Val.
 \newblock Generic machine learning inference on heterogenous treatment effects
   in randomized experiments.
 \newblock Technical report, National Bureau of Economic Research, 2018.
+
+\bibitem{ching2018opportunities}
+T.~Ching, D.~S. Himmelstein, B.~K. Beaulieu-Jones, A.~A. Kalinin, B.~T. Do,
+  G.~P. Way, E.~Ferrero, P.-M. Agapow, M.~Zietz, M.~M. Hoffman, et~al.
+\newblock Opportunities and obstacles for deep learning in biology and
+  medicine.
+\newblock {\em Journal of The Royal Society Interface}, 15(141):20170387, 2018.
 
 \bibitem{chipman2010bart}
 H.~A. Chipman, E.~I. George, R.~E. McCulloch, et~al.
@@ -275,6 +318,12 @@ F.~DELL'ACCIO and F.~Cailotto.
   possible first-in-kind dmoad.
 \newblock {\em Osteoarthritis and Cartilage}, 2017.
 
+\bibitem{dimasi2016innovation}
+J.~A. DiMasi, H.~G. Grabowski, and R.~W. Hansen.
+\newblock Innovation in the pharmaceutical industry: new estimates of r\&d
+  costs.
+\newblock {\em Journal of health economics}, 47:20--33, 2016.
+
 \bibitem{dudley2011exploiting}
 J.~T. Dudley, T.~Deshpande, and A.~J. Butte.
 \newblock Exploiting drug--disease relationships for computational drug
@@ -288,6 +337,13 @@ B.~A. Ellenbroek and E.~P. Prinssen.
 \newblock {\em Behavioural pharmacology}, 26(1 and 2-Special Issue):33--44,
   2015.
 
+\bibitem{ellinghaus2020genomewide}
+D.~Ellinghaus, F.~Degenhardt, L.~Bujanda, M.~Buti, A.~Albillos, P.~Invernizzi,
+  J.~Fern{\'a}ndez, D.~Prati, G.~Baselli, R.~Asselta, et~al.
+\newblock Genomewide association study of severe covid-19 with respiratory
+  failure.
+\newblock {\em New England Journal of Medicine}, 2020.
+
 \bibitem{emig2013drug}
 D.~Emig, A.~Ivliev, O.~Pustovalova, L.~Lancashire, S.~Bureeva, Y.~Nikolsky, and
   M.~Bessarabova.
@@ -300,13 +356,6 @@ E.~B. Fauman, B.~K. Rai, and E.~S. Huang.
 \newblock Structure-based druggability assessment—identifying suitable
   targets for small molecule therapeutics.
 \newblock {\em Current opinion in chemical biology}, 15(4):463--468, 2011.
-
-\bibitem{fedorenko2009pip5k2a}
-O.~Fedorenko, C.~Tang, M.~Sopjani, M.~F{\"o}ller, E.-M. Gehring,
-  N.~Strutz-Seebohm, O.~N. Ureche, S.~Ivanova, A.~Semke, F.~Lang, et~al.
-\newblock Pip5k2a-dependent regulation of excitatory amino acid transporter
-  eaat3.
-\newblock {\em Psychopharmacology}, 206(3):429--435, 2009.
 
 \bibitem{ferno2011lipogenic}
 J.~Ferno, S.~Skrede, A.~O. Vik-Mo, G.~Jassim, S.~Le~Hellard, and V.~M. Steen.
@@ -324,16 +373,22 @@ R.~Fisher, L.~Pusztai, and C.~Swanton.
 \newblock Cancer heterogeneity: implications for targeted therapeutics.
 \newblock {\em British journal of cancer}, 108(3):479--485, 2013.
 
-\bibitem{floresco2009neural}
-S.~B. Floresco, Y.~Zhang, and T.~Enomoto.
-\newblock Neural circuits subserving behavioral flexibility and their relevance
-  to schizophrenia.
-\newblock {\em Behavioural brain research}, 204(2):396--409, 2009.
-
 \bibitem{foster2011subgroup}
 J.~C. Foster, J.~M. Taylor, and S.~J. Ruberg.
 \newblock Subgroup identification from randomized clinical trial data.
 \newblock {\em Statistics in medicine}, 30(24):2867--2880, 2011.
+
+\bibitem{freund1995desicion}
+Y.~Freund and R.~E. Schapire.
+\newblock A desicion-theoretic generalization of on-line learning and an
+  application to boosting.
+\newblock In {\em European conference on computational learning theory}, pages
+  23--37. Springer, 1995.
+
+\bibitem{friedman2001elements}
+J.~Friedman, T.~Hastie, and R.~Tibshirani.
+\newblock {\em The elements of statistical learning}, volume~1.
+\newblock Springer series in statistics New York, 2001.
 
 \bibitem{friedman2010regularization}
 J.~Friedman, T.~Hastie, and R.~Tibshirani.
@@ -359,6 +414,11 @@ M.~Gail and R.~Simon.
   patient subsets.
 \newblock {\em Biometrics}, pages 361--372, 1985.
 
+\bibitem{gambacorti2008part}
+C.~Gambacorti-Passerini.
+\newblock Part i: Milestones in personalised medicine—imatinib.
+\newblock {\em The lancet oncology}, 9(6):600, 2008.
+
 \bibitem{gao2013tetrandrine}
 S.~Gao, Y.-L. Cui, C.-Q. Yu, Q.-S. Wang, and Y.~Zhang.
 \newblock Tetrandrine exerts antidepressant-like effects in animal models: role
@@ -369,13 +429,6 @@ S.~Gao, Y.-L. Cui, C.-Q. Yu, Q.-S. Wang, and Y.~Zhang.
 N.~Garrett, P.~Mapp, S.~Cruwys, B.~Kidd, and D.~Blake.
 \newblock Role of substance p in inflammatory arthritis.
 \newblock {\em Annals of the rheumatic diseases}, 51(8):1014, 1992.
-
-\bibitem{goldman2004targeting}
-P.~S. Goldman-Rakic, S.~A. Castner, T.~H. Svensson, L.~J. Siever, and G.~V.
-  Williams.
-\newblock Targeting the dopamine d 1 receptor in schizophrenia: insights for
-  cognitive dysfunction.
-\newblock {\em Psychopharmacology}, 174(1):3--16, 2004.
 
 \bibitem{golimbet2014study}
 V.~Golimbet, G.~Korsakova, M.~Gabaeva, N.~Velikaia, A.~Snegireva, S.~Kasparov,
@@ -401,13 +454,6 @@ A.~Gottlieb, G.~Y. Stein, E.~Ruppin, and R.~Sharan.
 \newblock Predict: a method for inferring novel drug indications with
   application to personalized medicine.
 \newblock {\em Molecular systems biology}, 7(1), 2011.
-
-\bibitem{grassi1996no}
-E.~Grassi, M.~Mortilla, L.~Amaducci, S.~Pallanti, A.~Pazzagli, F.~Galassi,
-  B.~Guarnieri, C.~Petruzzi, F.~Bolino, L.~Ortenzi, et~al.
-\newblock No evidence of linkage between schizophrenia and d2 dopamine receptor
-  gene locus in italian pedigrees.
-\newblock {\em Neuroscience letters}, 206(2-3):196--198, 1996.
 
 \bibitem{green2012modeling}
 D.~P. Green and H.~L. Kern.
@@ -440,6 +486,11 @@ M.~Guo, J.~Mi, Q.-M. Jiang, J.-M. Xu, Y.-Y. Tang, G.~Tian, and B.~Wang.
 \newblock {\em Clinical and experimental pharmacology and physiology},
   41(9):650--656, 2014.
 
+\bibitem{hamburg2010path}
+M.~A. Hamburg and F.~S. Collins.
+\newblock The path to personalized medicine.
+\newblock {\em New England Journal of Medicine}, 363(4):301--304, 2010.
+
 \bibitem{hashimoto2005functional}
 T.~Hashimoto, K.~Hashimoto, D.~Matsuzawa, E.~Shimizu, Y.~Sekine, T.~Inada,
   N.~Ozaki, N.~Iwata, M.~Harano, T.~Komiyama, et~al.
@@ -454,13 +505,11 @@ H.~He and E.~A. Garcia.
 \newblock {\em IEEE Transactions on knowledge and data engineering},
   21(9):1263--1284, 2009.
 
-\bibitem{hemrick2002comparison}
-S.~K. Hemrick-Luecke and D.~C. Evans.
-\newblock Comparison of the potency of mdl 100,907 and sb 242084 in blocking
-  the serotonin (5-ht) 2 receptor agonist-induced increases in rat serum
-  corticosterone concentrations: evidence for 5-ht2a receptor mediation of the
-  hpa axis.
-\newblock {\em Neuropharmacology}, 42(2):162--169, 2002.
+\bibitem{heshka2008systematic}
+J.~T. Heshka, C.~Palleschi, H.~Howley, B.~Wilson, and P.~S. Wells.
+\newblock A systematic review of perceived risks, psychological and behavioral
+  impacts of genetic testing.
+\newblock {\em Genetics in Medicine}, 10(1):19--32, 2008.
 
 \bibitem{heyes2015genetic}
 S.~Heyes, W.~S. Pratt, E.~Rees, S.~Dahimene, L.~Ferron, M.~J. Owen, and A.~C.
@@ -513,11 +562,10 @@ J.~Hoenicka, E.~Garrido, G.~Ponce, R.~Rodr{\'\i}guez-Jim{\'e}nez,
 \newblock {\em American Journal of Medical Genetics Part B: Neuropsychiatric
   Genetics}, 153(4):948--954, 2010.
 
-\bibitem{howes2009dopamine}
-O.~D. Howes and S.~Kapur.
-\newblock The dopamine hypothesis of schizophrenia: version iii—the final
-  common pathway.
-\newblock {\em Schizophrenia bulletin}, 35(3):549--562, 2009.
+\bibitem{hoerl1970ridge}
+A.~E. Hoerl and R.~W. Kennard.
+\newblock Ridge regression: Biased estimation for nonorthogonal problems.
+\newblock {\em Technometrics}, 12(1):55--67, 1970.
 
 \bibitem{hsu2003practical}
 C.-W. Hsu, C.-C. Chang, C.-J. Lin, et~al.
@@ -534,13 +582,6 @@ S.~E. Hyman.
 \newblock Psychiatric drug development: diagnosing a crisis.
 \newblock In {\em Cerebrum: the Dana forum on brain science}, volume 2013. Dana
   Foundation, 2013.
-
-\bibitem{ichiki2006role}
-T.~Ichiki.
-\newblock Role of camp response element binding protein in cardiovascular
-  remodeling: good, bad, or both?
-\newblock {\em Arteriosclerosis, thrombosis, and vascular biology},
-  26(3):449--455, 2006.
 
 \bibitem{imai2013estimating}
 K.~Imai, M.~Ratkovic, et~al.
@@ -564,12 +605,10 @@ H.~Jahn, M.~Schick, F.~Kiefer, M.~Kellner, A.~Yassouridis, and K.~Wiedemann.
   and placebo-controlled trial.
 \newblock {\em Archives of general psychiatry}, 61(12):1235--1244, 2004.
 
-\bibitem{joeris2012proteasome}
-T.~Joeris, N.~Schmidt, D.~Ermert, P.~Krienke, A.~Visekruna, U.~Kuckelkorn,
-  S.~H. Kaufmann, and U.~Steinhoff.
-\newblock The proteasome system in infection: impact of $\beta$5 and lmp7 on
-  composition, maturation and quantity of active proteasome complexes.
-\newblock {\em PloS one}, 7(6):e39827, 2012.
+\bibitem{james2013introduction}
+G.~James, D.~Witten, T.~Hastie, and R.~Tibshirani.
+\newblock {\em An introduction to statistical learning}, volume 112.
+\newblock Springer, 2013.
 
 \bibitem{johansson2016learning}
 F.~Johansson, U.~Shalit, and D.~Sontag.
@@ -725,6 +764,20 @@ C.~Lietman, B.~Wu, S.~Lechner, A.~Shinar, M.~Sehgal, E.~Rossomacha, P.~Datta,
   osteoarthritis in a murine model of experimental osteoarthritis.
 \newblock {\em JCI insight}, 3(3), 2018.
 
+\bibitem{lievre2008kras}
+A.~Lievre, J.-B. Bachet, V.~Boige, A.~Cayre, D.~Le~Corre, E.~Buc, M.~Ychou,
+  O.~Bouch{\'e}, B.~Landi, C.~Louvet, et~al.
+\newblock Kras mutations as an independent prognostic factor in patients with
+  advanced colorectal cancer treated with cetuximab.
+\newblock {\em Journal of clinical oncology}, 26(3):374--379, 2008.
+
+\bibitem{lipkovich2011subgroup}
+I.~Lipkovich, A.~Dmitrienko, J.~Denne, and G.~Enas.
+\newblock Subgroup identification based on differential effect search—a
+  recursive partitioning method for establishing response to treatment in
+  patient subpopulations.
+\newblock {\em Statistics in medicine}, 30(21):2601--2621, 2011.
+
 \bibitem{lisowska2015substance}
 B.~Lisowska, A.~Lisowski, and K.~Siewruk.
 \newblock Substance p and chronic pain in patients with chronic inflammation of
@@ -743,6 +796,11 @@ Z.~Liu, F.~Guo, J.~Gu, Y.~Wang, Y.~Li, D.~Wang, L.~Lu, D.~Li, and F.~He.
 \newblock Similarity-based prediction for anatomical therapeutic chemical
   classification of drugs by integrating multiple data sources.
 \newblock {\em Bioinformatics}, 31(11):1788--1795, 2015.
+
+\bibitem{lockhart2014significance}
+R.~Lockhart, J.~Taylor, R.~J. Tibshirani, and R.~Tibshirani.
+\newblock A significance test for the lasso.
+\newblock {\em Annals of statistics}, 42(2):413, 2014.
 
 \bibitem{lotfi2018review}
 M.~Lotfi~Shahreza, N.~Ghadiri, S.~R. Mousavi, J.~Varshosaz, and J.~R. Green.
@@ -776,12 +834,6 @@ H.~Luo, J.~Wang, M.~Li, J.~Luo, X.~Peng, F.-X. Wu, and Y.~Pan.
   bi-random walk algorithm.
 \newblock {\em Bioinformatics}, 32(17):2664--2671, 2016.
 
-\bibitem{machado2009role}
-R.~Machado-Vieira, H.~K. Manji, and C.~A. Zarate~Jr.
-\newblock The role of lithium in the treatment of bipolar disorder: convergent
-  evidence for neurotrophic effects as a unifying hypothesis.
-\newblock {\em Bipolar disorders}, 11:92--109, 2009.
-
 \bibitem{maia2012phenylpiperazine}
 R.~d.~C. Maia, R.~Tesch, and C.~A.~M. Fraga.
 \newblock Phenylpiperazine derivatives: a patent review (2006--present).
@@ -804,6 +856,11 @@ S.~Markey, J.~Johannessen, C.~Chiueh, R.~Burns, and M.~Herkenham.
   drug-induced parkinsonism.
 \newblock {\em Nature}, 311(5985):464--467, 1984.
 
+\bibitem{mayr2016deeptox}
+A.~Mayr, G.~Klambauer, T.~Unterthiner, and S.~Hochreiter.
+\newblock Deeptox: toxicity prediction using deep learning.
+\newblock {\em Frontiers in Environmental Science}, 3:80, 2016.
+
 \bibitem{mcallister2016antidepressant}
 R.~H. McAllister-Williams, I.~M. Anderson, A.~Finkelmeyer, P.~Gallagher, H.~C.
   Grunze, P.~M. Haddad, T.~Hughes, A.~J. Lloyd, C.~Mamasoula, E.~McColl, et~al.
@@ -819,12 +876,6 @@ J.~M. McCoy, D.~E. Walkenhorst, K.~S. McCauley, H.~Elaasar, J.~R. Everett, and
   immunomodulatory peptide hormone prolactin.
 \newblock {\em Journal of inflammation}, 12(1):13, 2015.
 
-\bibitem{meltzer20115}
-H.~Y. Meltzer, L.~Sun, and H.~Hashimoto.
-\newblock The 5-ht 2c receptor as a target for schizophrenia.
-\newblock In {\em 5-HT2C Receptors in the Pathophysiology of CNS Disease},
-  pages 275--291. Springer, 2011.
-
 \bibitem{mix2012orphan}
 K.~S. Mix, K.~McMahon, J.~P. McMorrow, D.~E. Walkenhorst, A.~M. Smyth, B.~L.
   Petrella, M.~Gogarty, U.~Fearon, D.~Veale, M.~G. Attur, et~al.
@@ -838,12 +889,6 @@ K.~Miyamoto, B.~Ohkawara, M.~Ito, A.~Masuda, A.~Hirakawa, T.~Sakai, H.~Hiraiwa,
 \newblock Fluoxetine ameliorates cartilage degradation in osteoarthritis by
   inhibiting wnt/$\beta$-catenin signaling.
 \newblock {\em PLoS One}, 12(9):e0184388, 2017.
-
-\bibitem{muglia2002dopamine}
-P.~Muglia, A.~Petronis, E.~Mundo, S.~Lander, T.~Cate, and J.~Kennedy.
-\newblock Dopamine d4 receptor and tyrosine hydroxylase genes in bipolar
-  disorder: evidence for a role of drd4.
-\newblock {\em Molecular Psychiatry}, 7(8):860--866, 2002.
 
 \bibitem{napolitano2013drug}
 F.~Napolitano, Y.~Zhao, V.~M. Moreira, R.~Tagliaferri, J.~Kere, M.~D’Amato,
@@ -863,10 +908,20 @@ E.~J. Nestler and S.~E. Hyman.
 \newblock Animal models of neuropsychiatric disorders.
 \newblock {\em Nature neuroscience}, 13(10):1161, 2010.
 
+\bibitem{ng2009agenda}
+P.~C. Ng, S.~S. Murray, S.~Levy, and J.~C. Venter.
+\newblock An agenda for personalized medicine.
+\newblock {\em Nature}, 461(7265):724--726, 2009.
+
 \bibitem{nie2017quasi}
 X.~Nie and S.~Wager.
 \newblock Quasi-oracle estimation of heterogeneous treatment effects.
 \newblock {\em arXiv preprint arXiv:1712.04912}, 2017.
+
+\bibitem{schizophrenia2014biological}
+S.~W.~G. of~the Psychiatric Genomics~Consortium et~al.
+\newblock Biological insights from 108 schizophrenia-associated genetic loci.
+\newblock {\em Nature}, 511(7510):421--427, 2014.
 
 \bibitem{oh2014network}
 M.~Oh, J.~Ahn, and Y.~Yoon.
@@ -895,22 +950,10 @@ T.~Otowa, K.~Hek, M.~Lee, E.~M. Byrne, S.~S. Mirza, M.~G. Nivard, T.~Bigdeli,
   disorders.
 \newblock {\em Molecular psychiatry}, 21(10):1391--1399, 2016.
 
-\bibitem{ozaki1997lithium}
-N.~Ozaki and D.-M. Chuang.
-\newblock Lithium increases transcription factor binding to ap-1 and cyclic
-  amp-responsive element in cultured neurons and rat brain.
-\newblock {\em Journal of neurochemistry}, 69(6):2336--2344, 1997.
-
 \bibitem{pammolli2011productivity}
 F.~Pammolli, L.~Magazzini, and M.~Riccaboni.
 \newblock The productivity crisis in pharmaceutical r\&d.
 \newblock {\em Nature reviews Drug discovery}, 10(6):428--438, 2011.
-
-\bibitem{pantazopoulos2004differences}
-H.~Pantazopoulos, D.~Stone, J.~Walsh, and F.~M. Benes.
-\newblock Differences in the cellular distribution of d1 receptor mrna in the
-  hippocampus of bipolars and schizophrenics.
-\newblock {\em Synapse}, 54(3):147--155, 2004.
 
 \bibitem{pathak2013natural}
 L.~Pathak, Y.~Agrawal, and A.~Dhir.
@@ -940,12 +983,6 @@ Y.-P. Phoebe~Chen and F.~Chen.
 \newblock Identifying targets for drug discovery using bioinformatics.
 \newblock {\em Expert Opinion on Therapeutic Targets}, 12(4):383--389, 2008.
 
-\bibitem{pogorelov20175}
-V.~M. Pogorelov, R.~M. Rodriguiz, J.~Cheng, M.~Huang, C.~M. Schmerberg, H.~Y.
-  Meltzer, B.~L. Roth, A.~P. Kozikowski, and W.~C. Wetsel.
-\newblock 5-ht 2c agonists modulate schizophrenia-like behaviors in mice.
-\newblock {\em Neuropsychopharmacology}, 42(11):2163--2177, 2017.
-
 \bibitem{powell2017transcriptomic}
 T.~R. Powell, T.~Murphy, S.~H. Lee, J.~Price, S.~Thuret, and G.~Breen.
 \newblock Transcriptomic profiling of human hippocampal progenitor cells
@@ -959,11 +996,11 @@ S.~Powers, J.~Qian, K.~Jung, A.~Schuler, N.~H. Shah, T.~Hastie, and
   high-dimensions.
 \newblock {\em arXiv preprint arXiv:1707.00102}, 2017.
 
-\bibitem{pulver2004store}
-R.~A. Pulver, P.~Rose-Curtis, M.~W. Roe, G.~C. Wellman, and K.~M. Lounsbury.
-\newblock Store-operated ca2+ entry activates the creb transcription factor in
-  vascular smooth muscle.
-\newblock {\em Circulation research}, 94(10):1351--1358, 2004.
+\bibitem{preuer2018deepsynergy}
+K.~Preuer, R.~P. Lewis, S.~Hochreiter, A.~Bender, K.~C. Bulusu, and
+  G.~Klambauer.
+\newblock Deepsynergy: predicting anti-cancer drug synergy with deep learning.
+\newblock {\em Bioinformatics}, 34(9):1538--1546, 2018.
 
 \bibitem{raeder2006srebp}
 M.~B. Raeder, J.~Fern{\o}, A.~O. Vik-Mo, and V.~M. Steen.
@@ -989,11 +1026,25 @@ D.~B. Rubin.
 \newblock {\em Journal of the American Statistical Association},
   100(469):322--331, 2005.
 
+\bibitem{ryu2018deep}
+J.~Y. Ryu, H.~U. Kim, and S.~Y. Lee.
+\newblock Deep learning improves prediction of drug--drug and drug--food
+  interactions.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  115(18):E4304--E4311, 2018.
+
 \bibitem{sawada2018predicting}
 R.~Sawada, M.~Iwata, Y.~Tabei, H.~Yamato, and Y.~Yamanishi.
 \newblock Predicting inhibitory and activatory drug targets by chemically and
   genetically perturbed transcriptome signatures.
 \newblock {\em Scientific reports}, 8(1):1--9, 2018.
+
+\bibitem{scarpa2019assessment}
+J.~Scarpa, E.~Bruzelius, P.~Doupe, M.~Le, J.~Faghmous, and A.~Baum.
+\newblock Assessment of risk of harm associated with intensive blood pressure
+  management among patients with hypertension who smoke: a secondary analysis
+  of the systolic blood pressure intervention trial.
+\newblock {\em JAMA network open}, 2(3):e190005--e190005, 2019.
 
 \bibitem{schwarz2008valproate}
 C.~Schwarz, A.~Volz, C.~Li, and S.~Leucht.
@@ -1076,6 +1127,12 @@ G.~I. Spielmans, M.~I. Berman, E.~Linardatos, N.~Z. Rosenlicht, A.~Perry, and
   outcomes.
 \newblock {\em Focus}, 14(2):244--265, 2016.
 
+\bibitem{srivastava2014dropout}
+N.~Srivastava, G.~Hinton, A.~Krizhevsky, I.~Sutskever, and R.~Salakhutdinov.
+\newblock Dropout: a simple way to prevent neural networks from overfitting.
+\newblock {\em The journal of machine learning research}, 15(1):1929--1958,
+  2014.
+
 \bibitem{standal1977pizotifen}
 J.~E. Standal.
 \newblock Pizotifen as an antidepressant.
@@ -1157,6 +1214,12 @@ J.~Tibshirani, S.~Athey, S.~Wager, R.~Friedberg, L.~Miner, M.~Wright, M.~J.
 \newblock Package ‘grf’.
 \newblock 2018.
 
+\bibitem{tibshirani1996regression}
+R.~Tibshirani.
+\newblock Regression shrinkage and selection via the lasso.
+\newblock {\em Journal of the Royal Statistical Society: Series B
+  (Methodological)}, 58(1):267--288, 1996.
+
 \bibitem{torpy2001familial}
 D.~J. Torpy, A.~W. Bachmann, J.~E. Grice, S.~P. Fitzgerald, P.~J. Phillips,
   J.~A. Whitworth, and R.~V. Jackson.
@@ -1164,12 +1227,6 @@ D.~J. Torpy, A.~W. Bachmann, J.~E. Grice, S.~P. Fitzgerald, P.~J. Phillips,
   null mutation: association with fatigue and relative hypotension.
 \newblock {\em The Journal of Clinical Endocrinology \& Metabolism},
   86(8):3692--3700, 2001.
-
-\bibitem{turecki1997lack}
-G.~Turecki, G.~A. Rouleau, J.~Mari, R.~Joober, and K.~Morgan.
-\newblock Lack of association between bipolar disorder and tyrosine
-  hydroxylase.
-\newblock {\em American journal of medical genetics}, 74(4):348--352, 1997.
 
 \bibitem{usall2011raloxifene}
 J.~Usall, E.~Huerta-Ramos, R.~Iniesta, J.~Cobo, S.~Araya, M.~Roca,
@@ -1199,12 +1256,27 @@ R.~Van~den Oever, B.~Hepp, B.~Debbaut, and I.~Simon.
   underestimated public health problem.
 \newblock {\em International angiology}, 17(3):161, 1998.
 
+\bibitem{van2015we}
+E.~A. van Eerd, C.~R. van Rossem, M.~G. Spigt, G.~Wesseling, O.~C. van Schayck,
+  and D.~Kotz.
+\newblock Do we need tailored smoking cessation interventions for smokers with
+  copd? a comparative study of smokers with and without copd regarding factors
+  associated with tobacco smoking.
+\newblock {\em Respiration}, 90(3):211--219, 2015.
+
 \bibitem{vanderlaan2017mutations}
 P.~A. VanderLaan, D.~Rangachari, S.~M. Mockus, V.~Spotlow, H.~V. Reddi,
   J.~Malcolm, M.~S. Huberman, L.~J. Joseph, S.~S. Kobayashi, and D.~B. Costa.
 \newblock Mutations in tp53, pik3ca, pten and other genes in egfr mutated lung
   cancers: Correlation with clinical outcomes.
 \newblock {\em Lung Cancer}, 106:17--21, 2017.
+
+\bibitem{vanhaelen2017design}
+Q.~Vanhaelen, P.~Mamoshina, A.~M. Aliper, A.~Artemov, K.~Lezhnina, I.~Ozerov,
+  I.~Labat, and A.~Zhavoronkov.
+\newblock Design of efficient computational workflows for in silico drug
+  repurposing.
+\newblock {\em Drug Discovery Today}, 22(2):210--222, 2017.
 
 \bibitem{varghese2001hypothalamic}
 F.~P. Varghese and E.~S. Brown.
@@ -1245,6 +1317,12 @@ M.~L. Wahlqvist, M.-S. Lee, S.-Y. Chuang, C.-C. Hsu, H.-N. Tsai, S.-H. Yu, and
   by sulfonylurea and metformin combination: a population-based cohort study.
 \newblock {\em BMC medicine}, 10(1):150, 2012.
 
+\bibitem{wang2014exploring}
+F.~Wang, P.~Zhang, N.~Cao, J.~Hu, and R.~Sorrentino.
+\newblock Exploring the associations between drug side-effects and therapeutic
+  indications.
+\newblock {\em Journal of biomedical informatics}, 51:15--23, 2014.
+
 \bibitem{wang2017webgestalt}
 J.~Wang, S.~Vasaikar, Z.~Shi, M.~Greer, and B.~Zhang.
 \newblock Webgestalt 2017: a more comprehensive, powerful, flexible and
@@ -1256,6 +1334,12 @@ T.~T. Wang, N.~Sathyamoorthy, and J.~M. Phang.
 \newblock Molecular effects of genistein on estrogen receptor mediated
   pathways.
 \newblock {\em Carcinogenesis}, 17(2):271--275, 1996.
+
+\bibitem{wang2013drug}
+Y.~Wang, S.~Chen, N.~Deng, and Y.~Wang.
+\newblock Drug repositioning by kernel-based integration of molecular
+  structure, molecular activity, and phenotype data.
+\newblock {\em PloS one}, 8(11):e78518, 2013.
 
 \bibitem{wei2013development}
 W.-Q. Wei, R.~M. Cronin, H.~Xu, T.~A. Lasko, L.~Bastarache, and J.~C. Denny.
@@ -1282,6 +1366,12 @@ Q.~Wu, M.~Zhu, R.~N. Rosier, M.~J. Zuscik, R.~J. O’Keefe, and D.~Chen.
 \newblock $\beta$-catenin, cartilage, and osteoarthritis.
 \newblock {\em Annals of the New York academy of sciences}, 1192(1):344, 2010.
 
+\bibitem{xie2017discovery}
+L.~Xie, S.~He, Y.~Wen, X.~Bo, and Z.~Zhang.
+\newblock Discovery of novel therapeutic properties of drugs from
+  transcriptional responses based on multi-label classification.
+\newblock {\em Scientific reports}, 7(1):1--11, 2017.
+
 \bibitem{xu2015phenopredict}
 R.~Xu and Q.~Wang.
 \newblock Phenopredict: a disease phenome-wide drug repositioning approach
@@ -1307,6 +1397,11 @@ L.~Yang, Y.~Zhao, Y.~Wang, L.~Liu, X.~Zhang, B.~Li, and R.~Cui.
 \newblock The effects of psychological stress on depression.
 \newblock {\em Current neuropharmacology}, 13(4):494--504, 2015.
 
+\bibitem{yngvadottir2009promise}
+B.~Yngvadottir, D.~G. MacArthur, H.~Jin, and C.~Tyler-Smith.
+\newblock The promise and reality of personal genomics.
+\newblock {\em Genome biology}, 10(9):237, 2009.
+
 \bibitem{you2013relationship}
 H.~You, W.~Lu, S.~Zhao, Z.~Hu, and J.~Zhang.
 \newblock The relationship between statins and depression: a review of the
@@ -1318,12 +1413,6 @@ J.~Yu, H.~Pang, and B.~Wang.
 \newblock The association of tyrosine hydroxylase gene polymorphism with mental
   disorder.
 \newblock {\em Fa yi xue za zhi}, 24(5):333--335, 2008.
-
-\bibitem{yuan1998lithium}
-P.-X. Yuan, G.~Chen, L.-D. Huang, and H.~K. Manji.
-\newblock Lithium stimulates gene expression through the ap-1 transcription
-  factor pathway.
-\newblock {\em Molecular brain research}, 58(1-2):225--230, 1998.
 
 \bibitem{zeiler2012adadelta}
 M.~D. Zeiler.

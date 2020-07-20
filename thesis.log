@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  13 JUL 2020 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  20 JUL 2020 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -712,7 +712,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
  [6
 
 ] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.lot
-Overfull \hbox (3.24548pt too wide) in paragraph at lines 6--6
+Overfull \hbox (3.24548pt too wide) in paragraph at lines 5--5
  [][] [][][]\OT1/LinuxLibertineT-TLF/m/n/12 Correlations be-tween pre-dicted prob-a-bil-ity of treat-ment po-ten-tial with 
  []
 
@@ -737,42 +737,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--50
 ) [10] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 3.
+(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 3.
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/background.texpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+(Font)              scaled to size 20.74pt on input line 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \chapter
-            {Background Study} [1
-
-]
-Chapter 2.
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/drug-repurposing.texpdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Drug Repurposing} [2
-
-]
-Chapter 3.
-[3
+l.6 
+     [1
 
 ]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sl' in size <10.95> not available
-(Font)              Font shape `OT1/LinuxLibertineT-TLF/m/it' tried instead on input line 14.
+(Font)              Font shape `OT1/LinuxLibertineT-TLF/m/it' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 14.
- [4] [5] [6]
+(Font)              scaled to size 10.95pt on input line 9.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9     T
+         here has been increasing interest in computational drug repositioni... [2] [3] [4] [5] [6]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 24.
+(Font)              scaled to size 10.95pt on input line 29.
+ [7] [8] [9]
+<figures/decision_tree.png, id=540, 391.4625pt x 307.90031pt>
+File: figures/decision_tree.png Graphic file (type png)
+<use figures/decision_tree.png>
+Package pdftex.def Info: figures/decision_tree.png  used on input line 71.
+(pdftex.def)             Requested size: 341.43306pt x 268.56642pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 76.
+[10] [11 </Users/zhaokai/Documents/draft/thesis_draft_cuhk/figures/decision_tree.png>] [12] [13]
+<figures/SVM.png, id=585, 508.90125pt x 414.79968pt>
+File: figures/SVM.png Graphic file (type png)
+<use figures/SVM.png>
+Package pdftex.def Info: figures/SVM.png  used on input line 128.
+(pdftex.def)             Requested size: 284.52756pt x 231.92546pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 </Users/zhaokai/Documents/draft/thesis_draft_cuhk/figures/SVM.png>] [16] [17] [18] [19] [20] [21] [22]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/drug-repurposing.tex [23]
+Chapter 2.
+[24
+
+] [25] [26] [27]
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on input line 25.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 25.
- [7] [8]
+ [28] [29]
 LaTeX Font Info:    Try loading font information for OMS+LinuxLibertineT-TLF on input line 35.
 LaTeX Font Info:    No file OMSLinuxLibertineT-TLF.fd. on input line 35.
 
@@ -781,7 +800,7 @@ LaTeX Font Warning: Font shape `OMS/LinuxLibertineT-TLF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbraceleft' on input line 35.
 
-[9] [10] [11] [12]
+[30] [31] [32] [33]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -800,111 +819,98 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 
 LaTeX Warning: Float too large for page by 53.7149pt on input line 123.
 
-[13] [14]
+[34] [35]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 168.
- [15] [16] [17]
+ [36] [37] [38]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 278.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 278.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 278.
- [18] [19]
+ [39] [40]
 Overfull \hbox (2.40869pt too wide) in paragraph at lines 302--302
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Nordihydroguaiaretic 
  []
 
-[20] [21] [22] [23] [24] [25] [26] [27] [28]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/drug-target.tex [29]
+[41] [42] [43] [44] [45] [46] [47] [48] [49]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/drug-target.tex [50]
+Chapter 3.
+[51
+
+] [52] [53] [54] [55] [56] [57] [58] [59] [60]
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 103--124
+ [] 
+ []
+
+
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 130--149
+ [] 
+ []
+
+
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 155--174
+ [] 
+ []
+
+
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 180--199
+ [] 
+ []
+
+
+Overfull \hbox (16.48239pt too wide) in paragraph at lines 206--225
+ [] 
+ []
+
+[61] [62] [63] [64] [65] [66] [67]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/ite.tex [68]
 Chapter 4.
-[30
+[69
 
-]
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 9.
- [31] [32] [33] [34] [35] [36] [37] [38] [39]
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 104--125
- [] 
- []
-
-
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 131--150
- [] 
- []
-
-
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 156--175
- [] 
- []
-
-
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 181--200
- [] 
- []
-
-
-Overfull \hbox (16.48239pt too wide) in paragraph at lines 207--226
- [] 
- []
-
-
-Overfull \hbox (12.61807pt too wide) in paragraph at lines 230--231
-\OT1/LinuxLibertineT-TLF/m/n/12 thresh-olds with FDR<0.05, in-di-cat-ing the pro-posed method in-deed 're-discovered' known
- []
-
-[40] [41] [42] [43] [44] [45] [46] [47] [48]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/ite.tex [49]
-Chapter 5.
-[50
-
-] [51] [52] [53]
+] [70] [71] [72]
 Overfull \hbox (6.70284pt too wide) in paragraph at lines 54--55
 \OT1/LinuxLibertineT-TLF/m/n/12 se-lect im-por-tant fea-tures, well cap-ture high in-ter-ac-tions present, and have good asymp-
  []
 
-[54] [55] [56]
+[73] [74] [75]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 132.
- [57]
+ [76]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [58] [59] [60] [61] [62] [63] [64] [65] [66]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/conclusion.tex [67]
-Chapter 6.
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/proof.tex [68
+) [77] [78] [79] [80] [81] [82] [83] [84] [85]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/conclusion.tex [86]
+Chapter 5.
+) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/proof.tex [87
 
 ]
 Appendix A.
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/publications.tex [69
+) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/publications.tex [88
 
 ]
 Appendix B.
-) [70
+) [89
 
-] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.bbl [71
+] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.bbl [90
 
-] [72] [73] [74] [75]
-Underfull \hbox (badness 1231) in paragraph at lines 406--411
-[]\OT1/LinuxLibertineT-TLF/m/n/12 E. Grassi, M. Mor-tilla, L. Ama-ducci, S. Pal-lanti, A. Paz-za-gli, F. Galassi,
- []
-
-[76] [77] [78] [79] [80]
-Underfull \hbox (badness 1931) in paragraph at lines 729--733
+] [91] [92] [93] [94] [95] [96] [97] [98] [99]
+Underfull \hbox (badness 1931) in paragraph at lines 782--786
 \OT1/LinuxLibertineT-TLF/m/n/12 in pa-tients with chronic in-flam-ma-tion of con-nec-tive tis-sue.  \OT1/LinuxLibertineT-TLF/m/it/12 PloS one\OT1/LinuxLibertineT-TLF/m/n/12 ,
  []
 
-[81]
-Underfull \hbox (badness 3118) in paragraph at lines 796--800
+[100]
+Underfull \hbox (badness 3118) in paragraph at lines 848--852
 []\OT1/LinuxLibertineT-TLF/m/n/12 Y.-M. Mao and M.-D. Zhang.  Aug-men-ta-tion with an-tide-pres-sants in
  []
 
-[82] [83] [84] [85] [86] [87] [88] [89])
+[101] [102] [103] [104] [105] [106] [107] [108] [109])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
- [90]
+ [110]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
  (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 83229ED439F71C5195C370545094EAB9;3461.
+(rerunfilecheck)             Checksum: 888EC0A9A0D8F5B129D1F36983D53ADE;3729.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -912,18 +918,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 10519 strings out of 492649
- 163759 string characters out of 6129623
- 262607 words of memory out of 5000000
- 13672 multiletter control sequences out of 15000+600000
+ 10615 strings out of 492649
+ 165165 string characters out of 6129623
+ 263593 words of memory out of 5000000
+ 13703 multiletter control sequences out of 15000+600000
  92742 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,23n,37p,2899b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (102 pages, 591365 bytes).
+Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (122 pages, 666978 bytes).
 PDF statistics:
- 1498 PDF objects out of 1728 (max. 8388607)
- 1365 compressed objects within 14 object streams
- 430 named destinations out of 1000 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1788 PDF objects out of 2073 (max. 8388607)
+ 1628 compressed objects within 17 object streams
+ 494 named destinations out of 1000 (max. 500000)
+ 451 words of extra memory for PDF output out of 10000 (max. 10000000)
 
