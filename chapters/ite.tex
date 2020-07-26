@@ -1,4 +1,5 @@
-\chapter{Evaluating ITE of Genetic Risk Factors on Patient Outcomes}
+\chapter{Evaluating Individualized Treatment Effects (ITE) of Risk Factors on Patient Outcomes}
+\chaptermark{estimating individualized treatment effects}
 \label{chap:ite}
 
 \section{Motivation}
@@ -25,7 +26,7 @@
       \bY = f (\bX, \bW) + \mathbf{\epsilon},
     \end{equation}
     Where $\mathbf{\epsilon}$ follows $N(\mathbf{0}, \bSigma)$. $\bSigma$ is the covariance matrix.
- 
+
     \textbf{Assumption} assume $\bX, \bW, \bY$ fulfill unconfoundedness assumption (randomization conditional on the covariates), 
     \begin{equation}
       \label{eqn:uncfd}
@@ -50,7 +51,7 @@
     A traditional solution to measure ITE is to estimate the difference of averaged outcome between treatments and controls in pre-specified subgroups \cite{gail1985testing} or subgroup defined by learning algorithms \cite{su2009subgroup, su2011interaction, athey2016recursive,foster2011subgroup}. Su et. al. employed interaction tree to iteratively searching subgroups based on treatment effect \cite{su2009subgroup,su2011interaction}. Similarly, causal trees proposed by Athey and Imbens estimate the treatment effect at the leaves of the tree \cite{athey2016recursive}. However, main drawbacks of the approach are that there is no ground truth for subgroup definition, and that the impediment of iteratively searching for subgroups present obvious treatment effect and reporting only the results for subgroups with extreme treatment effects to highlight heterogeneity may be highly spurious \cite{assmann2000subgroup,cook2004subgroup}. In the high dimensional setting, it's still very challenging to divide subjects into appropriate subgroups \cite{powers2017some}. It's the same case for genomic data. 
     
     Alternatively, a feasible approach is to use any supervised machine learning (SML) methods to fit $\mu_1(\mathbf{x})$ and $\mu_0(\mathbf{x})$ simultaneously / separately and estimate the difference by putting them together. Specifically, one may fit a single model $\mu(\mathbf{x},w)$ or separate models for the treated and control groups, and compute the different between $\mu(\mathbf{x},w)$ and $\mu(\mathbf{x}, 1-w)$. Studies \cite{lu2018estimating,dasgupta2014risk} utilize different counterfactual random forests algorithms to estimates treatment effects by fitting separate random forests models to treatment and control groups. Several literature, including Green and Kern \cite{green2012modeling}, Hill \cite{hill2011bayesian}, and Hill and Su \cite{hill2013assessing}, has employed bayesian forest-based machine learning methods to estimate heterogeneous treatment effects. These studies utilize Bayesian additive regression tree (BART) method \cite{chipman2010bart}, and can obtain reliable intervals for treatment effects by MCMC sampling. For lasso-like methods for causal inference \cite{imai2013estimating,tian2014simple}, it's difficult to capture interactions, which may be naturally present in genomic data, in high-dimensional setting, in split of its simplicity and good ability in feature selection. A limitation of these studies is lack of formal statistical inference results \cite{wager2018estimation}. Some other methods, like Meta learners and deep learning based, for ITE estimation could be found in \cite{kunzel2019metalearners, johansson2016learning}.
-    
+
     Here we are interested in methods with following characteristics: automatically select important features, well capture high interactions present, and have good asymptotic properties. Thus, methods such as causal forests \cite{wager2018estimation} or GRF \cite{athey2019generalized} are much more preferred. Causal forests \cite{wager2018estimation} have been proposed with an objective to maximize the heterogeneity of $\tau(\mathbf{x})$. Recently, Athey et al. proposed an extension of causal forests, GRF \cite{athey2019generalized}, inspired by the R-learner proposed in \cite{nie2017quasi}. Both of the two methods \cite{wager2018estimation,athey2019generalized} inherits the excellent capability of random forest in capturing complex interactions. 
     
     However, there are still substantial research gaps, including relative lack of methods for result validation, evaluation of key features contributing to ITE estimation and handling censored data. Here we proposed methods to address these key issues and pioneer new applications to genomic data, which is the first of its kind.
@@ -272,8 +273,7 @@
     \end{table}%
 
     The 8 functions listed are centered and scaled to have mean close to 0 and roughly the same variance. Table \ref{tab:ite_scenarios} gives the specifications for simulation scenarios, including sample size $n$, number of features $p$, functions for mean and treatment effect $\mu(\cdot)$ and $\tau(\cdot)$, and variance of noise $\sigma_{\log Y}^2$. Specifications for sample size have been adjusted to accommodate our simulated survival data, compared with those in study \cite{powers2017some}. Scenarios of odd number are randomized experiments, with $\pi(\bfx_i) = 1/2$ for all $\bfx_i$, but scenarios of even number are observational studies, in which $\pi(\bfx_i)$ is defined by equation \ref{eqn:ite_pi} for each subject $\bfx_i$. Note there is no heterogeneity in treatment effects in scenario 1 and 9.
-
-    % Table generated by Excel2LaTeX from sheet 'simulation_result'
+    
     \begin{table}[htbp]
     \caption{Comparison of power/type I error rate of different tests for the presence of heterogeneity}
     \centering
@@ -311,13 +311,95 @@
     \label{Tab:ite_sim_res}%
     \end{table}%
 
-    To explore the reliability of our developed statistical tests and compare them with the \textR{test\_calibration} (TC) from GRF, we repeated application of our ITE framework with different random seed to the above simulation scenarios 500 times and examined the fitting of our approach with the statistical tests and test\_calibration for each run. We calculated the proportion of repeats with p-values $\leq 0.05$ for every statistical test. Because of no heterogeneity in scenarios 1 and 9, the proportion of tests returning significant findings ($p <0.05$) in scenarios 1 and 9 represents the type I error rates. The same proportion represent the power of statistical methods for other simulation scenarios. Simulation results are shown in table \ref{Tab:ite_sim_res}.
+    To explore the reliability of our developed statistical tests and compare them with the \textR{test\_calibration} (TC) from GRF, we repeated application of our ITE framework with different random seed to the above simulation scenarios 500 times and examined the fitting of our approach with the statistical tests and test\_calibration for each run. We calculated the proportion of repeats with p-values $\leq 0.05$ for every statistical test. Because of no heterogeneity in scenarios 1 and 9, the proportion of tests returning significant findings (\textit{p} <0.05)  in scenarios 1 and 9 represents the type I error rates. The same proportion represent the power of statistical methods for other simulation scenarios. Simulation results are shown in table \ref{Tab:ite_sim_res}.
 
     The statistical tests $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ and TC showed good validity in our simulations. They all had strong power in capturing the presence of heterogeneity, and notably our methods with $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ completely dominated TC provided in package GRF across all simulation scenarios except 1 and 9. In scenarios 1 and 9 they all showed relatively low type I error rate, with roughly 0.05 for statistical tests using $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ and 0.002 for TC. Type I error rates for our methods were also within an acceptable range, and TC had lower type I error rate than our methods. However, our methods with $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ were more powerful in detecting the presence of heterogeneity.
 
     Split-half correlation (SHC) approaches with three different correlation evaluation methods showed good type I error rates in scenario 1 and 9. However,  their powers varied greatly across all other scenarios. By investigating their performance in scenario 6, 7, 12, and 16, we found that they also can maintain good performance if there is strong heterogeneity. Surprisingly, they apparently outperformed the other three methods in Scenario 8. In short, we can still consider SHC approaches as good supplements to the other three methods.
 
-  \subsection{Applications on Real Data}
+  \subsection{Applications to Real Data}
+    We has witnessed the global outbreak of Coronavirus disease (COVID-19), and it has been seriously affecting our daily life. Realtime data source shows that COVID-19 has infected over 15 million  people and caused more 600 thousands deaths throughout the world \cite{biobank2014uk}. Most infected people experience mild to moderate symptoms and recover without special treatment, but a subgroup of patients has severe syndromes, including acute respiratory distress syndrome (ARDS) \cite{ellinghaus2020genomewide}. We are interested in the wide difference in severity of syndrome among the infected people, that is, why most infected people have mild or even no symptoms and some experience serious symptoms like ARDS. Here we aim to identify clinical risk factors that lead to the heterogeneity of severity and to look for clinical or genetic explanation for causal relationship.
+
+    \begin{table}[htbp]
+      \centering
+      \caption{Results for test of model fitting by SHC and permutation for selected clinical variables with genetic expression from blood}
+      \begin{threeparttable}
+        \begin{tabular}{lccccc}
+        \toprule
+        \multicolumn{1}{c}{\multirow{2}[0]{*}{\textbf{Clinical variables}}} & \multicolumn{5}{c}{\textbf{P-values}} \\
+              & \textbf{Pearson} & \textbf{Kendall } & \textbf{Spearman } & \textbf{Perm var} & \textbf{Perm risk} \\
+        \midrule
+        Alcohol intake frequency & 1.111E-05 & 8.412E-03 & 9.016E-03 & \textbf{0.076} & \textbf{0.024} \\
+        Diabetes diagnosed & 5.985E-32 & 6.818E-12 & 6.203E-12 & \textbf{0.000} & \textbf{0.070} \\
+        Alcohol drinker status & 5.680E-04 & 3.154E-03 & 3.489E-03 & \textbf{0.000} & 0.966 \\
+        Age at recruitment & 1.236E-05 & 6.283E-04 & 6.292E-04 & \textbf{0.076} & \textbf{0.070} \\
+        Cholesterol & 9.323E-09 & 1.585E-04 & 1.823E-04 & \textbf{0.010} & 0.472 \\
+        HbA1c & 1.131E-05 & 2.361E-02 & 2.238E-02 & \textbf{0.008} & 0.402 \\
+        Ethnic background & 3.672E-08 & 2.468E-04 & 1.813E-04 & \textbf{0.000} & 0.144 \\
+        LDL direct & 1.201E-05 & 5.942E-03 & 5.890E-03 & \textbf{0.094} & 0.678 \\
+        \bottomrule
+        \end{tabular}%
+        \begin{tablenotes}
+          \small
+          \item 1. Perm var stands for permutation variance test, and Perm risk for permutation $\tau$-risk test. 
+          \item 2. P-values $< 0.1$ for Perm var and Perm risk are in bold.
+        \end{tablenotes}
+      \end{threeparttable}
+      \label{tab:ite_blood_result}%
+    \end{table}%
+
+    We applied our ITE framework to GWAS data of patients with COVID-19. The data was extracted from UK Biobank, a large long-term biobank study in the United Kingdom, which aims to investigate genetic heritability and environmental exposure to the development of disease \cite{biobank2014uk}. We considered clinical factors studies in \cite{atkins2020preexisting} and genetic expression information imputed by PrediXcan \cite{gamazon2015gene}, and only included COVID-19 test positive subjects. The imputation of gene expression by PrediXcan is tissue specific, so in the study we examined the imputed gene expression of blood and lung.
+    
+    The severity for patients was defined as whether the patient was inpatient. If a patient was received inpatient treatment, the severity is 1; otherwise, the severity is 0. Since there were missing values for some clinical variables in the data, we imputed the missing values using missForest \cite{stekhoven2012missforest} with default setting, which iteratively employs random forests to impute the missing values.
+
+    In practice, we considered one clinical variable as treatment, severity as outcome variable, and all other clinical and genetic factors as covariates for each run. If there were at least two out of three p-values $< 0.05$ from the split-half correlation (SHC) for specific clinical variable, then permutation tests would be carried out to further validate the fitting of causal forests. Practically, genetic factors for lung and blood were modeled separately with clinical variables. Results for blood and lung are summarized in Table \ref{tab:ite_blood_result} and \ref{tab:ite_lung_result} respectively. 
+
+    \begin{table}[htbp]
+      \centering
+      \caption{Results for test of model fitting by SHC and permutation for selected clinical variables with genetic expression from lung}
+      \begin{threeparttable}
+        \begin{tabular}{lccccc}
+        \toprule
+        \multicolumn{1}{c}{\multirow{2}[0]{*}{\textbf{Clinical variables}}} & \multicolumn{5}{c}{\textbf{P-values}} \\
+              & \textbf{Pearson} & \textbf{Kendall } & \textbf{Spearman } & \textbf{Perm var} & \textbf{Perm risk } \\
+        \midrule
+        Alcohol intake frequency & 4.639E-08 & 2.127E-04 & 1.420E-04 & 1.000 & \textbf{0.092} \\
+        Diabetes diagnosed  & 3.736E-54 & 1.575E-17 & 2.063E-17 & \textbf{0.000} & \textbf{0.000} \\
+        Age HBP diagnosed & 5.351E-04 & 1.803E-02 & 1.757E-02 & 1.000 & 0.200 \\
+        Alcohol drinker status & 3.331E-06 & 1.251E-02 & 1.317E-02 & \textbf{0.010} & \textbf{0.038} \\
+        Age at recruitment & 4.973E-11 & 8.332E-05 & 1.005E-04 & 1.000 & 0.200 \\
+        GPC   & 1.966E-02 & 4.935E-02 & 5.539E-02 & \textbf{0.050} & 0.296 \\
+        Cholesterol & 1.298E-18 & 5.319E-06 & 5.150E-06 & 1.000 & 0.117 \\
+        HbA1c & 3.778E-18 & 2.461E-07 & 1.778E-07 & \textbf{0.044} & \textbf{0.020} \\
+        HDL cholesterol & 3.136E-04 & 2.598E-02 & 2.456E-02 & 1.000 & 0.400 \\
+        Ethnic background & 1.651E-17 & 2.640E-08 & 1.776E-08 & \textbf{0.000} & 0.310 \\
+        LDL direct & 4.337E-18 & 9.382E-05 & 8.628E-05 & 1.000 & \textbf{0.048} \\
+        \bottomrule
+        \end{tabular}%
+      \end{threeparttable}
+      \begin{tablenotes}
+        \small
+        \item 1. Perm var stands for permutation variance test, and Perm risk for permutation $\tau$-risk test. 
+        \item 2. P-values $< 0.1$ for Perm var and Perm risk are in bold.
+        \item 3. HBP stands for high blood pressure, and GPC for Genetic principal components.
+      \end{tablenotes}
+      \label{tab:ite_lung_result}%
+    \end{table}%
+
+    Clinically, HbA1c is a blood test that is used to diagnose and monitor people with diabetes. Our results indicate that diabetes diagnosed and HbA1c have a strong causal effect on severity of COVID-19 infection, with p-values of SHC  $<$ 5E-17 on lung data and $<$ 1E-11 on blood data and of permutation test $<$ 0.001 on lung data and $<$ 0.07 on blood data. Previous studies also confirm our results \cite{mehra2020cardiovascular,fang2020patients,zhu2020association}. A study shows that patients with type 2 diabetes usually are treated with ACE inhibitors, resulting in an upregulation of ACE2, but the upregulation of ACE2 facilitates infection with COVID-19 \cite{fang2020patients}. Our results also reveal cholesterol, HDL cholesterol and LDL direct are possible risk factors, causing severe infection among people with COVID-19. These clinical variables are associated with diagnose of cardiometabolic diseases, and studies have demonstrated that cardiometabolic comorbidities are related to a more severe course of COVID-19 \cite{stefan2020obesity,guo2020cardiovascular,shi2020association}.
+    
+    Interestingly, our study reveals that alcohol drinkers are at high risk of developing serious COVID-19 infection. Meanwhile, previous studies concluded that alcohol consumption (also social-moderate) is associated with the amount of ACE2 present in the body and particularly in lung \cite{okuno1986mild,testino2020patients}. This claim supports our findings, but it may be subjected to confounding variables like sharing alcoholic drinks \cite{mungmungpuntipantip2020sharing} and social gathering \cite{andersen2020early}.
+
+    Our study also shows ethnic background and age might be potential risk factors which increase the severity of infection. This also is proved by another study , demonstrating that black ethnicity are at higher risk and South Asians and other ethnicities have intermediate risks compared with the white, and that people aged 80+ years are more likely to have severe infection \cite{atkins2020preexisting}.
+
 \section{Conclusion}
 \label{sec:ite_conclusion}
+    
+
+  In the chapter, we proposed a computational framework to estimate individualized treatment effects (ITE) of risk factors on patient outcome. In order to assess model fitting, we propose three different criteria to investigate the model fitting. In order to increase the generality of ITE framework, we proposed an approach based on weighted "mean imputation" to incorporate survival times as outcomes. We carried out simulations to validate our framework on survival outcomes, since if our approach could work in survival data, then it's more readily to accommodate other kinds of data. Cross all simulation scenarios, our methods showed a strong power in either constant or heterogeneous treatment effects. In real data analysis, we applied our approach to GWAS data of patients with COVID-19, in which the outcome variable is severity of COVID-19 infection, and our results are supported by previous studies.
+
+  Our approach may have following limitations. In practice, we found that split-half correlation method has better power than permutation based methods. We conjecture that this is due to the characteristics of GWAS data, in which each covariate has very small effect and lots of covariates contribute to the outcome. We are investigating this issue, and our preliminary study confirmed this issue. In simulation scenario 8, there are much more covariates contributing to the outcome, then correlation based methods showed better power. In future, 
+
+
+
 \chapterend

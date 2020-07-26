@@ -1,77 +1,155 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Abstract}{i}{Doc-Start}
-\contentsline {chapter}{Acknowledgement}{ii}{chapter*.1}
-\contentsline {chapter}{Symbols and Acronyms}{viii}{chapter*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgement}{iii}{chapter*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Symbols and Acronyms}{xi}{chapter*.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Drug Discovery Today}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Precision Medicine}{5}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Precision Medicine}{6}{section.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Supervised Machine Learning Methods}{7}{section.1.3}
-\contentsline {subsubsection}{Linear Methods}{7}{section*.6}
-\contentsline {subsubsection}{Tree-Based Methods}{10}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Linear Methods}{8}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Tree-Based Methods}{11}{section*.7}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Support Vector Machine}{14}{section*.8}
-\contentsline {subsubsection}{Deep Neural Networks}{16}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Deep Neural Networks}{17}{section*.9}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Cross Validation to Assess Predictive Performance}{18}{section*.10}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Criteria for Model Selection}{19}{section*.11}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Common Issues of Machine Learning in Biomedical Studies}{20}{section*.12}
-\contentsline {section}{\numberline {1.4}Machine Learning Methods for ITE Estimation}{21}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Machine Learning for Individualized Treatment Effects Estimation}{21}{section.1.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.5}Summary}{23}{section.1.5}
-\contentsline {chapter}{\numberline {2}Drug Repurposing}{24}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Drug Repositioning for Psychiatric Disorders: A Machine Learning Approach Leveraging Expression Data}{24}{chapter.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Background}{24}{section.2.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}Motivation}{24}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}Related Works}{25}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.3}Significances}{27}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Datasets and Methods}{28}{section.2.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Datasets}{28}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Drug expression data}{28}{section*.13}
-\contentsline {subsubsection}{Defining drug indications}{28}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Defining drug indications}{29}{section*.14}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Methods}{29}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Nested Cross-validation}{31}{section*.15}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Predictive performance measures}{31}{section*.16}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Identifying important genes and pathways}{32}{section*.17}
-\contentsline {subsubsection}{External validation by testing for enrichment of psychiatric drugs considered for clinical trials}{32}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{External validation by testing for enrichment of psychiatric drugs considered for clinical trials}{33}{section*.18}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Searching for literature support}{33}{section*.19}
-\contentsline {section}{\numberline {2.3}Experiment Results}{34}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Predictive performance comparison}{34}{subsection.2.3.1}
-\contentsline {subsubsection}{Unweighted analysis }{34}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Experiment Results}{36}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Predictive performance comparison}{36}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Unweighted analysis }{36}{section*.20}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Weighted analysis}{36}{section*.21}
-\contentsline {subsection}{\numberline {2.3.2}Enrichment for psychiatric drugs considered clinical trials}{36}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Correlation of predicted probabilities with degree of literature support}{36}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Identifying contributing genes and pathways}{39}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Top repositioning hits and literature support from previous studies}{41}{subsection.2.3.5}
-\contentsline {subsubsection}{Repositioning candidates for depression/anxiety disorders}{43}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Enrichment for psychiatric drugs considered clinical trials}{38}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Correlation of predicted probabilities with degree of literature support}{38}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Identifying contributing genes and pathways}{38}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Top repositioning hits and literature support from previous studies}{42}{subsection.2.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Repositioning candidates for depression/anxiety disorders}{42}{section*.22}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Repositioning candidates for schizophrenia}{44}{section*.23}
-\contentsline {subsubsection}{Some hits from the unweighted analysis}{45}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Some hits from the unweighted analysis}{46}{section*.24}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Discussion}{46}{section.2.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Conclusion}{50}{section.2.5}
-\contentsline {chapter}{\numberline {3}Drug Target Discovery}{51}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{51}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Motivation}{51}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Related Works}{53}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Datasets and Methods}{55}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Datasets}{55}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Methods}{56}{subsection.3.2.2}
-\contentsline {subsubsection}{Model Specifications}{57}{section*.25}
-\contentsline {subsubsection}{Predictive Performance Evaluation}{58}{section*.26}
-\contentsline {subsubsection}{External Validation of drug targets}{59}{section*.27}
-\contentsline {section}{\numberline {3.3}Results}{59}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Model Performance}{59}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}External Validation}{61}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Literature Support}{63}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Discussion}{66}{section.3.4}
-\contentsline {section}{\numberline {3.5}Conclusion}{67}{section.3.5}
-\contentsline {chapter}{\numberline {4}Evaluating ITE of Genetic Risk Factors on Patient Outcomes}{69}{chapter.4}
-\contentsline {section}{\numberline {4.1}Motivation}{69}{section.4.1}
-\contentsline {section}{\numberline {4.2}Background}{70}{section.4.2}
-\contentsline {section}{\numberline {4.3}Overview of Related Work}{71}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Background Methods}{71}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Causal Forests}{74}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}ITE Framework}{77}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Novel Tests for the presence of heterogeneity}{78}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Modeling Survival Outcomes}{81}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Experiment Results}{81}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Simulations Studies}{81}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Applications on Real Data}{86}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Conclusion}{86}{section.4.6}
-\contentsline {chapter}{\numberline {5}Conclusion}{87}{chapter.5}
-\contentsline {chapter}{\numberline {A}Proof of Propositions}{88}{appendix.A}
-\contentsline {chapter}{\numberline {B}Publication List}{89}{appendix.B}
-\contentsline {chapter}{Bibliography}{90}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}A Machine Learning Approach to Prioritizing Candidate Drug Targets for Complex Diseases}{52}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Introduction}{52}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Motivation}{52}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Related Works}{54}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Datasets and Methods}{57}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Datasets}{57}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Methods}{58}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Model Specifications}{58}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Predictive Performance Evaluation}{60}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{External Validation of drug targets}{60}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Results}{61}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Model Performance}{61}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}External Validation}{62}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Literature Support}{64}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Discussion}{68}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Conclusion}{70}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Evaluating Individualized Treatment Effects (ITE) of Risk Factors on Patient Outcomes}{72}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Motivation}{72}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Background}{73}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Overview of Related Work}{74}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Background Methods}{74}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Causal Forests}{77}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}ITE Framework}{80}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Novel Tests for the presence of heterogeneity}{81}{subsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Modeling Survival Outcomes}{84}{subsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Experiment Results}{84}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Simulations Studies}{84}{subsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Applications to Real Data}{89}{subsection.4.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Conclusion}{92}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{94}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Proof of Propositions}{98}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Publication List}{99}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{100}{appendix.B}

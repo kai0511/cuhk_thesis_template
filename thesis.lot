@@ -1,20 +1,47 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.1}{\ignorespaces Average predictive performance of different ML models across four datasets in unweighted (top) and weighted analysis (bottom)}}{35}{table.2.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.2}{\ignorespaces Enrichment for psychiatric drugs included in clinical trials among the repositioning hits}}{37}{table.2.2}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Correlations between predicted probability of treatment potential with number of research articles supporting association with schizophrenia or depression/anxiety}}{38}{table.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.3}{\ignorespaces Correlations between predicted probability of treatment potential with number of research articles supporting association with schizophrenia or depression/anxiety}}{39}{table.2.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.4}{\ignorespaces Selected enriched pathways based on variable importance of genes in ML models with FDR $< 0.2$}}{40}{table.2.4}
-\contentsline {table}{\numberline {2.5}{\ignorespaces Some literature-supported candidates selected from top hits derived from machine learning methods (known antipsychotics and antidepressants are not included in this list)}}{42}{table.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.5}{\ignorespaces Some literature-supported candidates selected from top hits derived from machine learning methods (known antipsychotics and antidepressants are not included in this list)}}{43}{table.2.5}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Average predictive performance of different machine learning methods across four datasets}}{60}{table.3.1}
-\contentsline {table}{\numberline {3.2}{\ignorespaces enrichment for target genes of HT by results on ATC-HT dataset}}{61}{table.3.2}
-\contentsline {table}{\numberline {3.3}{\ignorespaces enrichment for target genes of DM by results on ATC-DM dataset}}{61}{table.3.3}
-\contentsline {table}{\numberline {3.4}{\ignorespaces enrichment for target genes of RA by results on MEDI-HPS RA dataset}}{62}{table.3.4}
-\contentsline {table}{\numberline {3.5}{\ignorespaces enrichment for target genes of DM by results on ATC SCZ dataset}}{62}{table.3.5}
-\contentsline {table}{\numberline {3.6}{\ignorespaces enrichment for target genes of BP by results on ATC SCZ dataset}}{62}{table.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Average predictive performance of different machine learning methods across four datasets}}{61}{table.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces enrichment for target genes of HT by results on ATC-HT dataset}}{62}{table.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces enrichment for target genes of DM by results on ATC-DM dataset}}{62}{table.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.4}{\ignorespaces enrichment for target genes of RA by results on MEDI-HPS RA dataset}}{63}{table.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.5}{\ignorespaces enrichment for target genes of DM by results on ATC SCZ dataset}}{63}{table.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.6}{\ignorespaces enrichment for target genes of BP by results on ATC SCZ dataset}}{63}{table.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.7}{\ignorespaces Some literature-supported candidates selected from top hits derived from machine learning methods}}{65}{table.3.7}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Specifications for simulation scenarios}}{84}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of power/type I error rate of different tests for the presence of heterogeneity}}{85}{table.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Specifications for simulation scenarios}}{87}{table.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of power/type I error rate of different tests for the presence of heterogeneity}}{88}{table.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results for test of model fitting by SHC and permutation for selected clinical variables with genetic expression from blood}}{90}{table.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Results for test of model fitting by SHC and permutation for selected clinical variables with genetic expression from lung}}{91}{table.4.4}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

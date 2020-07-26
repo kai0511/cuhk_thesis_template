@@ -35,6 +35,12 @@
 % style for links
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
 
+% package for setting header style
+\usepackage{fancyhdr}
+
+\usepackage{biblatex}
+\addbibresource{database.bib}
+
 \input{symbols}
 
 % =======================================================
@@ -56,6 +62,9 @@
     \end{tabular}
 }
 \coverpage
+
+% 1.5 or 2 line spacing for normal texts, required by GS of CUHK
+\setstretch{1.25}
 
 % cover page.
 \pagenumbering{roman}
@@ -87,7 +96,12 @@
 % initialization
 \newpage
 \pagenumbering{arabic}
-\pagestyle{headings}
+% \pagestyle{headings}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{1pt}
+\fancyhf[lh,rh,ch]{}
+\fancyhf[leh]{\leftmark}
+\fancyhf[roh]{\rightmark}
 
 % 1.5 or 2 line spacing for normal texts, required by GS of CUHK
 \setstretch{1.5}
@@ -106,15 +120,17 @@
 % appendix
 \appendix
 \input{chapters/proof.tex}
+
+\setstretch{1}
 \input{chapters/publications.tex}
 
 %=======================================================
 
-%bibliography
+% bibliography
 \newpage
-\setstretch{1}
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliographystyle{ieee}
-\bibliography{database}
+% \bibliographystyle{ieee}
+% \bibliography{database}
+\printbibliography
 
 \end{document}

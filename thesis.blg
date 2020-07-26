@@ -1,53 +1,25 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: thesis.aux
-The style file: ieee.bst
-Reallocated field_info (elt_size=4) to 10359 items from 5000.
-Database file #1: database.bib
-Warning--can't use both volume and number fields in costa2010machine
-Warning--can't use both volume and number fields in friedman2001elements
-Warning--there's a number but no volume in hobara2010molecular
-Warning--there's a number but no volume in schwarz2008valproate
-Warning--empty journal in tibshirani2018package
-You've used 233 entries,
-            2118 wiz_defined-function locations,
-            1795 strings with 58565 characters,
-and the built_in function-call counts, 96802 in all, are:
-= -- 9131
-> -- 6503
-< -- 16
-+ -- 2600
-- -- 2328
-* -- 8477
-:= -- 16697
-add.period$ -- 702
-call.type$ -- 233
-change.case$ -- 1827
-chr.to.int$ -- 0
-cite$ -- 238
-duplicate$ -- 2654
-empty$ -- 6113
-format.name$ -- 2328
-if$ -- 18988
-int.to.chr$ -- 0
-int.to.str$ -- 233
-missing$ -- 232
-newline$ -- 1164
-num.names$ -- 466
-pop$ -- 1486
-preamble$ -- 1
-purify$ -- 1597
-quote$ -- 0
-skip$ -- 1825
-stack$ -- 0
-substring$ -- 6042
-swap$ -- 340
-text.length$ -- 16
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 924
-warning$ -- 5
-while$ -- 850
-width$ -- 236
-write$ -- 2550
-(There were 5 warnings)
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'thesis.blg'
+[52] biber-darwin:313> INFO - === Sun Jul 26, 2020, 21:46:58
+[87] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[225] Biber.pm:857> INFO - Found 242 citekeys in bib section 0
+[225] Biber.pm:854> INFO - Using all citekeys in bib section 1
+[226] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[246] Biber.pm:3976> INFO - Processing section 0
+[261] Biber.pm:4136> INFO - Looking for bibtex format file 'database.bib' for section 0
+[273] bibtex.pm:1500> INFO - LaTeX decoding ...
+[715] bibtex.pm:1316> INFO - Found BibTeX data source 'database.bib'
+[2825] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2825] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2825] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[2825] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[3085] Biber.pm:3976> INFO - Processing section 1
+[3085] Biber.pm:4136> INFO - Looking for bibtex format file 'pub.bib' for section 1
+[3092] bibtex.pm:1500> INFO - LaTeX decoding ...
+[3107] bibtex.pm:1316> INFO - Found BibTeX data source 'pub.bib'
+[3172] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3172] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3172] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[3172] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[3182] bbl.pm:617> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[3288] bbl.pm:720> INFO - Output to thesis.bbl
