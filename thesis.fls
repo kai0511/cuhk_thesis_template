@@ -237,6 +237,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/abstract.tex
 INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/abstract.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-ot1.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1--base.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/acknowledgement.tex
@@ -282,11 +285,8 @@ INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/introduction.t
 INPUT /Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/introduction.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-ot1.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/libertine/LinLibertineTB-tlf-ot1.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-ot1--base.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-ot1.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1--base.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-ot1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/libertine/LinLibertineTB-tlf-ot1.vf

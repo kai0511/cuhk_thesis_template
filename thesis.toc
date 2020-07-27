@@ -146,10 +146,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.6}Conclusion}{92}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{94}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusions}{94}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Proof of Propositions}{98}{appendix.A}
+\contentsline {chapter}{\numberline {A}Proof of Propositions}{97}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Publication List}{99}{appendix.B}
+\contentsline {chapter}{\numberline {B}Publication List}{98}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{100}{appendix.B}
+\contentsline {chapter}{Bibliography}{99}{appendix.B}

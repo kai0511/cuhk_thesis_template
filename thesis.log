@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  26 JUL 2020 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  27 JUL 2020 18:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -931,7 +931,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
- [2] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/abstract.tex [1]) [2] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/acknowledgement.tex) [3
+ [2] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/abstract.tex
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 7.
+) [1] [2] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/acknowledgement.tex) [3
 
 ] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/dedication.tex) [4] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.toc [5
 
@@ -974,8 +977,6 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 5.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1690,13 +1691,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [88]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[89]
 Overfull \hbox (5.0492pt too wide) in paragraph at lines 327--349
  [] 
  []
@@ -1707,9 +1701,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[89]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [90]
-Overfull \hbox (7.78668pt too wide) in paragraph at lines 361--381
+Overfull \hbox (18.09058pt too wide) in paragraph at lines 361--381
  [] 
+ []
+
+
+Overfull \hbox (1.77852pt too wide) in paragraph at lines 389--390
+\OT1/LinuxLibertineT-TLF/m/n/12 demon-strate ef-fect het-ero-gene-ity on the sever-ity of COVID-19 in-fec-tion, with p-values
  []
 
 
@@ -1743,23 +1749,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[95]
+[95]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/proof.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[96]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/proof.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[97]
+[96]
 Appendix A.
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/publications.tex [98
+) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/publications.tex [97
 
 ]
 Appendix B.
@@ -1768,9 +1767,9 @@ Appendix B.
 Package biblatex Info: Reference section=1 on input line 2.
 Package biblatex Info: Setting label 'refsection:1' on input line 2.
 Package biblatex Info: Reference section=0 on input line 5.
-) [99
+) [98
 
-] [100
+] [99
 
 ]
 Overfull \hbox (8.52196pt too wide) in paragraph at lines 135--135
@@ -1783,7 +1782,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[100]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [101]
+Overfull \hbox (4.01497pt too wide) in paragraph at lines 135--135
+\OT1/LinuxLibertineT-TLF/m/n/10.95 peu-tic tar-gets us-ing gene--disease as-so-ci-a-tion data''. In: \OT1/LinuxLibertineT-TLF/m/it/10.95 Jour-nal of trans-la-tional medicine
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1791,10 +1801,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [102]
-Overfull \hbox (4.01497pt too wide) in paragraph at lines 135--135
-\OT1/LinuxLibertineT-TLF/m/n/10.95 peu-tic tar-gets us-ing gene--disease as-so-ci-a-tion data''. In: \OT1/LinuxLibertineT-TLF/m/it/10.95 Jour-nal of trans-la-tional medicine
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1809,13 +1815,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [104]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[105]
 Overfull \hbox (21.60503pt too wide) in paragraph at lines 135--135
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Arthur E Ho-erl and Robert W Ken-nard. ``Ridge re-gres-sion: Bi-ased es-ti-ma-tion for nonorthog-
  []
@@ -1826,14 +1825,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[106]
+[105]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[107]
+[106]
 Overfull \hbox (4.76167pt too wide) in paragraph at lines 135--135
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Martin Lotz, Den-nis A Car-son, and John H Vaughan. ``Sub-stance P ac-ti-va-tion of rheuma-
  []
@@ -1849,7 +1848,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[108]
+[107]
 Overfull \hbox (0.1188pt too wide) in paragraph at lines 135--135
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Rodrigo Machado-Vieira, Hus-seini K Manji, and Car-los A Zarate Jr. ``The role of lithium
  []
@@ -1885,7 +1884,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[109]
+[108]
 Overfull \hbox (5.0542pt too wide) in paragraph at lines 135--135
 \OT1/LinuxLibertineT-TLF/m/n/10.95 hu-man syn-ovial mast cells in rheuma-toid arthri-tis''. In: \OT1/LinuxLibertineT-TLF/m/it/10.95 Al-ler-gol-ogy In-ter-na-tional \OT1/LinuxLibertineT-TLF/m/n/10.95 66.Sup-
  []
@@ -1896,14 +1895,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[110]
+[109]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[111]
+[110]
 Overfull \hbox (3.50624pt too wide) in paragraph at lines 135--135
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Robert C Smith et al. ``Ef-fects of pi-ogli-ta-zone on metabolic ab-nor-mal-i-ties, psy-chopathol-
  []
@@ -1919,14 +1918,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[112]
+[111]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[113]
+[112]
 Overfull \hbox (4.01807pt too wide) in paragraph at lines 135--135
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Sudhir Varma and Richard Si-mon. ``Bias in er-ror es-ti-ma-tion when us-ing cross-validation
  []
@@ -1937,7 +1936,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[114]
+[113]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
 
 
@@ -1946,13 +1945,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[115]
+[114]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9EA09A61A74A4E0612CF82DCA3FEBBBA;3929.
+(rerunfilecheck)             Checksum: F3B6F54B39A211380F6F4E737AB0A9EF;3930.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1963,18 +1962,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
  ) 
 Here is how much of TeX's memory you used:
- 17695 strings out of 492649
- 311933 string characters out of 6129623
- 867236 words of memory out of 5000000
- 20702 multiletter control sequences out of 15000+600000
+ 17697 strings out of 492649
+ 312054 string characters out of 6129623
+ 868193 words of memory out of 5000000
+ 20704 multiletter control sequences out of 15000+600000
  92742 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,23n,46p,2934b,1356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (130 pages, 687200 bytes).
+Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (129 pages, 686755 bytes).
 PDF statistics:
- 1873 PDF objects out of 2073 (max. 8388607)
- 1704 compressed objects within 18 object streams
+ 1869 PDF objects out of 2073 (max. 8388607)
+ 1701 compressed objects within 18 object streams
  521 named destinations out of 1000 (max. 500000)
  451 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2276,6 +2276,45 @@
       \field{pages}{20\bibrangedash 33}
       \range{pages}{14}
     \endentry
+    \entry{dong2020interactive}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4bfd52fcb578e8b400682a36a602f5b4}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Ensheng},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5430693a851a0afcda824a8b1cc76b4c}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Hongru},
+           giveni={H\bibinitperiod}}}%
+        {{hash=42e71bb10559543c24cc07d6a39afe9b}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Lauren},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c103f46c07856db2e0261a3e964076dc}
+      \strng{fullhash}{c103f46c07856db2e0261a3e964076dc}
+      \strng{bibnamehash}{c103f46c07856db2e0261a3e964076dc}
+      \strng{authorbibnamehash}{c103f46c07856db2e0261a3e964076dc}
+      \strng{authornamehash}{c103f46c07856db2e0261a3e964076dc}
+      \strng{authorfullhash}{c103f46c07856db2e0261a3e964076dc}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet infectious diseases}
+      \field{number}{5}
+      \field{title}{An interactive web-based dashboard to track COVID-19 in real time}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{533\bibrangedash 534}
+      \range{pages}{2}
+    \endentry
     \entry{dudley2011exploiting}{article}{}
       \name{author}{3}{}{%
         {{hash=b1996476e646125658fe3b087eb0411c}{%

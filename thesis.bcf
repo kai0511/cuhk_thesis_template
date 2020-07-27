@@ -2389,7 +2389,7 @@
     <bcf:citekey order="314">powers2017some</bcf:citekey>
     <bcf:citekey order="315">powers2017some</bcf:citekey>
     <bcf:citekey order="316">powers2017some</bcf:citekey>
-    <bcf:citekey order="317">biobank2014uk</bcf:citekey>
+    <bcf:citekey order="317">dong2020interactive</bcf:citekey>
     <bcf:citekey order="318">ellinghaus2020genomewide</bcf:citekey>
     <bcf:citekey order="319">biobank2014uk</bcf:citekey>
     <bcf:citekey order="320">atkins2020preexisting</bcf:citekey>
@@ -2398,15 +2398,14 @@
     <bcf:citekey order="323">mehra2020cardiovascular</bcf:citekey>
     <bcf:citekey order="323">fang2020patients</bcf:citekey>
     <bcf:citekey order="323">zhu2020association</bcf:citekey>
-    <bcf:citekey order="324">fang2020patients</bcf:citekey>
-    <bcf:citekey order="325">stefan2020obesity</bcf:citekey>
-    <bcf:citekey order="325">guo2020cardiovascular</bcf:citekey>
-    <bcf:citekey order="325">shi2020association</bcf:citekey>
-    <bcf:citekey order="326">okuno1986mild</bcf:citekey>
-    <bcf:citekey order="326">testino2020patients</bcf:citekey>
-    <bcf:citekey order="327">mungmungpuntipantip2020sharing</bcf:citekey>
-    <bcf:citekey order="328">andersen2020early</bcf:citekey>
-    <bcf:citekey order="329">atkins2020preexisting</bcf:citekey>
+    <bcf:citekey order="324">stefan2020obesity</bcf:citekey>
+    <bcf:citekey order="324">guo2020cardiovascular</bcf:citekey>
+    <bcf:citekey order="324">shi2020association</bcf:citekey>
+    <bcf:citekey order="325">okuno1986mild</bcf:citekey>
+    <bcf:citekey order="325">testino2020patients</bcf:citekey>
+    <bcf:citekey order="326">mungmungpuntipantip2020sharing</bcf:citekey>
+    <bcf:citekey order="327">andersen2020early</bcf:citekey>
+    <bcf:citekey order="328">atkins2020preexisting</bcf:citekey>
   </bcf:section>
   <!-- SECTION 1 -->
   <bcf:bibdata section="1">
