@@ -40,7 +40,7 @@
     For RF, the number of bagged trees was set to 1000, the maximum number of features used for splitting was selected from \{800, 1000, 1500, 2000, 3000, 5000 \} and min\_samples\_leaf (the minimum number of samples required at a leaf node) was selected from \{1, 3, 5, 10, 30, 50, 80 \}. For GBM, the number of boosting iterations was selected from a sequence of 100 to 1001 with step size 50, learning rate from \{0.005, 0.01, 0.015, 0.02, 0.03, 0.05 \}, subsampling proportion from \{0.8, 1 \}, maximum depth of each estimator from \{2, 3, 5, 10\} and maximum number of features from \{10, 30, 50, 100, 500, 1000 \}. Finally, the EN model was implemented by the R package "glmnet" \cite{friedman2010regularization}. The elastic-net penalty parameter $\alpha$ was chosen from seq(0, 1, by=0.1), with other settings following the default.
 
     \subsubsection{Nested Cross-validation}
-      We adopted nested three-fold cross validation (CV) to choose hyper-parameters and evaluate model performances. It has been observed that optimistic bias will result if one uses simple CV to compute an error estimate for a prediction algorithm that itself is tuned using CV \cite{varma2006bias}. Nested CV avoids this problem and is able to give an almost unbiased estimate of prediction accuracy \cite{varma2006bias}. The inner loop CVs were used to choose the parameters that optimized predictive performance. In each outer loop CV we made predictions on the corresponding test set using the best model trained from the inner CV loops. To achieve maximum consistency in our comparisons, we compared different methods on the same test set in each loop. Note that the test sets were not involved in model training or parameter tuning.
+      We adopted nested three-fold cross validation (CV) to choose hyper-parameters and evaluate model performances. \textbf{Practically, the whole dataset is splitted into three pieces, and for each piece we hold it out as test set and consider two other pieces for model selection. This process is called outer CV loop. In model selection, we further apply cross-validation to the two pieces, called outer CV loop. In inner CV loop, each time we use a different split for validation, and train our ML model on two other splits. We can obtain averaged performance by averaging performances on validation sets. Then, we can unbiasedly evaluate the performance of model selected and make predictions on test set}. It has been observed that optimistic bias will result if one uses simple CV to compute an error estimate for a prediction algorithm that itself is tuned using CV \cite{varma2006bias}. Nested CV avoids this problem and is able to give an almost unbiased estimate of prediction accuracy \cite{varma2006bias}. The inner loop CVs were used to choose the parameters that optimized predictive performance. In each outer loop CV we made predictions on the corresponding test set using the best model trained from the inner CV loops. To achieve maximum consistency in our comparisons, we compared different methods on the same test set in each loop. Note that the test sets were not involved in model training or parameter tuning.
 
     \subsubsection{Predictive performance measures}
       The performances of the machine learning methods were evaluated in the test sets using three metrics, including log loss, area under the receiver operating characteristic curve (ROC-AUC) and area under the precision recall curve (PR-AUC). Log loss compares the predicted probabilities against the true labels. The receiver operating characteristic curve, which plots the sensitivity (i.e. recall) against (1- specificity), is a very widely used approach to evaluate predictive performances in biomedical applications. The precision-recall curve on the hand plots the precision (i.e. positive predictive value) against the sensitivity (recall). Since precision depends on the overall proportion of positive labels, the PR-AUC is also dependent on such proportions. Davies et al. \cite{davis2006relationship}  that the PR curve may give more informative comparisons when working with imbalanced data.
@@ -70,9 +70,9 @@
         \caption{Average predictive performance of different ML models across four datasets in unweighted (top) and weighted analysis (bottom)}
           \begin{tabular}{c|cccc}
           \toprule
-          \textbf{Unweighted} & \multicolumn{4}{c}{Average Log Loss} \\
-          \textbf{ analysis} & MEDI-HPS DEP/ANX & ATC ATD  & MEDI-HPS SCZ  & ATC ATP  \\
+          \textbf{Unweighted analysis} & MEDI-HPS DEP/ANX & ATC ATD  & MEDI-HPS SCZ  & ATC ATP \\
           \midrule
+                & \multicolumn{4}{c}{Average Log Loss}  \\
           SVM   & \textbf{0.1188} & 0.0943 & \textbf{0.1018} & \textbf{0.0895} \\
           EN    & 0.1249 & \textbf{0.0916} & 0.1097 & 0.0954 \\
           DNN   & 0.124 & 0.0948 & 0.1111 & 0.0992 \\
@@ -91,9 +91,9 @@
           GBM   & 0.091 & 0.0417 & 0.1426 & 0.1528 \\
           RF    & 0.1193 & 0.0639 & 0.1677 & 0.1703 \\
           \midrule
-          \textbf{weighted} & \multicolumn{4}{c}{Average Log Loss} \\
-          \textbf{ analysis} & MEDI-HPS DEP/ANX & ATC ATD  & MEDI-HPS SCZ  & ATC ATP  \\
+          \textbf{weighted analysis} & MEDI-HPS DEP/ANX & ATC ATD  & MEDI-HPS SCZ  & ATC ATP \\
           \midrule
+                & \multicolumn{4}{c}{Average Log Loss}  \\
           SVM   & \textbf{0.1189} & \textbf{0.0934} & \textbf{0.1022} & \textbf{0.0898} \\
           EN    & 0.5803 & 0.5344 & 0.5028 & 0.5112 \\
           DNN   & 0.1309 & 0.099 & 0.1308 & 0.1098 \\
@@ -116,8 +116,8 @@
           \begin{tablenotes}
             \small
             \item 1. Values of evaluation metrics for algorithms with the best performance in each dataset (for each evaluation metrics) are marked in bold. 
-            \item 2. SVM: support vector machines; EN: logistic regression with elastic net regularization; DNN: deep neural networks; RF: random forest; GBM, gradient boosted machines. 
-            \item 3. MEDI-HPS: MEDication Indication - High Precision Subset; ATC: Anatomical Therapeutic Chemical classification. 
+            \item 2. MEDI-HPS: MEDication Indication - High Precision Subset; ATC: Anatomical Therapeutic Chemical classification. 
+            \item 3. ATD: antidepressant; ATP: antipsychotics; DEP/ANX: Depression/Anxiety; SCZ:Schizophrenia. 
           \end{tablenotes}
         \end{threeparttable}  
         \label{tab:repurposing_ml_result}%

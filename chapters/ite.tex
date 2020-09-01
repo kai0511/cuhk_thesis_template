@@ -129,22 +129,23 @@
     Briefly, the objective for splitting for the adaptive version of CT, denoted CT-A, uses $-\mathrm{MSE}_\tau (\mathrm{S^{tr}}, \mathrm{S^{tr}}, \Pi)$. The same objective function also is applicable to CV version of CT-A but evaluated at the samples $\mathrm{S^{tr, cv}}$ and $\mathrm{S^{tr,cv}}$. The splitting objective function for the honest CTS, CT-H, is $-\mathrm{MSE}_\tau (\mathrm{S^{tr}}, N^{\mathrm{est}}, \Pi)$. The same objective function also can be applied to a CV version of CT-H, but evaluated at the cross-validation sample $\mathrm{S^{tr, cv}}$ with known $N^{\mathrm{est, cv}}$.
 
     Procedure for causal forests with honesty and subsampling is proposed as follows:
-    \begin{algorithm}
+    \setlength{\intextsep}{0pt} 
+    \begin{algorithm}[htbp]
       \caption{Causal forests with honesty and subsampling}
-      \label{cf_algthm}
+      \label{alg:ct}
       \begin{algorithmic}[1]
         \REQUIRE a samples $\mathrm{S}^{n \times m}$ and pre-specified parameters, including the number of trees $\mathrm{B}$, \textit{mtry} and the sub-sampling rate $\mathrm{s}$ 
         \FORALL{$i$ such that $0\leq i\leq \mathrm{B}$}
           \STATE samples for model construction $\mathrm{S_i^{tr, est}} \leftarrow$ \uppercase{Subsample} (S, s), with remaining as test set $\mathrm{S_i^{te}}$
           \STATE training samples $\mathrm{S_i^{tr}, S_i^{est}} \leftarrow$ \uppercase{Subsample} ($\mathrm{S_i^{tr, est}}$)
-          \STATE causal tree $\mathrm{T_i} \leftarrow \mathrm{CT} (\mathrm{S_i^{tr}, S_i^{est}})$
+          \STATE causal tree $\mathrm{T_i} \leftarrow \mathrm{CT} (\mathrm{S_i^{tr}, S_i^{est}})$, CT stands for causal tree algorithm
           \STATE make out-of-bag prediction $\hat{\tau}(\bfx_j^i)$ for $\bfx_j^i \in \mathrm{S_i^{te}}$
         \ENDFOR
         \RETURN CTs $\mathrm{T_1}, \mathrm{T_2}, \dots , \mathrm{T_i}, \dots, \mathrm{T_B}$ and $\hat{\tau}(\bfx_j)$ by averaging all available out-of-bag predictions $\tau_j^{(.)}$ for $\bfx_{j} \in S$.
-
       \end{algorithmic}
     \end{algorithm}
-    In above table, $\mathrm{CT}$ stands for causal tree algorithm defined above in the section.
+
+    \textbf{In fact, though causal forests presented in Algorithm \ref{alg:ct} is not conceptually different from traditional random forests \cite{breiman2001random}, it utilizes two strategies to adapt traditional RF to estimate individualized treatment effects: different splitting criteria and honest estimation. In traditional regression forests, we use sum of squared errors (SSE) as criteria for splitting, so in this case we consider a splitting of feature which minimize the SSE the most in the candidate features. However, in CF we consider a splitting of feature which maximize the variance of $\tau(\cdot)$ \cite{wager2018estimation}, which is obtained from the above derivations. On the other hand, in traditional RF we tend to use the same dataset for forest construction and outcome estimation, but this strategy may dramatically overestimate the treatment effects, since the true treatment effects of observations can be observed directly. In order to address this issue, the study \cite{wager2018estimation} proposed that two different datasets should be used in forest construction and outcome estimation, called "honest" estimation, so the estimation from CF is unlikely to overestimate the treatment effects present. Unlike algorithms defining subgroups to estimate ITE, which may make same predictions for different subjects, CF tend to yield different outcomes for different subjects, since the causal trees built are different. Another advantages from this characteristics is that statistical inference can be made, like statistical significance of treatment effects estimated.}
 
 \section{ITE Framework}
 \label{sec:ite_model}
@@ -221,7 +222,7 @@
       \item \textit{Censor} We considered a censor rate of roughly 20\% for all our scenarios. Given the uncensored simulated survival time, we found the cutoff $r$ for the 80\% quantile, and then generated censor time $T(\cdot)$ using the exponential distribution with rate parameter $1/r$. If the simulated $\log Y_i > T(\bfx_i)$, then $T(\bfx_i)$ should be used as outcome; otherwise $\log Y_i$ was used.
       \item \textit{Noise levels} The noise level $\sigma_{\log(Y)}^2$ was introduced in the generation of log survival time $\log Y_i$, which sampled from a normal distribution with mean $\mu(\cdot) + (w - 1/2) \tau(\cdot)$ and variance $\sigma_{\log(Y)}^2$, where $w \sim \mathrm{Bernoulli}(\pi(\cdot))$. 
     \end{enumerate}  
-    Given the above predefined components, our data generation for  observations $i$ is modeled as
+    Given the above predefined components, our data generation for observations $i$ is modeled as
     \begin{equation*}
       \begin{split}
         \bfx_i & \sim D_x, \\
@@ -272,7 +273,7 @@
       \label{tab:ite_scenarios}%
     \end{table}%
 
-    The 8 functions listed are centered and scaled to have mean close to 0 and roughly the same variance. Table \ref{tab:ite_scenarios} gives the specifications for simulation scenarios, including sample size $n$, number of features $p$, functions for mean and treatment effect $\mu(\cdot)$ and $\tau(\cdot)$, and variance of noise $\sigma_{\log Y}^2$. Specifications for sample size have been adjusted to accommodate our simulated survival data, compared with those in study \cite{powers2017some}. Scenarios of odd number are randomized experiments, with $\pi(\bfx_i) = 1/2$ for all $\bfx_i$, but scenarios of even number are observational studies, in which $\pi(\bfx_i)$ is defined by equation \ref{eqn:ite_pi} for each subject $\bfx_i$. Note there is no heterogeneity in treatment effects in scenario 1 and 9.
+    The 8 functions listed are centered and scaled to have mean close to 0 and roughly the same variance. Table \ref{tab:ite_scenarios} gives the specifications for simulation scenarios, including sample size $n$, number of features $p$, functions for mean and treatment effect $\mu(\cdot)$ and $\tau(\cdot)$, and variance of noise $\sigma_{\log Y}^2$. Specifications for sample size have been adjusted to accommodate our simulated survival data, compared with those in study \cite{powers2017some}. Scenarios of number from 1 to 8 are randomized experiments, with $\pi(\bfx_i) = 1/2$ for all $\bfx_i$, but other scenarios are observational studies, in which $\pi(\bfx_i)$ is defined by equation \ref{eqn:ite_pi} for each subject $\bfx_i$. Note there is no heterogeneity in treatment effects in scenario 1 and 9.
 
     \begin{table}[htbp]
     \caption{Comparison of power/type I error rate of different tests for the presence of heterogeneity}
@@ -311,7 +312,7 @@
     \label{Tab:ite_sim_res}%
     \end{table}%
 
-    To explore the reliability of our developed statistical tests and compare them with the \textR{test\_calibration} (TC) from GRF, we repeated application of our ITE framework with different random seed to the above simulation scenarios 500 times and examined the fitting of our approach with the statistical tests and test\_calibration for each run. We calculated the proportion of repeats with p-values $\leq 0.05$ for every statistical test. Because of no heterogeneity in scenarios 1 and 9, the proportion of tests returning significant findings (\textit{p} <0.05)  in scenarios 1 and 9 represents the type I error rates. The same proportion represent the power of statistical methods for other simulation scenarios. Simulation results are shown in table \ref{Tab:ite_sim_res}.
+    To explore the reliability of our developed statistical tests and compare them with the \textR{test\_calibration} (TC) from GRF, we repeated application of our ITE framework with different random seed to the above simulation scenarios 500 times and examined the fitting of our approach with the statistical tests and test\_calibration for each run. We calculated the proportion of repeats with p-values $\leq 0.05$ for every statistical test. Because of no heterogeneity in scenarios 1 and 9, the proportion of tests returning significant findings (\textit{p} $\leq 0.05$)  in scenarios 1 and 9 represents the type I error rates. The same proportion represent the power of statistical methods for other simulation scenarios. Simulation results are shown in table \ref{Tab:ite_sim_res}.
 
     The statistical tests $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ and TC showed good validity in our simulations. They all had strong power in capturing the presence of heterogeneity, and notably our methods with $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ completely dominated TC provided in package GRF across all simulation scenarios except 1 and 9. In scenarios 1 and 9 they all showed relatively low type I error rate, with roughly 0.05 for statistical tests using $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ and 0.002 for TC. Type I error rates for our methods were also within an acceptable range, and TC had lower type I error rate than our methods. However, our methods with $\Var_{\tau}$ and $\tau_{\mathrm{improve}}$ were more powerful in detecting the presence of heterogeneity.
 

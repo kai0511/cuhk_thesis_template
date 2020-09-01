@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  27 JUL 2020 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.5)  30 AUG 2020 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,7 +24,90 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/setspace.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+Package: CJKutf8 2015/04/18 4.8.4
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2015/04/18 4.8.4
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2015/04/18 4.8.4
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2015/04/18 4.8.4
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box26
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+)) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
@@ -46,7 +129,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks16
 )
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -56,13 +139,11 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \c@r@tfl@t=\count90
 \rotFPtop=\skip43
 \rotFPbot=\skip44
-\rot@float@box=\box26
-\rot@mess@toks=\toks15
+\rot@float@box=\box27
+\rot@mess@toks=\toks17
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
@@ -79,10 +160,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen110
 \Gm@layouthoffset=\dimen111
 \Gm@layoutvoffset=\dimen112
-\Gm@dimlist=\toks16
+\Gm@dimlist=\toks18
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks17
+\@emptytoks=\toks19
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -96,7 +177,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks20
 \ex@=\dimen113
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -114,8 +195,8 @@ LaTeX Info: Redefining \overline on input line 375.
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
+\Mathstrutbox@=\box28
+\strutbox@=\box29
 \big@size=\dimen115
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
@@ -124,21 +205,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \dotsspace@=\muskip10
 \c@parentequation=\count101
 \dspbrk@lvl=\count102
-\tag@help=\toks19
+\tag@help=\toks21
 \row@=\count103
 \column@=\count104
 \maxfields@=\count105
-\andhelp@=\toks20
+\andhelp@=\toks22
 \eqnshift@=\dimen116
 \alignsep@=\dimen117
 \tagshift@=\dimen118
 \tagwidth@=\dimen119
 \totwidth@=\dimen120
 \lineht@=\dimen121
-\@envbody=\toks21
+\@envbody=\toks23
 \multlinegap=\skip46
 \multlinetaggap=\skip47
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -238,18 +319,18 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \bigstrutjot=\dimen144
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box29
+\@tempboxb=\box30
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count115
-\float@exts=\toks23
-\float@box=\box30
-\@float@everytoks=\toks24
-\@floatcapt=\box31
+\float@exts=\toks25
+\float@box=\box31
+\@float@everytoks=\toks26
+\@floatcapt=\box32
 )
-\@float@every@algorithm=\toks25
+\@float@every@algorithm=\toks27
 \c@algorithm=\count116
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
@@ -271,8 +352,8 @@ Package ifluatex Info: LuaTeX not detected.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
 )
 \XKV@depth=\count121
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -446,7 +527,14 @@ LaTeX Info: Redefining \slshape on input line 33.
 LaTeX Info: Redefining \scshape on input line 37.
 )
 LaTeX Info: Redefining \oldstylenums on input line 490.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)) (/usr/local/texlive/2018/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks30
+\AP@partial=\box33
+\AP@footins=\box34
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -481,7 +569,7 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+Package atveryend Info: \AP@enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
@@ -767,48 +855,117 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 \@quotelevel=\count320
 \@quotereset=\count321
- (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.aux)
+
+
+LaTeX Warning: Unused global option(s):
+    [UTF8].
+
+(/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on input line 47.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on input line 57.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 47.
+(Font)              scaled to size 10.95pt on input line 57.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count322
 \scratchdimen=\dimen151
-\scratchbox=\box32
+\scratchbox=\box35
 \nofMPsegments=\count323
 \nofMParguments=\count324
-\everyMPshowfont=\toks28
+\everyMPshowfont=\toks31
 \MPscratchCnt=\count325
 \MPscratchDim=\dimen152
 \MPnumerator=\count326
 \makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks29
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -857,7 +1014,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 \c@mv@tabular=\count328
 \c@mv@boldtabular=\count329
-\AtBeginShipoutBox=\box33
+\AtBeginShipoutBox=\box36
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -865,7 +1022,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 47.
+Package hyperref Info: Link coloring ON on input line 57.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -873,9 +1030,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count330
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
  (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.out) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -888,95 +1045,121 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 47.
-Package biblatex Info: Reference segment=0 on input line 47.
+Package biblatex Info: Reference section=0 on input line 57.
+Package biblatex Info: Reference segment=0 on input line 57.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 64.
+(Font)              scaled to size 20.74pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 64.
+(Font)              scaled to size 20.74pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 64.
+(Font)              scaled to size 14.4pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 64.
+(Font)              scaled to size 14.4pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 64.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 64.
+(Font)              scaled to size 12.0pt on input line 75.
  [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 64.
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \coverpage
+                [1]
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 75.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 64.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 75.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 64.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 75.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 64.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 75.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 64.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 75.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
- [2] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/abstract.tex
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+ (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/abstract.tex [1]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 D
+     rug repurposing however is not always available, and uncovering valid d... [1]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 12.0pt on input line 7.
-) [1] [2] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/acknowledgement.tex) [3
+ [2] [3] (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+File: UTF8.bdg 2015/04/18 4.8.4
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+LaTeX Font Info:    Try loading font information for C70+gbsn on input line 11.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
+File: c70gbsn.fd 2015/04/18 4.8.4
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
+File: c70gbsn.fdx 2015/04/18 4.8.4
+) [4])
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 87.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 87.
+ (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/acknowledgement.tex) [5
 
-] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/dedication.tex) [4] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.toc [5
 
-] [6])
+] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/dedication.tex) [6] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.toc [7
+
+] [8])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [7] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.lof)
+ [9] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [8
+ [10
 
 ] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.lot
 Overfull \hbox (3.24548pt too wide) in paragraph at lines 11--11
  [][] [][][]\OT1/LinuxLibertineT-TLF/m/n/12 Correlations be-tween pre-dicted prob-a-bil-ity of treat-ment po-ten-tial with 
  []
 
-[9
+[11
 
 ])
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/symbols-and-acronyms.tex [10] [11
+ (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/symbols-and-acronyms.tex [12] [13
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 17--30
 
  []
 
-[12]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 32--53
 
  []
 
-) [13] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/introduction.tex
+) [15] (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/introduction.tex
 Chapter 1.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
+(Font)              scaled to size 17.28pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -990,11 +1173,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.10 
-      [2]
+[2]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1047,7 +1226,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
-<figures/decision_tree.png, id=562, 391.4625pt x 307.90031pt>
+<figures/decision_tree.png, id=695, 391.4625pt x 307.90031pt>
 File: figures/decision_tree.png Graphic file (type png)
 <use figures/decision_tree.png>
 Package pdftex.def Info: figures/decision_tree.png  used on input line 73.
@@ -1088,7 +1267,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-<figures/SVM.png, id=617, 508.90125pt x 414.79968pt>
+<figures/SVM.png, id=750, 508.90125pt x 414.79968pt>
 File: figures/SVM.png Graphic file (type png)
 <use figures/SVM.png>
 Package pdftex.def Info: figures/SVM.png  used on input line 130.
@@ -1218,6 +1397,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30]
+Overfull \hbox (0.11331pt too wide) in paragraph at lines 43--44
+\OT1/LinuxLibertineT-TLF/m/n/12 eval-u-ate model per-for-mances. \OT1/LinuxLibertineT-TLF/b/n/12 Prac-ti-cally, the whole dataset is split-ted into three
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1256,8 +1439,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 7.4pt on input line 118.
 
+Overfull \hbox (6.01396pt too wide) in paragraph at lines 70--124
+ [] 
+ []
 
-LaTeX Warning: Float too large for page by 53.7149pt on input line 124.
+
+LaTeX Warning: Float too large for page by 42.7149pt on input line 124.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1615,7 +1802,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [78]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 133.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 134.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1624,10 +1811,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [79]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 162.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1635,6 +1818,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [80]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 163.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1691,10 +1878,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [88]
-Overfull \hbox (5.0492pt too wide) in paragraph at lines 327--349
- [] 
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1702,6 +1885,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [89]
+Overfull \hbox (5.0492pt too wide) in paragraph at lines 328--350
+ [] 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1709,12 +1896,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [90]
-Overfull \hbox (18.09058pt too wide) in paragraph at lines 361--381
+Overfull \hbox (18.09058pt too wide) in paragraph at lines 362--382
  [] 
  []
 
 
-Overfull \hbox (1.77852pt too wide) in paragraph at lines 389--390
+Overfull \hbox (1.77852pt too wide) in paragraph at lines 390--391
 \OT1/LinuxLibertineT-TLF/m/n/12 demon-strate ef-fect het-ero-gene-ity on the sever-ity of COVID-19 in-fec-tion, with p-values
  []
 
@@ -1731,25 +1918,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/conclusion.tex
+[92]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[93]
+[93]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/./chapters/conclusion.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94]
 Chapter 5.
-[94
+[95
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[95]) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/proof.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1757,11 +1944,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [96]
-Appendix A.
-) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/publications.tex [97
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/it' will be
+(Font)              scaled to size 12.0pt on input line 17.
+) (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/chapters/publications.tex
 
-]
-Appendix B.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[97]
+Chapter 6.
 \blx@maxsegment@1=\count331
 \blx@sectionciteorder@1=\count332
 Package biblatex Info: Reference section=1 on input line 2.
@@ -1772,7 +1965,7 @@ Package biblatex Info: Reference section=0 on input line 5.
 ] [99
 
 ]
-Overfull \hbox (8.52196pt too wide) in paragraph at lines 135--135
+Overfull \hbox (8.52196pt too wide) in paragraph at lines 136--136
 \OT1/LinuxLibertineT-TLF/m/n/10.95 pro-motes pan-cre-atic $\OML/ztmcm/m/it/10.95 ^^L$\OT1/LinuxLibertineT-TLF/m/n/10.95 -cell pro-lif-er-a-tion''. In: \OT1/LinuxLibertineT-TLF/m/it/10.95 Amer-i-can Jour-nal of Physiology-Regulatory,
  []
 
@@ -1790,7 +1983,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [101]
-Overfull \hbox (4.01497pt too wide) in paragraph at lines 135--135
+Overfull \hbox (4.01497pt too wide) in paragraph at lines 136--136
 \OT1/LinuxLibertineT-TLF/m/n/10.95 peu-tic tar-gets us-ing gene--disease as-so-ci-a-tion data''. In: \OT1/LinuxLibertineT-TLF/m/it/10.95 Jour-nal of trans-la-tional medicine
  []
 
@@ -1815,7 +2008,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [104]
-Overfull \hbox (21.60503pt too wide) in paragraph at lines 135--135
+Overfull \hbox (21.60503pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Arthur E Ho-erl and Robert W Ken-nard. ``Ridge re-gres-sion: Bi-ased es-ti-ma-tion for nonorthog-
  []
 
@@ -1833,12 +2026,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [106]
-Overfull \hbox (4.76167pt too wide) in paragraph at lines 135--135
+Overfull \hbox (4.76167pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Martin Lotz, Den-nis A Car-son, and John H Vaughan. ``Sub-stance P ac-ti-va-tion of rheuma-
  []
 
 
-Overfull \hbox (1.03206pt too wide) in paragraph at lines 135--135
+Overfull \hbox (1.03206pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Jian-Ming L[]u et al. ``Molec-u-lar mech-a-nisms and clin-i-cal ap-pli-ca-tions of nordi-hy-drogua-
  []
 
@@ -1849,32 +2042,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [107]
-Overfull \hbox (0.1188pt too wide) in paragraph at lines 135--135
+Overfull \hbox (0.1188pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Rodrigo Machado-Vieira, Hus-seini K Manji, and Car-los A Zarate Jr. ``The role of lithium
  []
 
 
-Overfull \hbox (15.44446pt too wide) in paragraph at lines 135--135
+Overfull \hbox (15.44446pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Rodolfo do Couto Maia, Roberta Tesch, and Car-los Al-berto Manssour Fraga. ``Phenylpiper-
  []
 
 
-Overfull \hbox (9.51065pt too wide) in paragraph at lines 135--135
+Overfull \hbox (9.51065pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Ye-Meng Mao and Ming-Dao Zhang. ``Aug-men-ta-tion with an-tide-pres-sants in schizophre-
  []
 
 
-Overfull \hbox (12.06651pt too wide) in paragraph at lines 135--135
+Overfull \hbox (12.06651pt too wide) in paragraph at lines 136--136
 \OT1/LinuxLibertineT-TLF/m/n/10.95 for treatment-resistant de-pres-sion (the ADD study): a double-blind, ran-domised, placebo-
  []
 
 
-Overfull \hbox (5.38904pt too wide) in paragraph at lines 135--135
+Overfull \hbox (5.38904pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Mandeep R Mehra et al. ``Car-dio-vas-cu-lar dis-ease, drug ther-apy, and mor-tal-ity in COVID-
  []
 
 
-Overfull \hbox (1.43413pt too wide) in paragraph at lines 135--135
+Overfull \hbox (1.43413pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Francesco Napoli-tano et al. ``Drug repo-si-tion-ing: a machine-learning ap-proach through
  []
 
@@ -1885,7 +2078,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [108]
-Overfull \hbox (5.0542pt too wide) in paragraph at lines 135--135
+Overfull \hbox (5.0542pt too wide) in paragraph at lines 136--136
 \OT1/LinuxLibertineT-TLF/m/n/10.95 hu-man syn-ovial mast cells in rheuma-toid arthri-tis''. In: \OT1/LinuxLibertineT-TLF/m/it/10.95 Al-ler-gol-ogy In-ter-na-tional \OT1/LinuxLibertineT-TLF/m/n/10.95 66.Sup-
  []
 
@@ -1903,12 +2096,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [110]
-Overfull \hbox (3.50624pt too wide) in paragraph at lines 135--135
+Overfull \hbox (3.50624pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Robert C Smith et al. ``Ef-fects of pi-ogli-ta-zone on metabolic ab-nor-mal-i-ties, psy-chopathol-
  []
 
 
-Overfull \hbox (1.99818pt too wide) in paragraph at lines 135--135
+Overfull \hbox (1.99818pt too wide) in paragraph at lines 136--136
 \OT1/LinuxLibertineT-TLF/m/n/10.95 dates for drug repo-si-tion-ing in psy-chi-a-try''. In: \OT1/LinuxLibertineT-TLF/m/it/10.95 Na-ture neu-ro-science \OT1/LinuxLibertineT-TLF/m/n/10.95 20.10 (2017), p. 1342. 
  []
 
@@ -1926,7 +2119,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [112]
-Overfull \hbox (4.01807pt too wide) in paragraph at lines 135--135
+Overfull \hbox (4.01807pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/m/n/10.95 Sudhir Varma and Richard Si-mon. ``Bias in er-ror es-ti-ma-tion when us-ing cross-validation
  []
 
@@ -1937,7 +2130,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [113]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1946,34 +2139,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [114]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (/Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F3B6F54B39A211380F6F4E737AB0A9EF;3930.
+(rerunfilecheck)             Checksum: 7C356DB0C6C94E44B6DF5B1450EF8E5B;3870.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
  ) 
 Here is how much of TeX's memory you used:
- 17697 strings out of 492649
- 312054 string characters out of 6129623
- 868193 words of memory out of 5000000
- 20704 multiletter control sequences out of 15000+600000
- 92742 words of font info for 182 fonts, out of 8000000 for 9000
+ 19592 strings out of 492649
+ 335015 string characters out of 6129623
+ 885515 words of memory out of 5000000
+ 22404 multiletter control sequences out of 15000+600000
+ 114954 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,23n,46p,2934b,1356s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (129 pages, 686755 bytes).
+ 45i,23n,46p,2934b,1374s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_ks2ukx.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTBI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu57.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu60.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu61.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu63.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6d.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu70.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu71.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu72.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu77.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7d.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu83.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu86.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu87.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu89.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8c.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu91.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu97.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/zhaokai/Documents/draft/thesis_draft_cuhk/thesis.pdf (132 pages, 997043 bytes).
 PDF statistics:
- 1869 PDF objects out of 2073 (max. 8388607)
- 1701 compressed objects within 18 object streams
- 521 named destinations out of 1000 (max. 500000)
- 451 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2196 PDF objects out of 2487 (max. 8388607)
+ 1897 compressed objects within 19 object streams
+ 517 named destinations out of 1000 (max. 500000)
+ 695 words of extra memory for PDF output out of 10000 (max. 10000000)
 

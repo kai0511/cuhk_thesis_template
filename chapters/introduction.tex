@@ -75,7 +75,7 @@
         \label{fig:intr_tree}
       \end{figure}
       
-      Figure \ref{fig:intr_tree} shows a single decision tree on fake drug expression data. In brief, for each time of splitting, we select a variable according to certain criteria and find a cutoff value of that variable to minimize the current loss. To grow a decision tree, the algorithm recursively splits the feature space of training data, and it stops when each leaf node has less than a minimum number of observations or the tree reaches the maximum depth. The \textit{Gini index}, a typical criterion used to make binary splits, measures the impurity of each node and is defined by \cite{james2013introduction}
+      Figure \ref{fig:intr_tree} shows a single decision tree on fake drug expression data. In brief, for each time of splitting, we select a variable according to certain criteria and find a cutoff value of that variable to minimize the current loss. To grow a decision tree, the algorithm recursively splits the feature space of training data, and it stops when each leaf node has less than a minimum number of observations or the tree reaches the maximum depth. The \textit{Gini index}, a typical criterion used to make binary splits, measures the impurity of each leaf node and is defined by \cite{james2013introduction}
       \begin{equation}
         G = \sum_{m=1}^T \sum_{k=1}^K  \hat{p_{mk}} (1 - \hat{p_{mk}}), 
       \end{equation}

@@ -12,11 +12,11 @@
 	% no page number for the cover page
 	\thispagestyle{empty}
 
-	\vspace*{2cm}
+	\vspace*{0.5cm}
 	\begin{center}
-	\Huge {\bf \thesistitle}
+	\huge {\bf \thesistitle}
 
-	\vskip 1cm
+	\vskip 3cm
 	\Large {\bf \authorname}
 
 	\vskip 1cm
@@ -25,7 +25,9 @@
 	A Thesis Submitted in Partial Fulfilment \\
 	of the Requirements for the Degree of \\
 	\degree \\
+	\vskip 0.5cm
 	in \\
+	\vskip 0.5cm
 	\programme \\
 
 	\vskip 1cm
@@ -34,19 +36,20 @@
 	\vskip 0.5cm
 	\large {\bf \supervisor}
 
-	\vskip 1cm
+	\vskip 5cm
 	\large
 	%\copyright
 	\institution \\
+	\vskip 0.5cm
 	\submitdate
 	\end{center}
+	\afterpage{\blankpage}
 
 %	\vfill
 %	\noindent
 %\institution~holds the copyright of this thesis.
-%Any person(s) intending to use a part or whole of the materials in the thesis
-%in a proposed publication must seek copyright release from the Dean of the
-%Graduate School.
+% Any person(s) intending to use a part or whole of the materials in the thesis in a proposed publication must seek copyright release from the Dean of the Graduate School.
+
     \newpage
     \thispagestyle{empty}
     \vspace*{10mm}
@@ -60,7 +63,8 @@
         \vfill
     \end{center}
     \normalsize
-    \newpage
+	\afterpage{\blankpage}
+	
 }
 
 %=======================================================
@@ -147,4 +151,9 @@
 	\noindent {\bf $\equiv$ Readings:}  #1
 }
 
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
 

@@ -1,4 +1,6 @@
-\documentclass[11pt,a4paper,twoside]{report}
+\documentclass[11pt,a4paper,twoside,UTF8]{report}
+
+\usepackage{CJKutf8}
 
 \usepackage{setspace}
 % avoid too much space automatically padded between paragraphs to fill a page:
@@ -32,6 +34,14 @@
 % set font style
 \usepackage[mono=false]{libertine}
 
+% font size for chapter title
+\usepackage{sectsty}
+\chapternumberfont{\LARGE}
+\chaptertitlefont{\huge}
+
+% package for blank page
+\usepackage{afterpage}
+
 % style for links
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
 
@@ -47,18 +57,19 @@
 \begin{document}
 
 % cover page information
-\thesistitle{Research on Machine Learning for Drug Discovery and Precison Medicine}
+\thesistitle{Research on Machine Learning for Drug Discovery and Precision Medicine}
 \authorname{ZHAO, Kai}
 \degree{Doctor of Philosophy}
-\programme{School of Biomedical Sciences}
-\supervisor{Prof. So Hon-cheong}
+\programme{Biomedical Sciences}
+\supervisor{Prof. So Hon Cheong}
 \submitdate{July 2020}
+
 \committee{
     \begin{tabular}{ r l}
-	Professor & Cheng Sze Lok Alfred (Chair)\\
-	Professor & So Hon-cheong (Thesis Supervisor)\\
-	Professor & Chen Yangchao (Committee Member)\\
-    Professor & Sham Pak Chung (External Examiner)
+	Professor & CHENG Sze Lok (Chair)\\
+	Professor & SO Hon Cheong (Thesis Supervisor)\\
+	Professor & CHEN Yangchao (Committee Member)\\
+    Professor & SHAM Pak Chung (External Examiner)
     \end{tabular}
 }
 \coverpage
@@ -69,29 +80,20 @@
 % cover page.
 \pagenumbering{roman}
 
-% =======================================================
-
 % abstract
 \abstractpage
-
-%=======================================================
 
 % acknowledgement
 \acknowledgementpage
 
-%=======================================================
-
 %dedication
 \dedicationpage
-
-%=======================================================
 
 % preamble sections
 \tableofcontents
 \listoffigures
 \listoftables
 \input{symbols-and-acronyms.tex}
-%=======================================================
 
 % initialization
 \newpage
@@ -107,7 +109,6 @@
 \setstretch{1.5}
 
 % =======================================================
-
 % insert the chapters
 \input{./chapters/introduction.tex}
 % \input{./chapters/background.tex}
@@ -116,15 +117,15 @@
 \input{./chapters/ite.tex}
 \input{./chapters/conclusion.tex}
 
-%=======================================================
+% =======================================================
 % appendix
-\appendix
-\input{chapters/proof.tex}
+% \appendix
+% \input{chapters/proof.tex}
 
 \setstretch{1}
 \input{chapters/publications.tex}
 
-%=======================================================
+% =======================================================
 
 % bibliography
 \newpage
