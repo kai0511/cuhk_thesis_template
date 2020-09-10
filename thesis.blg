@@ -1,25 +1,13 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'thesis.blg'
-[37] biber-darwin:313> INFO - === Sun Aug 30, 2020, 22:34:57
-[63] Biber.pm:371> INFO - Reading 'thesis.bcf'
-[176] Biber.pm:857> INFO - Found 243 citekeys in bib section 0
-[177] Biber.pm:854> INFO - Using all citekeys in bib section 1
-[177] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[194] Biber.pm:3976> INFO - Processing section 0
-[205] Biber.pm:4136> INFO - Looking for bibtex format file 'database.bib' for section 0
-[215] bibtex.pm:1500> INFO - LaTeX decoding ...
-[659] bibtex.pm:1316> INFO - Found BibTeX data source 'database.bib'
-[2743] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2743] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2743] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[2743] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[2998] Biber.pm:3976> INFO - Processing section 1
-[2999] Biber.pm:4136> INFO - Looking for bibtex format file 'pub.bib' for section 1
-[2999] bibtex.pm:1500> INFO - LaTeX decoding ...
-[3008] bibtex.pm:1316> INFO - Found BibTeX data source 'pub.bib'
-[3026] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3026] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3026] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[3027] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[3029] bbl.pm:617> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[3131] bbl.pm:720> INFO - Output to thesis.bbl
+[46] biber-darwin:313> INFO - === Thu Sep 10, 2020, 11:36:20
+[71] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[183] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[183] Biber.pm:854> INFO - Using all citekeys in bib section 1
+[183] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[211] Biber.pm:3976> INFO - Processing section 1
+[222] Biber.pm:4136> INFO - Looking for bibtex format file 'pub.bib' for section 1
+[223] bibtex.pm:1500> INFO - LaTeX decoding ...
+[224] bibtex.pm:1316> INFO - Found BibTeX data source 'pub.bib'
+[224] Utils.pm:209> ERROR - BibTeX subsystem: /var/folders/sb/4gjhqv5j6cj307b9mn31j9c40000gn/T/ExHx1V6XSF/pub.bib_13171.utf8, line 2, syntax error: at end of input, expected "@"
+[224] Biber.pm:114> INFO - ERRORS: 1

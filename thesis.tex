@@ -1,5 +1,6 @@
 \documentclass[11pt,a4paper,twoside,UTF8]{report}
 
+% fonts for chinese characters
 \usepackage{CJKutf8}
 
 \usepackage{setspace}
@@ -57,19 +58,19 @@
 \begin{document}
 
 % cover page information
-\thesistitle{Research on Machine Learning for Drug Discovery and Precision Medicine}
-\authorname{ZHAO, Kai}
+\thesistitle{Research on Machine Learning for Drug Discovery}
+\authorname{CHEN, Wu}
 \degree{Doctor of Philosophy}
-\programme{Biomedical Sciences}
-\supervisor{Prof. So Hon Cheong}
-\submitdate{July 2020}
+\programme{Biomedical informatics}
+\supervisor{ZHANG **}
+\submitdate{September 2020}
 
 \committee{
     \begin{tabular}{ r l}
-	Professor & CHENG Sze Lok (Chair)\\
-	Professor & SO Hon Cheong (Thesis Supervisor)\\
-	Professor & CHEN Yangchao (Committee Member)\\
-    Professor & SHAM Pak Chung (External Examiner)
+	Professor & CHENG ** (Chair)\\
+	Professor & ZHANG ** (Thesis Supervisor)\\
+	Professor & CHEN ** (Committee Member)\\
+    Professor & Li ** (External Examiner)
     \end{tabular}
 }
 \coverpage
@@ -78,7 +79,9 @@
 \setstretch{1.25}
 
 % cover page.
+\newpage
 \pagenumbering{roman}
+\setcounter{page}{0}
 
 % abstract
 \abstractpage
@@ -98,6 +101,7 @@
 % initialization
 \newpage
 \pagenumbering{arabic}
+
 % \pagestyle{headings}
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{1pt}
@@ -112,9 +116,9 @@
 % insert the chapters
 \input{./chapters/introduction.tex}
 % \input{./chapters/background.tex}
-\input{./chapters/drug-repurposing.tex}
-\input{./chapters/drug-target.tex}
-\input{./chapters/ite.tex}
+\input{./chapters/chapter1.tex}
+\input{./chapters/chapter2.tex}
+\input{./chapters/chapter3.tex}
 \input{./chapters/conclusion.tex}
 
 % =======================================================
@@ -126,7 +130,6 @@
 \input{chapters/publications.tex}
 
 % =======================================================
-
 % bibliography
 \newpage
 \addcontentsline{toc}{chapter}{Bibliography}
